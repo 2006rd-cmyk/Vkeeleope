@@ -148,6 +148,7 @@ await page.getByRole('button', { name: /^Continue/ }).click();
 for (let i = 0; i < 6; i++) await solve(page);
 const before = await current(page);
 const pos = await page.evaluate(() => window.__vire.model.run.pos);
+await page.evaluate(() => window.__vire.model.flush());
 await page.reload();
 await page.locator('.path').waitFor();
 assert.match(await page.locator('.hero').innerText(), /Continue lesson/i);

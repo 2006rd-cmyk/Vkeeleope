@@ -95,8 +95,11 @@ export class Model {
 
   /** Writes are queued so they land in order; each one is a single transaction. */
   private save(w: Parameters<Persist['commit']>[0]): Promise<void> {
-    this.saving = this.saving.then(() => this.persist.commit(w)).catch((e) => this.onError(e));
-    return this.saving;
+    // The transaction is opened right away (IndexedDB runs overlapping write transactions in the
+    // order they were created), so a write is never left waiting in memory when the app closes.
+    const p = this.persist.commit(w).catch((e) => this.onError(e));
+    this.saving = Promise.all([this.saving, p]).then(() => undefined);
+    return p;
   }
 
   flush(): Promise<void> {
