@@ -1,0 +1,720 @@
+{
+  "id": "a1-u04",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 4,
+  "title": "Numbers and age",
+  "goal": "Count to 100 and say how old you are.",
+  "grammar": [
+    {
+      "title": "Age uses 'to me'",
+      "explanation": "Russian says 'to me are 18 years': Мне восемна́дцать лет. Learn the 'to whom' words as a set: мне (me), тебе́ (you), ему́ (him), ей (her), вам (you, polite)."
+    },
+    {
+      "title": "год / го́да / лет",
+      "explanation": "The word for 'years' depends on the LAST number: 1 → год (21 год, 31 год); 2, 3, 4 → го́да (22 го́да, 33 го́да); 5–20 and 0 → лет (5 лет, 11 лет, 20 лет, 25 лет). 11–14 always take лет."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u04-w01",
+      "ru": "ноль",
+      "stress": "ноль",
+      "translit": "nol'",
+      "en": "zero",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w02",
+      "ru": "один",
+      "stress": "оди́н",
+      "translit": "odín",
+      "en": "one",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w03",
+      "ru": "два",
+      "stress": "два",
+      "translit": "dva",
+      "en": "two",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w04",
+      "ru": "три",
+      "stress": "три",
+      "translit": "tri",
+      "en": "three",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w05",
+      "ru": "четыре",
+      "stress": "четы́ре",
+      "translit": "chetýre",
+      "en": "four",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w06",
+      "ru": "пять",
+      "stress": "пять",
+      "translit": "pyat'",
+      "en": "five",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w07",
+      "ru": "шесть",
+      "stress": "шесть",
+      "translit": "shest'",
+      "en": "six",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w08",
+      "ru": "семь",
+      "stress": "семь",
+      "translit": "sem'",
+      "en": "seven",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w09",
+      "ru": "восемь",
+      "stress": "во́семь",
+      "translit": "vósem'",
+      "en": "eight",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w10",
+      "ru": "девять",
+      "stress": "де́вять",
+      "translit": "dévyat'",
+      "en": "nine",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w11",
+      "ru": "десять",
+      "stress": "де́сять",
+      "translit": "désyat'",
+      "en": "ten",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w12",
+      "ru": "одиннадцать",
+      "stress": "оди́ннадцать",
+      "translit": "odínnadtsat'",
+      "en": "eleven",
+      "pos": "number",
+      "say": "adínatsat'"
+    },
+    {
+      "id": "a1-u04-w13",
+      "ru": "двенадцать",
+      "stress": "двена́дцать",
+      "translit": "dvenádtsat'",
+      "en": "twelve",
+      "pos": "number",
+      "say": "dvinátsat'"
+    },
+    {
+      "id": "a1-u04-w14",
+      "ru": "тринадцать",
+      "stress": "трина́дцать",
+      "translit": "trinádtsat'",
+      "en": "thirteen",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w15",
+      "ru": "четырнадцать",
+      "stress": "четы́рнадцать",
+      "translit": "chetýrnadtsat'",
+      "en": "fourteen",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w16",
+      "ru": "пятнадцать",
+      "stress": "пятна́дцать",
+      "translit": "pyatnádtsat'",
+      "en": "fifteen",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w17",
+      "ru": "шестнадцать",
+      "stress": "шестна́дцать",
+      "translit": "shestnádtsat'",
+      "en": "sixteen",
+      "pos": "number",
+      "say": "shysnátsat'"
+    },
+    {
+      "id": "a1-u04-w18",
+      "ru": "семнадцать",
+      "stress": "семна́дцать",
+      "translit": "semnádtsat'",
+      "en": "seventeen",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w19",
+      "ru": "восемнадцать",
+      "stress": "восемна́дцать",
+      "translit": "vosemnádtsat'",
+      "en": "eighteen",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w20",
+      "ru": "девятнадцать",
+      "stress": "девятна́дцать",
+      "translit": "devyatnádtsat'",
+      "en": "nineteen",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w21",
+      "ru": "двадцать",
+      "stress": "два́дцать",
+      "translit": "dvádtsat'",
+      "en": "twenty",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w22",
+      "ru": "тридцать",
+      "stress": "три́дцать",
+      "translit": "trídtsat'",
+      "en": "thirty",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w23",
+      "ru": "сорок",
+      "stress": "со́рок",
+      "translit": "sórok",
+      "en": "forty",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w24",
+      "ru": "пятьдесят",
+      "stress": "пятьдеся́т",
+      "translit": "pyat'desyát",
+      "en": "fifty",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w25",
+      "ru": "шестьдесят",
+      "stress": "шестьдеся́т",
+      "translit": "shest'desyát",
+      "en": "sixty",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w26",
+      "ru": "семьдесят",
+      "stress": "се́мьдесят",
+      "translit": "sém'desyat",
+      "en": "seventy",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w27",
+      "ru": "восемьдесят",
+      "stress": "во́семьдесят",
+      "translit": "vósem'desyat",
+      "en": "eighty",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w28",
+      "ru": "девяносто",
+      "stress": "девяно́сто",
+      "translit": "devyanósto",
+      "en": "ninety",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w29",
+      "ru": "сто",
+      "stress": "сто",
+      "translit": "sto",
+      "en": "one hundred",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u04-w30",
+      "ru": "сколько",
+      "stress": "ско́лько",
+      "translit": "skól'ko",
+      "en": "how many, how much",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u04-w31",
+      "ru": "мне",
+      "stress": "мне",
+      "translit": "mne",
+      "en": "to me",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u04-w32",
+      "ru": "тебе",
+      "stress": "тебе́",
+      "translit": "tebé",
+      "en": "to you (informal)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u04-w33",
+      "ru": "ему",
+      "stress": "ему́",
+      "translit": "yemú",
+      "en": "to him",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u04-w34",
+      "ru": "ей",
+      "stress": "ей",
+      "translit": "yey",
+      "en": "to her",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u04-w35",
+      "ru": "вам",
+      "stress": "вам",
+      "translit": "vam",
+      "en": "to you (polite)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u04-w36",
+      "ru": "год",
+      "stress": "год",
+      "translit": "god",
+      "en": "year",
+      "pos": "noun m",
+      "note": "1 год, 2 го́да, 5 лет"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u04-s01",
+      "ru": "Сколько тебе лет?",
+      "stress": "Ско́лько тебе́ лет?",
+      "translit": "Skól'ko tebé let?",
+      "en": "How old are you?",
+      "word_bank": {
+        "answer": [
+          "сколько",
+          "тебе",
+          "лет"
+        ],
+        "extra_tiles": [
+          "семь",
+          "семнадцать",
+          "пятьдесят"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s02",
+      "ru": "Мне восемнадцать лет.",
+      "stress": "Мне восемна́дцать лет.",
+      "translit": "Mne vosemnádtsat' let.",
+      "en": "I am eighteen years old.",
+      "accept_en": [
+        "I'm eighteen.",
+        "I am eighteen."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "восемнадцать",
+          "лет"
+        ],
+        "extra_tiles": [
+          "два",
+          "четыре",
+          "семьдесят"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s03",
+      "ru": "Мне двадцать один год.",
+      "stress": "Мне два́дцать оди́н год.",
+      "translit": "Mne dvádtsat' odín god.",
+      "en": "I am twenty-one years old.",
+      "accept_en": [
+        "I'm twenty-one.",
+        "I am twenty-one."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "двадцать",
+          "один",
+          "год"
+        ],
+        "extra_tiles": [
+          "шесть",
+          "восемь",
+          "семь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s04",
+      "ru": "Мне двадцать два года.",
+      "stress": "Мне два́дцать два го́да.",
+      "translit": "Mne dvádtsat' dva góda.",
+      "en": "I am twenty-two years old.",
+      "accept_en": [
+        "I'm twenty-two.",
+        "I am twenty-two."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "двадцать",
+          "два",
+          "года"
+        ],
+        "extra_tiles": [
+          "шестнадцать",
+          "пять",
+          "вам"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s05",
+      "ru": "Ему пять лет.",
+      "stress": "Ему́ пять лет.",
+      "translit": "Yemú pyat' let.",
+      "en": "He is five years old.",
+      "accept_en": [
+        "He's five.",
+        "He is five."
+      ],
+      "word_bank": {
+        "answer": [
+          "ему",
+          "пять",
+          "лет"
+        ],
+        "extra_tiles": [
+          "восемь",
+          "девятнадцать",
+          "тебе"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s06",
+      "ru": "Ей тридцать три года.",
+      "stress": "Ей три́дцать три го́да.",
+      "translit": "Yey trídtsat' tri góda.",
+      "en": "She is thirty-three years old.",
+      "accept_en": [
+        "She's thirty-three.",
+        "She is thirty-three."
+      ],
+      "word_bank": {
+        "answer": [
+          "ей",
+          "тридцать",
+          "три",
+          "года"
+        ],
+        "extra_tiles": [
+          "шестнадцать",
+          "вам",
+          "десять"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s07",
+      "ru": "Сколько вам лет?",
+      "stress": "Ско́лько вам лет?",
+      "translit": "Skól'ko vam let?",
+      "en": "How old are you? (polite)",
+      "accept_en": [
+        "How old are you?"
+      ],
+      "word_bank": {
+        "answer": [
+          "сколько",
+          "вам",
+          "лет"
+        ],
+        "extra_tiles": [
+          "ноль",
+          "он",
+          "один"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s08",
+      "ru": "Мне четырнадцать лет.",
+      "stress": "Мне четы́рнадцать лет.",
+      "translit": "Mne chetýrnadtsat' let.",
+      "en": "I am fourteen years old.",
+      "accept_en": [
+        "I'm fourteen.",
+        "I am fourteen."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "четырнадцать",
+          "лет"
+        ],
+        "extra_tiles": [
+          "года",
+          "восемь",
+          "пятнадцать"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s09",
+      "ru": "А тебе?",
+      "stress": "А тебе́?",
+      "translit": "A tebé?",
+      "en": "And you?",
+      "accept_en": [
+        "And how old are you?"
+      ],
+      "word_bank": {
+        "answer": [
+          "а",
+          "тебе"
+        ],
+        "extra_tiles": [
+          "шестьдесят",
+          "два",
+          "год"
+        ]
+      }
+    },
+    {
+      "id": "a1-u04-s10",
+      "ru": "Ей сто лет!",
+      "stress": "Ей сто лет!",
+      "translit": "Yey sto let!",
+      "en": "She is one hundred years old!",
+      "accept_en": [
+        "She's a hundred!"
+      ],
+      "word_bank": {
+        "answer": [
+          "ей",
+          "сто",
+          "лет"
+        ],
+        "extra_tiles": [
+          "девяносто",
+          "сколько",
+          "он"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u04-g01",
+      "prompt": "Мне двадцать один ___.",
+      "options": [
+        "год",
+        "года",
+        "лет",
+        "годы"
+      ],
+      "answer": "год",
+      "en": "I am twenty-one."
+    },
+    {
+      "id": "a1-u04-g02",
+      "prompt": "Мне двадцать три ___.",
+      "options": [
+        "года",
+        "год",
+        "лет",
+        "годы"
+      ],
+      "answer": "года",
+      "en": "I am twenty-three."
+    },
+    {
+      "id": "a1-u04-g03",
+      "prompt": "Мне пятнадцать ___.",
+      "options": [
+        "лет",
+        "год",
+        "года",
+        "годы"
+      ],
+      "answer": "лет",
+      "en": "I am fifteen."
+    },
+    {
+      "id": "a1-u04-g04",
+      "prompt": "___ двенадцать лет. (he)",
+      "options": [
+        "Ему",
+        "Он",
+        "Ей",
+        "Мне"
+      ],
+      "answer": "Ему",
+      "en": "He is twelve."
+    },
+    {
+      "id": "a1-u04-g05",
+      "prompt": "Сколько ___ лет? (to a friend)",
+      "options": [
+        "тебе",
+        "ты",
+        "тебя",
+        "вам"
+      ],
+      "answer": "тебе",
+      "en": "How old are you?"
+    }
+  ],
+  "dialogue": {
+    "title": "How old are you?",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Марк, сколько тебе лет?",
+        "stress": "Марк, ско́лько тебе́ лет?",
+        "translit": "Mark, skól'ko tebé let?",
+        "en": "Mark, how old are you?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Мне восемнадцать лет. А тебе?",
+        "stress": "Мне восемна́дцать лет. А тебе́?",
+        "translit": "Mne vosemnádtsat' let. A tebé?",
+        "en": "I'm eighteen. And you?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Мне двадцать один год.",
+        "stress": "Мне два́дцать оди́н год.",
+        "translit": "Mne dvádtsat' odín god.",
+        "en": "I'm twenty-one."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "А сколько лет твоей сестре?",
+        "stress": "А ско́лько лет твое́й сестре́?",
+        "translit": "A skól'ko let tvoyéy sestré?",
+        "en": "And how old is your sister?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Ей пять лет.",
+        "stress": "Ей пять лет.",
+        "translit": "Yey pyat' let.",
+        "en": "She is five."
+      }
+    ],
+    "questions": [
+      {
+        "question": "How old is Mark?",
+        "options": [
+          "18",
+          "21",
+          "5",
+          "15"
+        ],
+        "answer": "18"
+      },
+      {
+        "question": "How old is Anya's sister?",
+        "options": [
+          "5",
+          "18",
+          "21",
+          "12"
+        ],
+        "answer": "5"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u04-wr01",
+    "prompt": "Say how old you are, and how old a man and a woman you know are.",
+    "use": [
+      "мне … лет",
+      "ему́ / ей",
+      "год / го́да / лет"
+    ],
+    "model": {
+      "ru": "Мне восемнадцать лет. Ему двадцать один год. Ей сорок пять лет.",
+      "stress": "Мне восемна́дцать лет. Ему́ два́дцать оди́н год. Ей со́рок пять лет."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

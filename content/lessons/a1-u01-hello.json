@@ -1,0 +1,548 @@
+{
+  "id": "a1-u01",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 1,
+  "title": "Hello!",
+  "goal": "Greet people, say goodbye, thank you and please.",
+  "grammar": [
+    {
+      "title": "ты and вы",
+      "explanation": "Russian has two words for 'you'. ты is for a friend, a child or family. вы is for one person you speak to politely (a teacher, a stranger) and for more than one person. Greetings change with it: приве́т goes with ты, здра́вствуйте goes with вы."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u01-w01",
+      "ru": "привет",
+      "stress": "приве́т",
+      "translit": "privét",
+      "en": "hi",
+      "pos": "interjection",
+      "note": "informal (with ты)"
+    },
+    {
+      "id": "a1-u01-w02",
+      "ru": "здравствуйте",
+      "stress": "здра́вствуйте",
+      "translit": "zdrávstvuyte",
+      "en": "hello",
+      "pos": "interjection",
+      "say": "zdrástvuyte",
+      "note": "polite (with вы); the first в is silent"
+    },
+    {
+      "id": "a1-u01-w03",
+      "ru": "пока",
+      "stress": "пока́",
+      "translit": "poká",
+      "en": "bye",
+      "pos": "interjection",
+      "note": "informal"
+    },
+    {
+      "id": "a1-u01-w04",
+      "ru": "до свидания",
+      "stress": "до свида́ния",
+      "translit": "do svidániya",
+      "en": "goodbye",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u01-w05",
+      "ru": "спасибо",
+      "stress": "спаси́бо",
+      "translit": "spasíbo",
+      "en": "thank you",
+      "pos": "interjection"
+    },
+    {
+      "id": "a1-u01-w06",
+      "ru": "пожалуйста",
+      "stress": "пожа́луйста",
+      "translit": "pozháluysta",
+      "en": "please; you're welcome",
+      "pos": "interjection",
+      "say": "pazhálsta"
+    },
+    {
+      "id": "a1-u01-w07",
+      "ru": "да",
+      "stress": "да",
+      "translit": "da",
+      "en": "yes",
+      "pos": "particle"
+    },
+    {
+      "id": "a1-u01-w08",
+      "ru": "нет",
+      "stress": "нет",
+      "translit": "net",
+      "en": "no",
+      "pos": "particle"
+    },
+    {
+      "id": "a1-u01-w09",
+      "ru": "доброе утро",
+      "stress": "до́брое у́тро",
+      "translit": "dóbroye útro",
+      "en": "good morning",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u01-w10",
+      "ru": "добрый день",
+      "stress": "до́брый день",
+      "translit": "dóbryy den'",
+      "en": "good afternoon",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u01-w11",
+      "ru": "добрый вечер",
+      "stress": "до́брый ве́чер",
+      "translit": "dóbryy vécher",
+      "en": "good evening",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u01-w12",
+      "ru": "как дела?",
+      "stress": "как дела́?",
+      "translit": "kak delá?",
+      "en": "how are you?",
+      "pos": "phrase",
+      "note": "literally 'how are things?'"
+    },
+    {
+      "id": "a1-u01-w13",
+      "ru": "хорошо",
+      "stress": "хорошо́",
+      "translit": "khoroshó",
+      "en": "good, well, fine",
+      "pos": "adverb",
+      "say": "kharashó"
+    },
+    {
+      "id": "a1-u01-w14",
+      "ru": "нормально",
+      "stress": "норма́льно",
+      "translit": "normál'no",
+      "en": "okay, all right",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u01-w15",
+      "ru": "извините",
+      "stress": "извини́те",
+      "translit": "izviníte",
+      "en": "excuse me; sorry",
+      "pos": "interjection",
+      "note": "polite (with вы)"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u01-s01",
+      "ru": "Привет! Как дела?",
+      "stress": "Приве́т! Как дела́?",
+      "translit": "Privét! Kak delá?",
+      "en": "Hi! How are you?",
+      "accept_en": [
+        "Hi! How are things?"
+      ],
+      "word_bank": {
+        "answer": [
+          "привет",
+          "как",
+          "дела"
+        ],
+        "extra_tiles": [
+          "добрый",
+          "день",
+          "спасибо"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s02",
+      "ru": "Хорошо, спасибо.",
+      "stress": "Хорошо́, спаси́бо.",
+      "translit": "Khoroshó, spasíbo.",
+      "en": "Fine, thanks.",
+      "accept_en": [
+        "Good, thank you.",
+        "Good, thanks.",
+        "Fine, thank you."
+      ],
+      "word_bank": {
+        "answer": [
+          "хорошо",
+          "спасибо"
+        ],
+        "extra_tiles": [
+          "пожалуйста",
+          "утро",
+          "до"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s03",
+      "ru": "А у тебя?",
+      "stress": "А у тебя́?",
+      "translit": "A u tebyá?",
+      "en": "And you?",
+      "accept_en": [
+        "What about you?"
+      ],
+      "word_bank": {
+        "answer": [
+          "а",
+          "у",
+          "тебя"
+        ],
+        "extra_tiles": [
+          "хорошо",
+          "здравствуйте",
+          "пожалуйста"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s04",
+      "ru": "Нормально.",
+      "stress": "Норма́льно.",
+      "translit": "Normál'no.",
+      "en": "Okay.",
+      "accept_en": [
+        "All right.",
+        "Fine."
+      ],
+      "word_bank": {
+        "answer": [
+          "нормально"
+        ],
+        "extra_tiles": [
+          "день",
+          "утро",
+          "привет"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s05",
+      "ru": "Здравствуйте!",
+      "stress": "Здра́вствуйте!",
+      "translit": "Zdrávstvuyte!",
+      "en": "Hello!",
+      "word_bank": {
+        "answer": [
+          "здравствуйте"
+        ],
+        "extra_tiles": [
+          "утро",
+          "до",
+          "вечер"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s06",
+      "ru": "Доброе утро!",
+      "stress": "До́брое у́тро!",
+      "translit": "Dóbroye útro!",
+      "en": "Good morning!",
+      "word_bank": {
+        "answer": [
+          "доброе",
+          "утро"
+        ],
+        "extra_tiles": [
+          "спасибо",
+          "день",
+          "пока"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s07",
+      "ru": "Добрый вечер!",
+      "stress": "До́брый ве́чер!",
+      "translit": "Dóbryy vécher!",
+      "en": "Good evening!",
+      "word_bank": {
+        "answer": [
+          "добрый",
+          "вечер"
+        ],
+        "extra_tiles": [
+          "спасибо",
+          "нормально",
+          "пока"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s08",
+      "ru": "Спасибо! — Пожалуйста!",
+      "stress": "Спаси́бо! — Пожа́луйста!",
+      "translit": "Spasíbo! — Pozháluysta!",
+      "en": "Thank you! — You're welcome!",
+      "accept_en": [
+        "Thanks! — You're welcome!"
+      ]
+    },
+    {
+      "id": "a1-u01-s09",
+      "ru": "Нет, спасибо.",
+      "stress": "Нет, спаси́бо.",
+      "translit": "Net, spasíbo.",
+      "en": "No, thank you.",
+      "accept_en": [
+        "No, thanks."
+      ],
+      "word_bank": {
+        "answer": [
+          "нет",
+          "спасибо"
+        ],
+        "extra_tiles": [
+          "пожалуйста",
+          "пока",
+          "нормально"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s10",
+      "ru": "Да, хорошо.",
+      "stress": "Да, хорошо́.",
+      "translit": "Da, khoroshó.",
+      "en": "Yes, okay.",
+      "accept_en": [
+        "Yes, fine.",
+        "Yes, good."
+      ],
+      "word_bank": {
+        "answer": [
+          "да",
+          "хорошо"
+        ],
+        "extra_tiles": [
+          "свидания",
+          "привет",
+          "пожалуйста"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s11",
+      "ru": "Извините, пожалуйста.",
+      "stress": "Извини́те, пожа́луйста.",
+      "translit": "Izviníte, pozháluysta.",
+      "en": "Excuse me, please.",
+      "accept_en": [
+        "Excuse me."
+      ],
+      "word_bank": {
+        "answer": [
+          "извините",
+          "пожалуйста"
+        ],
+        "extra_tiles": [
+          "как",
+          "здравствуйте",
+          "нет"
+        ]
+      }
+    },
+    {
+      "id": "a1-u01-s12",
+      "ru": "Пока! До свидания!",
+      "stress": "Пока́! До свида́ния!",
+      "translit": "Poká! Do svidániya!",
+      "en": "Bye! Goodbye!",
+      "word_bank": {
+        "answer": [
+          "пока",
+          "до",
+          "свидания"
+        ],
+        "extra_tiles": [
+          "нет",
+          "вечер",
+          "спасибо"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u01-g01",
+      "prompt": "___, Мария! Как дела?",
+      "options": [
+        "Привет",
+        "Пока",
+        "Спасибо",
+        "Нет"
+      ],
+      "answer": "Привет",
+      "en": "Hi, Maria! How are you?"
+    },
+    {
+      "id": "a1-u01-g02",
+      "prompt": "Добрый ___!",
+      "options": [
+        "вечер",
+        "утро",
+        "дела",
+        "пока"
+      ],
+      "answer": "вечер",
+      "en": "Good evening!"
+    },
+    {
+      "id": "a1-u01-g03",
+      "prompt": "Доброе ___!",
+      "options": [
+        "утро",
+        "день",
+        "вечер",
+        "дела"
+      ],
+      "answer": "утро",
+      "en": "Good morning!"
+    },
+    {
+      "id": "a1-u01-g04",
+      "prompt": "Спасибо! — ___!",
+      "options": [
+        "Пожалуйста",
+        "Привет",
+        "Здравствуйте",
+        "Да"
+      ],
+      "answer": "Пожалуйста",
+      "en": "Thank you! — You're welcome!"
+    }
+  ],
+  "dialogue": {
+    "title": "Hi, Anya!",
+    "lines": [
+      {
+        "speaker": "Марк",
+        "ru": "Привет, Аня!",
+        "stress": "Приве́т, А́ня!",
+        "translit": "Privét, Ánya!",
+        "en": "Hi, Anya!"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Привет, Марк! Как дела?",
+        "stress": "Приве́т, Марк! Как дела́?",
+        "translit": "Privét, Mark! Kak delá?",
+        "en": "Hi, Mark! How are you?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Хорошо, спасибо. А у тебя?",
+        "stress": "Хорошо́, спаси́бо. А у тебя́?",
+        "translit": "Khoroshó, spasíbo. A u tebyá?",
+        "en": "Fine, thanks. And you?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Нормально. Пока!",
+        "stress": "Норма́льно. Пока́!",
+        "translit": "Normál'no. Poká!",
+        "en": "Okay. Bye!"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Пока!",
+        "stress": "Пока́!",
+        "translit": "Poká!",
+        "en": "Bye!"
+      }
+    ],
+    "questions": [
+      {
+        "question": "How is Anya?",
+        "options": [
+          "Okay",
+          "Very bad",
+          "Tired",
+          "Hungry"
+        ],
+        "answer": "Okay"
+      },
+      {
+        "question": "Are Anya and Mark friends or strangers?",
+        "options": [
+          "Friends (they use привет)",
+          "Strangers (they use здравствуйте)"
+        ],
+        "answer": "Friends (they use привет)"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u01-wr01",
+    "prompt": "Greet a friend in the morning, ask how they are, answer their question, and say goodbye.",
+    "use": [
+      "до́брое у́тро",
+      "как дела́?",
+      "а у тебя́?",
+      "пока́"
+    ],
+    "model": {
+      "ru": "Доброе утро! Как дела? — Хорошо, спасибо. А у тебя? — Нормально. Пока!",
+      "stress": "До́брое у́тро! Как дела́? — Хорошо́, спаси́бо. А у тебя́? — Норма́льно. Пока́!"
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

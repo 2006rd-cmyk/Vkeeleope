@@ -1,0 +1,604 @@
+{
+  "id": "a1-u02",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 2,
+  "title": "My name is…",
+  "goal": "Say who you are, ask someone's name, introduce another person.",
+  "grammar": [
+    {
+      "title": "No 'am / is / are'",
+      "explanation": "In the present tense Russian drops the verb 'to be'. 'I am Maria' is simply Я Мари́я. 'He is a student' is Он студе́нт."
+    },
+    {
+      "title": "Меня́ зову́т = my name is",
+      "explanation": "Меня́ зову́т literally means 'they call me'. Как тебя́ зову́т? (to a friend) and Как вас зову́т? (polite) both mean 'What is your name?'"
+    },
+    {
+      "title": "Personal pronouns",
+      "explanation": "я (I), ты (you, informal), он (he), она́ (she), мы (we), вы (you, polite or plural), они́ (they)."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u02-w01",
+      "ru": "я",
+      "stress": "я",
+      "translit": "ya",
+      "en": "I",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w02",
+      "ru": "ты",
+      "stress": "ты",
+      "translit": "ty",
+      "en": "you (informal)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w03",
+      "ru": "вы",
+      "stress": "вы",
+      "translit": "vy",
+      "en": "you (polite / plural)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w04",
+      "ru": "он",
+      "stress": "он",
+      "translit": "on",
+      "en": "he",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w05",
+      "ru": "она",
+      "stress": "она́",
+      "translit": "oná",
+      "en": "she",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w06",
+      "ru": "мы",
+      "stress": "мы",
+      "translit": "my",
+      "en": "we",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w07",
+      "ru": "они",
+      "stress": "они́",
+      "translit": "oní",
+      "en": "they",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w08",
+      "ru": "меня зовут",
+      "stress": "меня́ зову́т",
+      "translit": "menyá zovút",
+      "en": "my name is",
+      "pos": "phrase",
+      "note": "literally 'they call me'"
+    },
+    {
+      "id": "a1-u02-w09",
+      "ru": "как тебя зовут?",
+      "stress": "как тебя́ зову́т?",
+      "translit": "kak tebyá zovút?",
+      "en": "what's your name? (informal)",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u02-w10",
+      "ru": "как вас зовут?",
+      "stress": "как вас зову́т?",
+      "translit": "kak vas zovút?",
+      "en": "what's your name? (polite)",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u02-w11",
+      "ru": "это",
+      "stress": "э́то",
+      "translit": "éto",
+      "en": "this is; it is",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u02-w12",
+      "ru": "кто",
+      "stress": "кто",
+      "translit": "kto",
+      "en": "who",
+      "pos": "pronoun",
+      "say": "kto"
+    },
+    {
+      "id": "a1-u02-w13",
+      "ru": "очень",
+      "stress": "о́чень",
+      "translit": "óchen'",
+      "en": "very",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u02-w14",
+      "ru": "приятно",
+      "stress": "прия́тно",
+      "translit": "priyátno",
+      "en": "nice, pleasant",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u02-w15",
+      "ru": "очень приятно",
+      "stress": "о́чень прия́тно",
+      "translit": "óchen' priyátno",
+      "en": "nice to meet you",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u02-w16",
+      "ru": "студент",
+      "stress": "студе́нт",
+      "translit": "studént",
+      "en": "student (male)",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u02-w17",
+      "ru": "студентка",
+      "stress": "студе́нтка",
+      "translit": "studéntka",
+      "en": "student (female)",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u02-w18",
+      "ru": "и",
+      "stress": "и",
+      "translit": "i",
+      "en": "and",
+      "pos": "conjunction"
+    },
+    {
+      "id": "a1-u02-w19",
+      "ru": "а",
+      "stress": "а",
+      "translit": "a",
+      "en": "and (what about…), whereas",
+      "pos": "conjunction",
+      "note": "used for contrast or a counter-question: А ты?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u02-s01",
+      "ru": "Я Мария.",
+      "stress": "Я Мари́я.",
+      "translit": "Ya Maríya.",
+      "en": "I am Maria.",
+      "accept_en": [
+        "I'm Maria."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "Мария"
+        ],
+        "extra_tiles": [
+          "тебя",
+          "студент",
+          "Пушкина"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s02",
+      "ru": "Меня зовут Мария.",
+      "stress": "Меня́ зову́т Мари́я.",
+      "translit": "Menyá zovút Maríya.",
+      "en": "My name is Maria.",
+      "accept_en": [
+        "I am called Maria."
+      ],
+      "word_bank": {
+        "answer": [
+          "меня",
+          "зовут",
+          "Мария"
+        ],
+        "extra_tiles": [
+          "она",
+          "студент",
+          "Тарту"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s03",
+      "ru": "Как тебя зовут?",
+      "stress": "Как тебя́ зову́т?",
+      "translit": "Kak tebyá zovút?",
+      "en": "What is your name?",
+      "accept_en": [
+        "What's your name?"
+      ],
+      "word_bank": {
+        "answer": [
+          "как",
+          "тебя",
+          "зовут"
+        ],
+        "extra_tiles": [
+          "зовёт",
+          "это",
+          "меня"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s04",
+      "ru": "Я Иван. А ты?",
+      "stress": "Я Ива́н. А ты?",
+      "translit": "Ya Iván. A ty?",
+      "en": "I'm Ivan. And you?",
+      "accept_en": [
+        "I am Ivan. And you?",
+        "I'm Ivan. What about you?"
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "Иван",
+          "а",
+          "ты"
+        ],
+        "extra_tiles": [
+          "студентка",
+          "зовёт",
+          "Таллине"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s05",
+      "ru": "Очень приятно!",
+      "stress": "О́чень прия́тно!",
+      "translit": "Óchen' priyátno!",
+      "en": "Nice to meet you!",
+      "accept_en": [
+        "Very nice!",
+        "Pleased to meet you!"
+      ],
+      "word_bank": {
+        "answer": [
+          "очень",
+          "приятно"
+        ],
+        "extra_tiles": [
+          "она",
+          "студент",
+          "студентка"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s06",
+      "ru": "Мне тоже очень приятно.",
+      "stress": "Мне то́же о́чень прия́тно.",
+      "translit": "Mne tózhe óchen' priyátno.",
+      "en": "Nice to meet you too.",
+      "accept_en": [
+        "Pleased to meet you too."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "тоже",
+          "очень",
+          "приятно"
+        ],
+        "extra_tiles": [
+          "вы",
+          "кто",
+          "меня"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s07",
+      "ru": "Это Анна.",
+      "stress": "Э́то А́нна.",
+      "translit": "Éto Ánna.",
+      "en": "This is Anna.",
+      "accept_en": [
+        "It is Anna.",
+        "It's Anna."
+      ],
+      "word_bank": {
+        "answer": [
+          "это",
+          "Анна"
+        ],
+        "extra_tiles": [
+          "она",
+          "студент",
+          "Максим"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s08",
+      "ru": "Кто это? — Это Максим.",
+      "stress": "Кто э́то? — Э́то Макси́м.",
+      "translit": "Kto éto? — Éto Maksím.",
+      "en": "Who is this? — This is Maksim.",
+      "accept_en": [
+        "Who is it? — It's Maksim."
+      ]
+    },
+    {
+      "id": "a1-u02-s09",
+      "ru": "Он студент.",
+      "stress": "Он студе́нт.",
+      "translit": "On studént.",
+      "en": "He is a student.",
+      "accept_en": [
+        "He's a student."
+      ],
+      "word_bank": {
+        "answer": [
+          "он",
+          "студент"
+        ],
+        "extra_tiles": [
+          "меня",
+          "это",
+          "мы"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s10",
+      "ru": "Она студентка.",
+      "stress": "Она́ студе́нтка.",
+      "translit": "Oná studéntka.",
+      "en": "She is a student.",
+      "accept_en": [
+        "She's a student."
+      ],
+      "word_bank": {
+        "answer": [
+          "она",
+          "студентка"
+        ],
+        "extra_tiles": [
+          "вас",
+          "мы",
+          "я"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s11",
+      "ru": "Как вас зовут?",
+      "stress": "Как вас зову́т?",
+      "translit": "Kak vas zovút?",
+      "en": "What is your name? (polite)",
+      "accept_en": [
+        "What's your name?",
+        "What is your name?"
+      ],
+      "word_bank": {
+        "answer": [
+          "как",
+          "вас",
+          "зовут"
+        ],
+        "extra_tiles": [
+          "ты",
+          "они",
+          "я"
+        ]
+      }
+    },
+    {
+      "id": "a1-u02-s12",
+      "ru": "Мы студенты.",
+      "stress": "Мы студе́нты.",
+      "translit": "My studénty.",
+      "en": "We are students.",
+      "accept_en": [
+        "We're students."
+      ],
+      "word_bank": {
+        "answer": [
+          "мы",
+          "студенты"
+        ],
+        "extra_tiles": [
+          "очень",
+          "как",
+          "это"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u02-g01",
+      "prompt": "Меня ___ Анна.",
+      "options": [
+        "зовут",
+        "зовёт",
+        "это",
+        "очень"
+      ],
+      "answer": "зовут",
+      "en": "My name is Anna."
+    },
+    {
+      "id": "a1-u02-g02",
+      "prompt": "Как ___ зовут? (to a friend)",
+      "options": [
+        "тебя",
+        "ты",
+        "вы",
+        "я"
+      ],
+      "answer": "тебя",
+      "en": "What is your name?"
+    },
+    {
+      "id": "a1-u02-g03",
+      "prompt": "Это Максим. ___ студент.",
+      "options": [
+        "Он",
+        "Она",
+        "Я",
+        "Вы"
+      ],
+      "answer": "Он",
+      "en": "This is Maksim. He is a student."
+    },
+    {
+      "id": "a1-u02-g04",
+      "prompt": "Это Анна. Она ___.",
+      "options": [
+        "студентка",
+        "студент",
+        "студенты",
+        "приятно"
+      ],
+      "answer": "студентка",
+      "en": "This is Anna. She is a student."
+    }
+  ],
+  "dialogue": {
+    "title": "Nice to meet you",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Привет! Меня зовут Аня. А тебя?",
+        "stress": "Приве́т! Меня́ зову́т А́ня. А тебя́?",
+        "translit": "Privét! Menyá zovút Ánya. A tebyá?",
+        "en": "Hi! My name is Anya. And yours?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Меня зовут Марк.",
+        "stress": "Меня́ зову́т Марк.",
+        "translit": "Menyá zovút Mark.",
+        "en": "My name is Mark."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Очень приятно!",
+        "stress": "О́чень прия́тно!",
+        "translit": "Óchen' priyátno!",
+        "en": "Nice to meet you!"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Мне тоже. Ты студентка?",
+        "stress": "Мне то́же. Ты студе́нтка?",
+        "translit": "Mne tózhe. Ty studéntka?",
+        "en": "Me too. Are you a student?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Да, я студентка.",
+        "stress": "Да, я студе́нтка.",
+        "translit": "Da, ya studéntka.",
+        "en": "Yes, I am a student."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the boy's name?",
+        "options": [
+          "Mark",
+          "Ivan",
+          "Maksim",
+          "Anya"
+        ],
+        "answer": "Mark"
+      },
+      {
+        "question": "Is Anya a student?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "Yes"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u02-wr01",
+    "prompt": "Introduce yourself and ask the other person's name.",
+    "use": [
+      "меня́ зову́т",
+      "я студе́нт / студе́нтка",
+      "как тебя́ зову́т?"
+    ],
+    "model": {
+      "ru": "Привет! Меня зовут Марк. Я студент. Как тебя зовут?",
+      "stress": "Приве́т! Меня́ зову́т Марк. Я студе́нт. Как тебя́ зову́т?"
+    },
+    "model_f": {
+      "ru": "Привет! Меня зовут Анна. Я студентка. Как тебя зовут?",
+      "stress": "Приве́т! Меня́ зову́т А́нна. Я студе́нтка. Как тебя́ зову́т?"
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

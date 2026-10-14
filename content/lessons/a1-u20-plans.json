@@ -1,0 +1,584 @@
+{
+  "id": "a1-u20",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 20,
+  "title": "Plans",
+  "goal": "Say what you will do tomorrow, at the weekend, in summer.",
+  "grammar": [
+    {
+      "title": "Future: бу́ду + infinitive",
+      "explanation": "я бу́ду, ты бу́дешь, он / она́ бу́дет, мы бу́дем, вы бу́дете, они́ бу́дут + infinitive: За́втра я бу́ду рабо́тать."
+    },
+    {
+      "title": "бу́ду alone = will be",
+      "explanation": "Я бу́ду до́ма. (I will be at home.) У меня́ бу́дет уро́к. (I will have a lesson.)"
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u20-w01",
+      "ru": "буду",
+      "stress": "бу́ду",
+      "translit": "búdu",
+      "en": "I will",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u20-w02",
+      "ru": "будешь",
+      "stress": "бу́дешь",
+      "translit": "búdesh'",
+      "en": "you will",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u20-w03",
+      "ru": "будет",
+      "stress": "бу́дет",
+      "translit": "búdet",
+      "en": "he / she / it will",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u20-w04",
+      "ru": "будем",
+      "stress": "бу́дем",
+      "translit": "búdem",
+      "en": "we will",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u20-w05",
+      "ru": "будут",
+      "stress": "бу́дут",
+      "translit": "búdut",
+      "en": "they will",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u20-w06",
+      "ru": "послезавтра",
+      "stress": "послеза́втра",
+      "translit": "poslezávtra",
+      "en": "the day after tomorrow",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u20-w07",
+      "ru": "выходные",
+      "stress": "выходны́е",
+      "translit": "vykhodnýye",
+      "en": "the weekend",
+      "pos": "noun pl",
+      "note": "на выходны́х = at the weekend"
+    },
+    {
+      "id": "a1-u20-w08",
+      "ru": "планы",
+      "stress": "пла́ны",
+      "translit": "plány",
+      "en": "plans",
+      "pos": "noun pl"
+    },
+    {
+      "id": "a1-u20-w09",
+      "ru": "готовить",
+      "stress": "гото́вить",
+      "translit": "gotóvit'",
+      "en": "to cook",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u20-w10",
+      "ru": "или",
+      "stress": "и́ли",
+      "translit": "íli",
+      "en": "or",
+      "pos": "conjunction"
+    },
+    {
+      "id": "a1-u20-w11",
+      "ru": "конечно",
+      "stress": "коне́чно",
+      "translit": "konéchno",
+      "en": "of course",
+      "pos": "adverb",
+      "say": "kanéshna",
+      "note": "чн is said 'shn' here"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u20-s01",
+      "ru": "Что ты будешь делать завтра?",
+      "stress": "Что ты бу́дешь де́лать за́втра?",
+      "translit": "Chto ty búdesh' délat' závtra?",
+      "en": "What will you do tomorrow?",
+      "accept_en": [
+        "What are you doing tomorrow?"
+      ],
+      "word_bank": {
+        "answer": [
+          "что",
+          "ты",
+          "будешь",
+          "делать",
+          "завтра"
+        ],
+        "extra_tiles": [
+          "готовить",
+          "готовила",
+          "планы"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s02",
+      "ru": "Завтра я буду работать.",
+      "stress": "За́втра я бу́ду рабо́тать.",
+      "translit": "Závtra ya búdu rabótat'.",
+      "en": "Tomorrow I will work.",
+      "accept_ru": [
+        "Я буду работать завтра."
+      ],
+      "accept_en": [
+        "I will work tomorrow.",
+        "I'll be working tomorrow."
+      ],
+      "word_bank": {
+        "answer": [
+          "завтра",
+          "я",
+          "буду",
+          "работать"
+        ],
+        "extra_tiles": [
+          "или",
+          "будет",
+          "будешь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s03",
+      "ru": "На выходных мы будем отдыхать.",
+      "stress": "На выходны́х мы бу́дем отдыха́ть.",
+      "translit": "Na vykhodnýkh my búdem otdykhát'.",
+      "en": "At the weekend we will relax.",
+      "accept_ru": [
+        "Мы будем отдыхать на выходных."
+      ],
+      "accept_en": [
+        "We will rest at the weekend."
+      ],
+      "word_bank": {
+        "answer": [
+          "на",
+          "выходных",
+          "мы",
+          "будем",
+          "отдыхать"
+        ],
+        "extra_tiles": [
+          "будут",
+          "готовит",
+          "конечно"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s04",
+      "ru": "Я буду дома в шесть часов.",
+      "stress": "Я бу́ду до́ма в шесть часо́в.",
+      "translit": "Ya búdu dóma v shest' chasóv.",
+      "en": "I will be at home at six o'clock.",
+      "accept_ru": [
+        "В шесть часов я буду дома."
+      ],
+      "accept_en": [
+        "I'll be home at six."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "буду",
+          "дома",
+          "в",
+          "шесть",
+          "часов"
+        ],
+        "extra_tiles": [
+          "будете",
+          "готовлю",
+          "готовит"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s05",
+      "ru": "Летом я буду жить в деревне.",
+      "stress": "Ле́том я бу́ду жить в дере́вне.",
+      "translit": "Létom ya búdu zhit' v derévne.",
+      "en": "In summer I will live in the village.",
+      "accept_ru": [
+        "Я буду жить в деревне летом."
+      ],
+      "word_bank": {
+        "answer": [
+          "летом",
+          "я",
+          "буду",
+          "жить",
+          "в",
+          "деревне"
+        ],
+        "extra_tiles": [
+          "выходные",
+          "будешь",
+          "планы"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s06",
+      "ru": "Вечером мы будем смотреть фильм.",
+      "stress": "Ве́чером мы бу́дем смотре́ть фильм.",
+      "translit": "Vécherom my búdem smotrét' fil'm.",
+      "en": "In the evening we will watch a film.",
+      "accept_ru": [
+        "Мы будем смотреть фильм вечером."
+      ],
+      "word_bank": {
+        "answer": [
+          "вечером",
+          "мы",
+          "будем",
+          "смотреть",
+          "фильм"
+        ],
+        "extra_tiles": [
+          "послезавтра",
+          "готовит",
+          "будет"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s07",
+      "ru": "Мама будет готовить ужин.",
+      "stress": "Ма́ма бу́дет гото́вить у́жин.",
+      "translit": "Máma búdet gotóvit' úzhin.",
+      "en": "Mom will cook dinner.",
+      "accept_en": [
+        "Mom will be cooking dinner."
+      ],
+      "word_bank": {
+        "answer": [
+          "мама",
+          "будет",
+          "готовить",
+          "ужин"
+        ],
+        "extra_tiles": [
+          "послезавтра",
+          "конечно",
+          "будем"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s08",
+      "ru": "Послезавтра у меня будет урок.",
+      "stress": "Послеза́втра у меня́ бу́дет уро́к.",
+      "translit": "Poslezávtra u menyá búdet urók.",
+      "en": "The day after tomorrow I will have a lesson.",
+      "accept_ru": [
+        "У меня будет урок послезавтра."
+      ],
+      "word_bank": {
+        "answer": [
+          "послезавтра",
+          "у",
+          "меня",
+          "будет",
+          "урок"
+        ],
+        "extra_tiles": [
+          "буду",
+          "будете",
+          "будем"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s09",
+      "ru": "Ты будешь чай или кофе?",
+      "stress": "Ты бу́дешь чай и́ли ко́фе?",
+      "translit": "Ty búdesh' chay íli kófe?",
+      "en": "Will you have tea or coffee?",
+      "accept_en": [
+        "Do you want tea or coffee?"
+      ],
+      "word_bank": {
+        "answer": [
+          "ты",
+          "будешь",
+          "чай",
+          "или",
+          "кофе"
+        ],
+        "extra_tiles": [
+          "выходные",
+          "будем",
+          "буду"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s10",
+      "ru": "Я буду учить русский язык каждый день.",
+      "stress": "Я бу́ду учи́ть ру́сский язы́к ка́ждый день.",
+      "translit": "Ya búdu uchít' rússkiy yazýk kázhdyy den'.",
+      "en": "I will learn Russian every day.",
+      "accept_ru": [
+        "Каждый день я буду учить русский язык."
+      ],
+      "accept_en": [
+        "I'll study Russian every day."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "буду",
+          "учить",
+          "русский",
+          "язык",
+          "каждый",
+          "день"
+        ],
+        "extra_tiles": [
+          "будут",
+          "готовит",
+          "или"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s11",
+      "ru": "Какие у тебя планы?",
+      "stress": "Каки́е у тебя́ пла́ны?",
+      "translit": "Kakíye u tebyá plány?",
+      "en": "What are your plans?",
+      "word_bank": {
+        "answer": [
+          "какие",
+          "у",
+          "тебя",
+          "планы"
+        ],
+        "extra_tiles": [
+          "готовлю",
+          "будем",
+          "конечно"
+        ]
+      }
+    },
+    {
+      "id": "a1-u20-s12",
+      "ru": "Они будут играть в футбол.",
+      "stress": "Они́ бу́дут игра́ть в футбо́л.",
+      "translit": "Oní búdut igrát' v futból.",
+      "en": "They will play football.",
+      "accept_en": [
+        "They will play soccer."
+      ],
+      "word_bank": {
+        "answer": [
+          "они",
+          "будут",
+          "играть",
+          "в",
+          "футбол"
+        ],
+        "extra_tiles": [
+          "будем",
+          "готовлю",
+          "выходные"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u20-g01",
+      "prompt": "Завтра я ___ работать.",
+      "options": [
+        "буду",
+        "будет",
+        "будешь",
+        "будут"
+      ],
+      "answer": "буду",
+      "en": "Tomorrow I will work."
+    },
+    {
+      "id": "a1-u20-g02",
+      "prompt": "Мы ___ отдыхать.",
+      "options": [
+        "будем",
+        "будете",
+        "буду",
+        "будут"
+      ],
+      "answer": "будем",
+      "en": "We will relax."
+    },
+    {
+      "id": "a1-u20-g03",
+      "prompt": "Что ты ___ делать?",
+      "options": [
+        "будешь",
+        "буду",
+        "будет",
+        "будем"
+      ],
+      "answer": "будешь",
+      "en": "What will you do?"
+    },
+    {
+      "id": "a1-u20-g04",
+      "prompt": "Мама будет ___ ужин.",
+      "options": [
+        "готовить",
+        "готовит",
+        "готовлю",
+        "готовила"
+      ],
+      "answer": "готовить",
+      "en": "Mom will cook dinner."
+    },
+    {
+      "id": "a1-u20-g05",
+      "prompt": "Они ___ играть в футбол.",
+      "options": [
+        "будут",
+        "будет",
+        "буду",
+        "будем"
+      ],
+      "answer": "будут",
+      "en": "They will play football."
+    }
+  ],
+  "dialogue": {
+    "title": "Weekend plans",
+    "lines": [
+      {
+        "speaker": "Марк",
+        "ru": "Какие у тебя планы на выходные?",
+        "stress": "Каки́е у тебя́ пла́ны на выходны́е?",
+        "translit": "Kakíye u tebyá plány na vykhodnýye?",
+        "en": "What are your plans for the weekend?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "В субботу я буду работать, а в воскресенье буду отдыхать.",
+        "stress": "В суббо́ту я бу́ду рабо́тать, а в воскресе́нье бу́ду отдыха́ть.",
+        "translit": "V subbótu ya búdu rabótat', a v voskresén'ye búdu otdykhát'.",
+        "en": "On Saturday I will work, and on Sunday I will relax."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "В воскресенье мы будем играть в футбол в парке. Хочешь играть с нами?",
+        "stress": "В воскресе́нье мы бу́дем игра́ть в футбо́л в па́рке. Хо́чешь игра́ть с на́ми?",
+        "translit": "V voskresén'ye my búdem igrát' v futból v párke. Khóchesh' igrát' s námi?",
+        "en": "On Sunday we will play football in the park. Want to play with us?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Да, конечно!",
+        "stress": "Да, коне́чно!",
+        "translit": "Da, konéchno!",
+        "en": "Yes, of course!"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What will Anya do on Saturday?",
+        "options": [
+          "Work",
+          "Relax",
+          "Play football"
+        ],
+        "answer": "Work"
+      },
+      {
+        "question": "Where will they play football?",
+        "options": [
+          "In the park",
+          "At school",
+          "At home"
+        ],
+        "answer": "In the park"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u20-wr01",
+    "prompt": "Write what you will do at the weekend.",
+    "use": [
+      "на выходны́х",
+      "я бу́ду + verb",
+      "мы бу́дем"
+    ],
+    "model": {
+      "ru": "На выходных я буду отдыхать. В субботу я буду играть в футбол, а в воскресенье мы будем готовить ужин.",
+      "stress": "На выходны́х я бу́ду отдыха́ть. В суббо́ту я бу́ду игра́ть в футбо́л, а в воскресе́нье мы бу́дем гото́вить у́жин."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

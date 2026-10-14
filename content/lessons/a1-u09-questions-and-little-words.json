@@ -1,0 +1,622 @@
+{
+  "id": "a1-u09",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 9,
+  "title": "Questions and little words",
+  "goal": "Ask the basic questions and join ideas with и, а, но, потому что.",
+  "grammar": [
+    {
+      "title": "Question words",
+      "explanation": "кто (who), что (what), где (where), куда́ (where to), отку́да (where from), когда́ (when), как (how), почему́ (why), ско́лько (how much / many), како́й (which, what kind). Word order stays the same as a statement; the question word goes first."
+    },
+    {
+      "title": "тепе́рь vs сейча́с",
+      "explanation": "Both mean 'now'. сейча́с = at this moment. тепе́рь = now, as opposed to before (things have changed): Ра́ньше я жил в Та́рту, а тепе́рь я живу́ в Та́ллине."
+    },
+    {
+      "title": "и / а / но",
+      "explanation": "и = and (adds): Я и ты. а = and / whereas (contrast): Я из Эсто́нии, а она́ из Росси́и. но = but (limits): Я говорю́ по-ру́сски, но немно́го."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u09-w01",
+      "ru": "что",
+      "stress": "что",
+      "translit": "chto",
+      "en": "what",
+      "pos": "pronoun",
+      "say": "shto",
+      "note": "чт is said 'sht' here"
+    },
+    {
+      "id": "a1-u09-w02",
+      "ru": "куда",
+      "stress": "куда́",
+      "translit": "kudá",
+      "en": "where to",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w03",
+      "ru": "когда",
+      "stress": "когда́",
+      "translit": "kogdá",
+      "en": "when",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w04",
+      "ru": "как",
+      "stress": "как",
+      "translit": "kak",
+      "en": "how",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w05",
+      "ru": "почему",
+      "stress": "почему́",
+      "translit": "pochemú",
+      "en": "why",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w06",
+      "ru": "какой",
+      "stress": "како́й",
+      "translit": "kakóy",
+      "en": "which, what kind (m)",
+      "pos": "pronoun",
+      "note": "кака́я (f), како́е (n), каки́е (pl)"
+    },
+    {
+      "id": "a1-u09-w07",
+      "ru": "теперь",
+      "stress": "тепе́рь",
+      "translit": "tepér'",
+      "en": "now (as opposed to before)",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w08",
+      "ru": "раньше",
+      "stress": "ра́ньше",
+      "translit": "rán'she",
+      "en": "before, earlier",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w09",
+      "ru": "тоже",
+      "stress": "то́же",
+      "translit": "tózhe",
+      "en": "also, too",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w10",
+      "ru": "но",
+      "stress": "но",
+      "translit": "no",
+      "en": "but",
+      "pos": "conjunction"
+    },
+    {
+      "id": "a1-u09-w11",
+      "ru": "потому что",
+      "stress": "потому́ что",
+      "translit": "potomú chto",
+      "en": "because",
+      "pos": "conjunction",
+      "say": "patamú shta"
+    },
+    {
+      "id": "a1-u09-w12",
+      "ru": "уже",
+      "stress": "уже́",
+      "translit": "uzhé",
+      "en": "already",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w13",
+      "ru": "ещё",
+      "stress": "ещё",
+      "translit": "yeshchyo",
+      "en": "still; more",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u09-w14",
+      "ru": "идёшь",
+      "stress": "идёшь",
+      "translit": "idyosh'",
+      "en": "you are going (informal)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u09-w15",
+      "ru": "стоит",
+      "stress": "сто́ит",
+      "translit": "stóit",
+      "en": "costs",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u09-w16",
+      "ru": "правда",
+      "stress": "пра́вда",
+      "translit": "právda",
+      "en": "truth; really?",
+      "pos": "noun f",
+      "note": "Пра́вда? = Really?"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u09-s01",
+      "ru": "Что это?",
+      "stress": "Что э́то?",
+      "translit": "Chto éto?",
+      "en": "What is this?",
+      "accept_en": [
+        "What is it?",
+        "What's this?"
+      ],
+      "word_bank": {
+        "answer": [
+          "что",
+          "это"
+        ],
+        "extra_tiles": [
+          "как",
+          "когда",
+          "идёшь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s02",
+      "ru": "Где Мария?",
+      "stress": "Где Мари́я?",
+      "translit": "Gde Maríya?",
+      "en": "Where is Maria?",
+      "accept_en": [
+        "Where's Maria?"
+      ],
+      "word_bank": {
+        "answer": [
+          "где",
+          "Мария"
+        ],
+        "extra_tiles": [
+          "уже",
+          "но",
+          "Анна"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s03",
+      "ru": "Куда ты идёшь?",
+      "stress": "Куда́ ты идёшь?",
+      "translit": "Kudá ty idyosh'?",
+      "en": "Where are you going?",
+      "word_bank": {
+        "answer": [
+          "куда",
+          "ты",
+          "идёшь"
+        ],
+        "extra_tiles": [
+          "но",
+          "правда",
+          "а"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s04",
+      "ru": "Когда урок?",
+      "stress": "Когда́ уро́к?",
+      "translit": "Kogdá urók?",
+      "en": "When is the lesson?",
+      "accept_en": [
+        "When is the class?"
+      ],
+      "word_bank": {
+        "answer": [
+          "когда",
+          "урок"
+        ],
+        "extra_tiles": [
+          "а",
+          "как",
+          "идёшь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s05",
+      "ru": "Почему ты здесь?",
+      "stress": "Почему́ ты здесь?",
+      "translit": "Pochemú ty zdes'?",
+      "en": "Why are you here?",
+      "word_bank": {
+        "answer": [
+          "почему",
+          "ты",
+          "здесь"
+        ],
+        "extra_tiles": [
+          "потому",
+          "как",
+          "но"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s06",
+      "ru": "Потому что у меня урок.",
+      "stress": "Потому́ что у меня́ уро́к.",
+      "translit": "Potomú chto u menyá urók.",
+      "en": "Because I have a lesson.",
+      "accept_en": [
+        "Because I have a class."
+      ],
+      "word_bank": {
+        "answer": [
+          "потому",
+          "что",
+          "у",
+          "меня",
+          "урок"
+        ],
+        "extra_tiles": [
+          "тоже",
+          "сейчас",
+          "теперь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s07",
+      "ru": "Теперь я живу в Таллине.",
+      "stress": "Тепе́рь я живу́ в Та́ллине.",
+      "translit": "Tepér' ya zhivú v Tálline.",
+      "en": "Now I live in Tallinn.",
+      "accept_ru": [
+        "Я теперь живу в Таллине."
+      ],
+      "accept_en": [
+        "I live in Tallinn now."
+      ],
+      "word_bank": {
+        "answer": [
+          "теперь",
+          "я",
+          "живу",
+          "в",
+          "Таллине"
+        ],
+        "extra_tiles": [
+          "где",
+          "раньше",
+          "Анна"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s08",
+      "ru": "Сейчас я дома.",
+      "stress": "Сейча́с я до́ма.",
+      "translit": "Seychás ya dóma.",
+      "en": "Right now I am at home.",
+      "accept_ru": [
+        "Я сейчас дома."
+      ],
+      "accept_en": [
+        "I'm at home now.",
+        "I am at home now."
+      ],
+      "word_bank": {
+        "answer": [
+          "сейчас",
+          "я",
+          "дома"
+        ],
+        "extra_tiles": [
+          "идёшь",
+          "уже",
+          "раньше"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s09",
+      "ru": "Я тоже студент.",
+      "stress": "Я то́же студе́нт.",
+      "translit": "Ya tózhe studént.",
+      "en": "I am a student too.",
+      "accept_en": [
+        "I'm also a student.",
+        "I am also a student."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "тоже",
+          "студент"
+        ],
+        "extra_tiles": [
+          "раньше",
+          "когда",
+          "а"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s10",
+      "ru": "Я из Эстонии, а Мария из России.",
+      "stress": "Я из Эсто́нии, а Мари́я из Росси́и.",
+      "translit": "Ya iz Estónii, a Maríya iz Rossíi.",
+      "en": "I am from Estonia, and Maria is from Russia.",
+      "accept_en": [
+        "I'm from Estonia and Maria is from Russia."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "из",
+          "Эстонии",
+          "а",
+          "Мария",
+          "из",
+          "России"
+        ],
+        "extra_tiles": [
+          "ещё",
+          "куда",
+          "Таллина"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s11",
+      "ru": "Я говорю по-русски, но немного.",
+      "stress": "Я говорю́ по-ру́сски, но немно́го.",
+      "translit": "Ya govoryú po-rússki, no nemnógo.",
+      "en": "I speak Russian, but only a little.",
+      "accept_en": [
+        "I speak Russian, but a little."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "говорю",
+          "по-русски",
+          "но",
+          "немного"
+        ],
+        "extra_tiles": [
+          "идёшь",
+          "и",
+          "раньше"
+        ]
+      }
+    },
+    {
+      "id": "a1-u09-s12",
+      "ru": "Какой это город? — Это Москва.",
+      "stress": "Како́й э́то го́род? — Э́то Москва́.",
+      "translit": "Kakóy éto górod? — Éto Moskvá.",
+      "en": "What city is this? — This is Moscow.",
+      "accept_en": [
+        "Which city is this? — It's Moscow."
+      ]
+    },
+    {
+      "id": "a1-u09-s13",
+      "ru": "Сколько это стоит?",
+      "stress": "Ско́лько э́то сто́ит?",
+      "translit": "Skól'ko éto stóit?",
+      "en": "How much does this cost?",
+      "accept_en": [
+        "How much is this?",
+        "How much is it?"
+      ],
+      "word_bank": {
+        "answer": [
+          "сколько",
+          "это",
+          "стоит"
+        ],
+        "extra_tiles": [
+          "куда",
+          "правда",
+          "и"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u09-g01",
+      "prompt": "___ ты идёшь? — В школу.",
+      "options": [
+        "Куда",
+        "Где",
+        "Откуда",
+        "Когда"
+      ],
+      "answer": "Куда",
+      "en": "Where are you going? — To school."
+    },
+    {
+      "id": "a1-u09-g02",
+      "prompt": "___ ты живёшь? — В Таллине.",
+      "options": [
+        "Где",
+        "Куда",
+        "Откуда",
+        "Кто"
+      ],
+      "answer": "Где",
+      "en": "Where do you live? — In Tallinn."
+    },
+    {
+      "id": "a1-u09-g03",
+      "prompt": "Я из Эстонии, ___ Мария из России.",
+      "options": [
+        "а",
+        "и",
+        "но",
+        "что"
+      ],
+      "answer": "а",
+      "en": "I'm from Estonia, and Maria is from Russia."
+    },
+    {
+      "id": "a1-u09-g04",
+      "prompt": "Я говорю по-русски, ___ немного.",
+      "options": [
+        "но",
+        "а",
+        "и",
+        "что"
+      ],
+      "answer": "но",
+      "en": "I speak Russian, but only a little."
+    },
+    {
+      "id": "a1-u09-g05",
+      "prompt": "Раньше я жил в Тарту, а ___ я живу в Таллине.",
+      "options": [
+        "теперь",
+        "сейчас",
+        "уже",
+        "когда"
+      ],
+      "answer": "теперь",
+      "en": "I used to live in Tartu, and now I live in Tallinn."
+    }
+  ],
+  "dialogue": {
+    "title": "Why are you here?",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Марк! Почему ты здесь?",
+        "stress": "Марк! Почему́ ты здесь?",
+        "translit": "Mark! Pochemú ty zdes'?",
+        "en": "Mark! Why are you here?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Потому что теперь я живу в Москве.",
+        "stress": "Потому́ что тепе́рь я живу́ в Москве́.",
+        "translit": "Potomú chto tepér' ya zhivú v Moskvé.",
+        "en": "Because now I live in Moscow."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Правда? А где ты учишься?",
+        "stress": "Пра́вда? А где ты у́чишься?",
+        "translit": "Právda? A gde ty úchish'sya?",
+        "en": "Really? And where do you study?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "В университете. А когда у тебя урок?",
+        "stress": "В университе́те. А когда́ у тебя́ уро́к?",
+        "translit": "V universitéte. A kogdá u tebyá urók?",
+        "en": "At university. And when is your lesson?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Сейчас! Пока!",
+        "stress": "Сейча́с! Пока́!",
+        "translit": "Seychás! Poká!",
+        "en": "Right now! Bye!"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Where does Mark live now?",
+        "options": [
+          "In Moscow",
+          "In Tallinn",
+          "In a village"
+        ],
+        "answer": "In Moscow"
+      },
+      {
+        "question": "When is Anya's lesson?",
+        "options": [
+          "Right now",
+          "Tomorrow",
+          "In the evening"
+        ],
+        "answer": "Right now"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u09-wr01",
+    "prompt": "Write three questions for a new friend, and answer one of them with потому́ что.",
+    "use": [
+      "где / куда́ / почему́",
+      "потому́ что"
+    ],
+    "model": {
+      "ru": "Где ты живёшь? Куда ты идёшь? Почему ты учишь русский язык? — Потому что я живу в Эстонии.",
+      "stress": "Где ты живёшь? Куда́ ты идёшь? Почему́ ты у́чишь ру́сский язы́к? — Потому́ что я живу́ в Эсто́нии."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

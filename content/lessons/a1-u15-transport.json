@@ -1,0 +1,595 @@
+{
+  "id": "a1-u15",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 15,
+  "title": "Transport",
+  "goal": "Say how you travel and where you are going.",
+  "grammar": [
+    {
+      "title": "идти́ vs е́хать",
+      "explanation": "идти́ = to go on foot: я иду́, ты идёшь, он идёт, мы идём, они́ иду́т. е́хать = to go by vehicle: я е́ду, ты е́дешь, он е́дет, мы е́дем, они́ е́дут."
+    },
+    {
+      "title": "на + transport",
+      "explanation": "'By bus' = на авто́бусе (prepositional). на метро́, на такси́ never change. On foot = пешко́м."
+    },
+    {
+      "title": "Where to: в / на + accusative",
+      "explanation": "Я е́ду в Москву́. Я иду́ на остано́вку. Masculine places do not change: Я е́ду в центр."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u15-w01",
+      "ru": "автобус",
+      "stress": "авто́бус",
+      "translit": "avtóbus",
+      "en": "bus",
+      "pos": "noun m",
+      "note": "на авто́бусе = by bus"
+    },
+    {
+      "id": "a1-u15-w02",
+      "ru": "метро",
+      "stress": "метро́",
+      "translit": "metró",
+      "en": "metro, subway",
+      "pos": "noun n",
+      "note": "never changes"
+    },
+    {
+      "id": "a1-u15-w03",
+      "ru": "трамвай",
+      "stress": "трамва́й",
+      "translit": "tramváy",
+      "en": "tram",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u15-w04",
+      "ru": "такси",
+      "stress": "такси́",
+      "translit": "taksí",
+      "en": "taxi",
+      "pos": "noun n",
+      "note": "never changes"
+    },
+    {
+      "id": "a1-u15-w05",
+      "ru": "машина",
+      "stress": "маши́на",
+      "translit": "mashína",
+      "en": "car",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u15-w06",
+      "ru": "поезд",
+      "stress": "по́езд",
+      "translit": "póyezd",
+      "en": "train",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u15-w07",
+      "ru": "самолёт",
+      "stress": "самолёт",
+      "translit": "samolyot",
+      "en": "plane",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u15-w08",
+      "ru": "билет",
+      "stress": "биле́т",
+      "translit": "bilét",
+      "en": "ticket",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u15-w09",
+      "ru": "ехать",
+      "stress": "е́хать",
+      "translit": "yékhat'",
+      "en": "to go (by vehicle)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u15-w10",
+      "ru": "еду",
+      "stress": "е́ду",
+      "translit": "yédu",
+      "en": "I am going (by vehicle)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u15-w11",
+      "ru": "едешь",
+      "stress": "е́дешь",
+      "translit": "yédesh'",
+      "en": "you are going (by vehicle)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u15-w12",
+      "ru": "едет",
+      "stress": "е́дет",
+      "translit": "yédet",
+      "en": "he / she is going (by vehicle)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u15-w13",
+      "ru": "идёт",
+      "stress": "идёт",
+      "translit": "idyot",
+      "en": "he / she is going (on foot)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u15-w14",
+      "ru": "пешком",
+      "stress": "пешко́м",
+      "translit": "peshkóm",
+      "en": "on foot",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u15-w15",
+      "ru": "домой",
+      "stress": "домо́й",
+      "translit": "domóy",
+      "en": "(to) home",
+      "pos": "adverb",
+      "note": "where to; до́ма = at home"
+    },
+    {
+      "id": "a1-u15-w16",
+      "ru": "быстро",
+      "stress": "бы́стро",
+      "translit": "býstro",
+      "en": "fast, quickly",
+      "pos": "adverb"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u15-s01",
+      "ru": "Я еду на автобусе.",
+      "stress": "Я е́ду на авто́бусе.",
+      "translit": "Ya yédu na avtóbuse.",
+      "en": "I am going by bus.",
+      "accept_en": [
+        "I'm taking the bus."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "еду",
+          "на",
+          "автобусе"
+        ],
+        "extra_tiles": [
+          "идёт",
+          "трамвай",
+          "Москвы"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s02",
+      "ru": "Мы едем на метро.",
+      "stress": "Мы е́дем на метро́.",
+      "translit": "My yédem na metró.",
+      "en": "We are going by metro.",
+      "accept_en": [
+        "We're taking the metro.",
+        "We are going by subway."
+      ],
+      "word_bank": {
+        "answer": [
+          "мы",
+          "едем",
+          "на",
+          "метро"
+        ],
+        "extra_tiles": [
+          "едет",
+          "едут",
+          "автобуса"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s03",
+      "ru": "Ты идёшь пешком?",
+      "stress": "Ты идёшь пешко́м?",
+      "translit": "Ty idyosh' peshkóm?",
+      "en": "Are you walking?",
+      "accept_en": [
+        "Are you going on foot?"
+      ],
+      "word_bank": {
+        "answer": [
+          "ты",
+          "идёшь",
+          "пешком"
+        ],
+        "extra_tiles": [
+          "машина",
+          "поезд",
+          "билет"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s04",
+      "ru": "Он едет в Москву на поезде.",
+      "stress": "Он е́дет в Москву́ на по́езде.",
+      "translit": "On yédet v Moskvú na póyezde.",
+      "en": "He is going to Moscow by train.",
+      "accept_ru": [
+        "Он едет на поезде в Москву."
+      ],
+      "accept_en": [
+        "He's taking the train to Moscow."
+      ],
+      "word_bank": {
+        "answer": [
+          "он",
+          "едет",
+          "в",
+          "Москву",
+          "на",
+          "поезде"
+        ],
+        "extra_tiles": [
+          "самолёт",
+          "идёт",
+          "Белка"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s05",
+      "ru": "Куда ты едешь? — В центр.",
+      "stress": "Куда́ ты е́дешь? — В центр.",
+      "translit": "Kudá ty yédesh'? — V tsentr.",
+      "en": "Where are you going? — To the centre."
+    },
+    {
+      "id": "a1-u15-s06",
+      "ru": "Один билет, пожалуйста.",
+      "stress": "Оди́н биле́т, пожа́луйста.",
+      "translit": "Odín bilét, pozháluysta.",
+      "en": "One ticket, please.",
+      "word_bank": {
+        "answer": [
+          "один",
+          "билет",
+          "пожалуйста"
+        ],
+        "extra_tiles": [
+          "трамвай",
+          "едет",
+          "ехать"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s07",
+      "ru": "Сколько стоит билет?",
+      "stress": "Ско́лько сто́ит биле́т?",
+      "translit": "Skól'ko stóit bilét?",
+      "en": "How much is a ticket?",
+      "accept_en": [
+        "How much does the ticket cost?"
+      ],
+      "word_bank": {
+        "answer": [
+          "сколько",
+          "стоит",
+          "билет"
+        ],
+        "extra_tiles": [
+          "Москве",
+          "самолёт",
+          "автобуса"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s08",
+      "ru": "Я иду на остановку.",
+      "stress": "Я иду́ на остано́вку.",
+      "translit": "Ya idú na ostanóvku.",
+      "en": "I am walking to the stop.",
+      "accept_en": [
+        "I'm going to the bus stop."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "иду",
+          "на",
+          "остановку"
+        ],
+        "extra_tiles": [
+          "Москва",
+          "машина",
+          "автобуса"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s09",
+      "ru": "Они едут на такси.",
+      "stress": "Они́ е́дут на такси́.",
+      "translit": "Oní yédut na taksí.",
+      "en": "They are going by taxi.",
+      "accept_en": [
+        "They're taking a taxi."
+      ],
+      "word_bank": {
+        "answer": [
+          "они",
+          "едут",
+          "на",
+          "такси"
+        ],
+        "extra_tiles": [
+          "трамвай",
+          "автобус",
+          "Москве"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s10",
+      "ru": "Самолёт в Москву в пять часов.",
+      "stress": "Самолёт в Москву́ в пять часо́в.",
+      "translit": "Samolyot v Moskvú v pyat' chasóv.",
+      "en": "The plane to Moscow is at five o'clock.",
+      "word_bank": {
+        "answer": [
+          "самолёт",
+          "в",
+          "Москву",
+          "в",
+          "пять",
+          "часов"
+        ],
+        "extra_tiles": [
+          "едем",
+          "автобуса",
+          "Максим"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s11",
+      "ru": "Я еду домой.",
+      "stress": "Я е́ду домо́й.",
+      "translit": "Ya yédu domóy.",
+      "en": "I am going home.",
+      "accept_en": [
+        "I'm going home."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "еду",
+          "домой"
+        ],
+        "extra_tiles": [
+          "билет",
+          "Москва",
+          "едут"
+        ]
+      }
+    },
+    {
+      "id": "a1-u15-s12",
+      "ru": "На метро быстро.",
+      "stress": "На метро́ бы́стро.",
+      "translit": "Na metró býstro.",
+      "en": "The metro is fast.",
+      "accept_en": [
+        "It's fast by metro."
+      ],
+      "word_bank": {
+        "answer": [
+          "на",
+          "метро",
+          "быстро"
+        ],
+        "extra_tiles": [
+          "домой",
+          "Москва",
+          "едешь"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u15-g01",
+      "prompt": "Я еду на ___.",
+      "options": [
+        "автобусе",
+        "автобус",
+        "автобуса",
+        "автобусу"
+      ],
+      "answer": "автобусе",
+      "en": "I am going by bus."
+    },
+    {
+      "id": "a1-u15-g02",
+      "prompt": "Мы ___ на метро.",
+      "options": [
+        "едем",
+        "еду",
+        "едут",
+        "едет"
+      ],
+      "answer": "едем",
+      "en": "We are going by metro."
+    },
+    {
+      "id": "a1-u15-g03",
+      "prompt": "Он ___ пешком.",
+      "options": [
+        "идёт",
+        "едет",
+        "еду",
+        "иду"
+      ],
+      "answer": "идёт",
+      "en": "He is walking."
+    },
+    {
+      "id": "a1-u15-g04",
+      "prompt": "Куда ты ___?",
+      "options": [
+        "едешь",
+        "еду",
+        "едет",
+        "едем"
+      ],
+      "answer": "едешь",
+      "en": "Where are you going?"
+    },
+    {
+      "id": "a1-u15-g05",
+      "prompt": "Он едет в ___.",
+      "options": [
+        "Москву",
+        "Москва",
+        "Москве",
+        "Москвы"
+      ],
+      "answer": "Москву",
+      "en": "He is going to Moscow."
+    }
+  ],
+  "dialogue": {
+    "title": "Bus or metro?",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Марк, куда ты едешь?",
+        "stress": "Марк, куда́ ты е́дешь?",
+        "translit": "Mark, kudá ty yédesh'?",
+        "en": "Mark, where are you going?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "В центр. Я еду на автобусе.",
+        "stress": "В центр. Я е́ду на авто́бусе.",
+        "translit": "V tsentr. Ya yédu na avtóbuse.",
+        "en": "To the centre. I'm going by bus."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "А я еду на метро. Это быстро.",
+        "stress": "А я е́ду на метро́. Э́то бы́стро.",
+        "translit": "A ya yédu na metró. Éto býstro.",
+        "en": "And I'm going by metro. It's fast."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Сколько стоит билет?",
+        "stress": "Ско́лько сто́ит биле́т?",
+        "translit": "Skól'ko stóit bilét?",
+        "en": "How much is a ticket?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Шестьдесят рублей.",
+        "stress": "Шестьдеся́т рубле́й.",
+        "translit": "Shest'desyát rubléy.",
+        "en": "Sixty roubles."
+      }
+    ],
+    "questions": [
+      {
+        "question": "How is Mark travelling?",
+        "options": [
+          "By bus",
+          "By metro",
+          "On foot",
+          "By taxi"
+        ],
+        "answer": "By bus"
+      },
+      {
+        "question": "Why does Anya take the metro?",
+        "options": [
+          "It's fast",
+          "It's cheap",
+          "It's close"
+        ],
+        "answer": "It's fast"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u15-wr01",
+    "prompt": "Say how you usually get to the centre, and how you are going today.",
+    "use": [
+      "я е́ду на…",
+      "пешко́м",
+      "ка́ждый день / сего́дня"
+    ],
+    "model": {
+      "ru": "Каждый день я еду в центр на автобусе. Сегодня я иду пешком.",
+      "stress": "Ка́ждый день я е́ду в центр на авто́бусе. Сего́дня я иду́ пешко́м."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

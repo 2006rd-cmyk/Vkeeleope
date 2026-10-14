@@ -1,0 +1,602 @@
+{
+  "id": "a1-u17",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 17,
+  "title": "Free time",
+  "goal": "Talk about hobbies and what you like to do.",
+  "grammar": [
+    {
+      "title": "люби́ть + infinitive",
+      "explanation": "я люблю́, ты лю́бишь, он лю́бит, мы лю́бим, они́ лю́бят. Я люблю́ чита́ть = I like to read."
+    },
+    {
+      "title": "игра́ть в / на",
+      "explanation": "Games and sports: игра́ть в + accusative (в футбо́л, в те́ннис, в ша́хматы). Instruments: игра́ть на + prepositional (на гита́ре, на пиани́но)."
+    },
+    {
+      "title": "занима́ться + instrumental",
+      "explanation": "Learn the chunk: занима́ться спо́ртом = to do sports."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u17-w01",
+      "ru": "люблю",
+      "stress": "люблю́",
+      "translit": "lyublyú",
+      "en": "I love, I like",
+      "pos": "verb",
+      "note": "from люби́ть"
+    },
+    {
+      "id": "a1-u17-w02",
+      "ru": "любишь",
+      "stress": "лю́бишь",
+      "translit": "lyúbish'",
+      "en": "you love, like",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u17-w03",
+      "ru": "делать",
+      "stress": "де́лать",
+      "translit": "délat'",
+      "en": "to do",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u17-w04",
+      "ru": "играть",
+      "stress": "игра́ть",
+      "translit": "igrát'",
+      "en": "to play",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u17-w05",
+      "ru": "футбол",
+      "stress": "футбо́л",
+      "translit": "futból",
+      "en": "football",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u17-w06",
+      "ru": "теннис",
+      "stress": "те́ннис",
+      "translit": "ténnis",
+      "en": "tennis",
+      "pos": "noun m",
+      "say": "ténis"
+    },
+    {
+      "id": "a1-u17-w07",
+      "ru": "шахматы",
+      "stress": "ша́хматы",
+      "translit": "shákhmaty",
+      "en": "chess",
+      "pos": "noun pl"
+    },
+    {
+      "id": "a1-u17-w08",
+      "ru": "гитара",
+      "stress": "гита́ра",
+      "translit": "gitára",
+      "en": "guitar",
+      "pos": "noun f",
+      "note": "на гита́ре"
+    },
+    {
+      "id": "a1-u17-w09",
+      "ru": "читать",
+      "stress": "чита́ть",
+      "translit": "chitát'",
+      "en": "to read",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u17-w10",
+      "ru": "слушать",
+      "stress": "слу́шать",
+      "translit": "slúshat'",
+      "en": "to listen",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u17-w11",
+      "ru": "музыка",
+      "stress": "му́зыка",
+      "translit": "múzyka",
+      "en": "music",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u17-w12",
+      "ru": "смотреть",
+      "stress": "смотре́ть",
+      "translit": "smotrét'",
+      "en": "to watch",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u17-w13",
+      "ru": "фильм",
+      "stress": "фильм",
+      "translit": "fil'm",
+      "en": "film, movie",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u17-w14",
+      "ru": "гулять",
+      "stress": "гуля́ть",
+      "translit": "gulyát'",
+      "en": "to go for a walk",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u17-w15",
+      "ru": "спорт",
+      "stress": "спорт",
+      "translit": "sport",
+      "en": "sport",
+      "pos": "noun m",
+      "note": "занима́ться спо́ртом"
+    },
+    {
+      "id": "a1-u17-w16",
+      "ru": "свободное время",
+      "stress": "свобо́дное вре́мя",
+      "translit": "svobódnoye vrémya",
+      "en": "free time",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u17-w17",
+      "ru": "хобби",
+      "stress": "хо́бби",
+      "translit": "khóbbi",
+      "en": "hobby",
+      "pos": "noun n",
+      "note": "never changes"
+    },
+    {
+      "id": "a1-u17-w18",
+      "ru": "здорово",
+      "stress": "здо́рово",
+      "translit": "zdórovo",
+      "en": "great! cool!",
+      "pos": "interjection",
+      "say": "zdórava"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u17-s01",
+      "ru": "Я люблю читать.",
+      "stress": "Я люблю́ чита́ть.",
+      "translit": "Ya lyublyú chitát'.",
+      "en": "I like to read.",
+      "accept_en": [
+        "I love reading.",
+        "I like reading."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "люблю",
+          "читать"
+        ],
+        "extra_tiles": [
+          "шахматы",
+          "свободное",
+          "играть"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s02",
+      "ru": "Что ты любишь делать?",
+      "stress": "Что ты лю́бишь де́лать?",
+      "translit": "Chto ty lyúbish' délat'?",
+      "en": "What do you like to do?",
+      "word_bank": {
+        "answer": [
+          "что",
+          "ты",
+          "любишь",
+          "делать"
+        ],
+        "extra_tiles": [
+          "с",
+          "здорово",
+          "музыки"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s03",
+      "ru": "Я играю в футбол.",
+      "stress": "Я игра́ю в футбо́л.",
+      "translit": "Ya igráyu v futból.",
+      "en": "I play football.",
+      "accept_en": [
+        "I play soccer."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "играю",
+          "в",
+          "футбол"
+        ],
+        "extra_tiles": [
+          "гитара",
+          "время",
+          "хобби"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s04",
+      "ru": "Мой брат играет на гитаре.",
+      "stress": "Мой брат игра́ет на гита́ре.",
+      "translit": "Moy brat igráyet na gitáre.",
+      "en": "My brother plays the guitar.",
+      "word_bank": {
+        "answer": [
+          "мой",
+          "брат",
+          "играет",
+          "на",
+          "гитаре"
+        ],
+        "extra_tiles": [
+          "любишь",
+          "свободное",
+          "время"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s05",
+      "ru": "Она играет в теннис.",
+      "stress": "Она́ игра́ет в те́ннис.",
+      "translit": "Oná igráyet v ténnis.",
+      "en": "She plays tennis.",
+      "word_bank": {
+        "answer": [
+          "она",
+          "играет",
+          "в",
+          "теннис"
+        ],
+        "extra_tiles": [
+          "свободное",
+          "спорт",
+          "смотреть"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s06",
+      "ru": "Я слушаю музыку.",
+      "stress": "Я слу́шаю му́зыку.",
+      "translit": "Ya slúshayu múzyku.",
+      "en": "I listen to music.",
+      "accept_en": [
+        "I'm listening to music."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "слушаю",
+          "музыку"
+        ],
+        "extra_tiles": [
+          "смотреть",
+          "здорово",
+          "гитару"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s07",
+      "ru": "Вечером мы смотрим фильм.",
+      "stress": "Ве́чером мы смо́трим фильм.",
+      "translit": "Vécherom my smótrim fil'm.",
+      "en": "In the evening we watch a film.",
+      "accept_ru": [
+        "Мы смотрим фильм вечером."
+      ],
+      "accept_en": [
+        "We watch a movie in the evening."
+      ],
+      "word_bank": {
+        "answer": [
+          "вечером",
+          "мы",
+          "смотрим",
+          "фильм"
+        ],
+        "extra_tiles": [
+          "с",
+          "играть",
+          "свободное"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s08",
+      "ru": "Я занимаюсь спортом.",
+      "stress": "Я занима́юсь спо́ртом.",
+      "translit": "Ya zanimáyus' spórtom.",
+      "en": "I do sports.",
+      "accept_en": [
+        "I play sports."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "занимаюсь",
+          "спортом"
+        ],
+        "extra_tiles": [
+          "фильм",
+          "здорово",
+          "футбол"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s09",
+      "ru": "В свободное время я гуляю в парке.",
+      "stress": "В свобо́дное вре́мя я гуля́ю в па́рке.",
+      "translit": "V svobódnoye vrémya ya gulyáyu v párke.",
+      "en": "In my free time I walk in the park.",
+      "accept_ru": [
+        "Я гуляю в парке в свободное время."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "свободное",
+          "время",
+          "я",
+          "гуляю",
+          "в",
+          "парке"
+        ],
+        "extra_tiles": [
+          "спорт",
+          "читать",
+          "читаешь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s10",
+      "ru": "Ты играешь в шахматы?",
+      "stress": "Ты игра́ешь в ша́хматы?",
+      "translit": "Ty igráyesh' v shákhmaty?",
+      "en": "Do you play chess?",
+      "word_bank": {
+        "answer": [
+          "ты",
+          "играешь",
+          "в",
+          "шахматы"
+        ],
+        "extra_tiles": [
+          "с",
+          "читать",
+          "играть"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s11",
+      "ru": "Я не люблю футбол.",
+      "stress": "Я не люблю́ футбо́л.",
+      "translit": "Ya ne lyublyú futból.",
+      "en": "I do not like football.",
+      "accept_en": [
+        "I don't like football.",
+        "I don't like soccer."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "не",
+          "люблю",
+          "футбол"
+        ],
+        "extra_tiles": [
+          "смотреть",
+          "читаю",
+          "о"
+        ]
+      }
+    },
+    {
+      "id": "a1-u17-s12",
+      "ru": "Моё хобби — музыка.",
+      "stress": "Моё хо́бби — му́зыка.",
+      "translit": "Moyo khóbbi — múzyka.",
+      "en": "My hobby is music."
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u17-g01",
+      "prompt": "Я играю ___ футбол.",
+      "options": [
+        "в",
+        "на",
+        "с",
+        "о"
+      ],
+      "answer": "в",
+      "en": "I play football."
+    },
+    {
+      "id": "a1-u17-g02",
+      "prompt": "Брат играет на ___.",
+      "options": [
+        "гитаре",
+        "гитара",
+        "гитару",
+        "гитары"
+      ],
+      "answer": "гитаре",
+      "en": "My brother plays the guitar."
+    },
+    {
+      "id": "a1-u17-g03",
+      "prompt": "Я занимаюсь ___.",
+      "options": [
+        "спортом",
+        "спорт",
+        "спорта",
+        "спорту"
+      ],
+      "answer": "спортом",
+      "en": "I do sports."
+    },
+    {
+      "id": "a1-u17-g04",
+      "prompt": "Я слушаю ___.",
+      "options": [
+        "музыку",
+        "музыка",
+        "музыке",
+        "музыки"
+      ],
+      "answer": "музыку",
+      "en": "I listen to music."
+    },
+    {
+      "id": "a1-u17-g05",
+      "prompt": "Я люблю ___.",
+      "options": [
+        "читать",
+        "читаю",
+        "читает",
+        "читаешь"
+      ],
+      "answer": "читать",
+      "en": "I like to read."
+    }
+  ],
+  "dialogue": {
+    "title": "Free time",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Что ты любишь делать в свободное время?",
+        "stress": "Что ты лю́бишь де́лать в свобо́дное вре́мя?",
+        "translit": "Chto ty lyúbish' délat' v svobódnoye vrémya?",
+        "en": "What do you like to do in your free time?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Я играю в футбол и слушаю музыку. А ты?",
+        "stress": "Я игра́ю в футбо́л и слу́шаю му́зыку. А ты?",
+        "translit": "Ya igráyu v futból i slúshayu múzyku. A ty?",
+        "en": "I play football and listen to music. And you?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Я люблю читать. И ещё я играю на гитаре.",
+        "stress": "Я люблю́ чита́ть. И ещё я игра́ю на гита́ре.",
+        "translit": "Ya lyublyú chitát'. I yeshchyo ya igráyu na gitáre.",
+        "en": "I like to read. And I also play the guitar."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Правда? Здорово!",
+        "stress": "Пра́вда? Здо́рово!",
+        "translit": "Právda? Zdórovo!",
+        "en": "Really? Cool!"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which sport does Mark play?",
+        "options": [
+          "Football",
+          "Tennis",
+          "Chess"
+        ],
+        "answer": "Football"
+      },
+      {
+        "question": "What does Anya play?",
+        "options": [
+          "The guitar",
+          "The piano",
+          "Football"
+        ],
+        "answer": "The guitar"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u17-wr01",
+    "prompt": "Say what you like to do in your free time, and what a friend likes to do.",
+    "use": [
+      "я люблю́ + verb",
+      "игра́ть в… / на…",
+      "в свобо́дное вре́мя"
+    ],
+    "model": {
+      "ru": "В свободное время я люблю читать и слушать музыку. Я играю в футбол. Мой друг играет на гитаре.",
+      "stress": "В свобо́дное вре́мя я люблю́ чита́ть и слу́шать му́зыку. Я игра́ю в футбо́л. Мой друг игра́ет на гита́ре."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

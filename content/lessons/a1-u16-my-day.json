@@ -1,0 +1,601 @@
+{
+  "id": "a1-u16",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 16,
+  "title": "My day",
+  "goal": "Describe your daily routine.",
+  "grammar": [
+    {
+      "title": "-ся verbs",
+      "explanation": "Some verbs end in -ся (doing it to yourself): просыпа́ться (to wake up), умыва́ться (to wash). After a vowel -ся becomes -сь: я просыпа́юсь, ты просыпа́ешься, он просыпа́ется, мы просыпа́емся, они́ просыпа́ются."
+    },
+    {
+      "title": "в + time",
+      "explanation": "At seven o'clock = в семь часо́в. Early = ра́но, late = по́здно, usually = обы́чно."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u16-w01",
+      "ru": "просыпаюсь",
+      "stress": "просыпа́юсь",
+      "translit": "prosypáyus'",
+      "en": "I wake up",
+      "pos": "verb",
+      "note": "from просыпа́ться"
+    },
+    {
+      "id": "a1-u16-w02",
+      "ru": "встаю",
+      "stress": "встаю́",
+      "translit": "vstayú",
+      "en": "I get up",
+      "pos": "verb",
+      "note": "встава́ть: ты встаёшь, он встаёт"
+    },
+    {
+      "id": "a1-u16-w03",
+      "ru": "встаёшь",
+      "stress": "встаёшь",
+      "translit": "vstayosh'",
+      "en": "you get up",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u16-w04",
+      "ru": "умываюсь",
+      "stress": "умыва́юсь",
+      "translit": "umyváyus'",
+      "en": "I wash (my face)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u16-w05",
+      "ru": "завтракаю",
+      "stress": "за́втракаю",
+      "translit": "závtrakayu",
+      "en": "I have breakfast",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u16-w06",
+      "ru": "обедаю",
+      "stress": "обе́даю",
+      "translit": "obédayu",
+      "en": "I have lunch",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u16-w07",
+      "ru": "ужинаем",
+      "stress": "у́жинаем",
+      "translit": "úzhinayem",
+      "en": "we have dinner",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u16-w08",
+      "ru": "работает",
+      "stress": "рабо́тает",
+      "translit": "rabótayet",
+      "en": "he / she works",
+      "pos": "verb",
+      "note": "рабо́тать: я рабо́таю"
+    },
+    {
+      "id": "a1-u16-w09",
+      "ru": "отдыхаю",
+      "stress": "отдыха́ю",
+      "translit": "otdykháyu",
+      "en": "I rest, relax",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u16-w10",
+      "ru": "ложусь спать",
+      "stress": "ложу́сь спать",
+      "translit": "lozhús' spat'",
+      "en": "I go to bed",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u16-w11",
+      "ru": "обычно",
+      "stress": "обы́чно",
+      "translit": "obýchno",
+      "en": "usually",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u16-w12",
+      "ru": "рано",
+      "stress": "ра́но",
+      "translit": "ráno",
+      "en": "early",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u16-w13",
+      "ru": "поздно",
+      "stress": "по́здно",
+      "translit": "pózdno",
+      "en": "late",
+      "pos": "adverb",
+      "say": "pózna",
+      "note": "the д is silent"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u16-s01",
+      "ru": "Я встаю в семь часов.",
+      "stress": "Я встаю́ в семь часо́в.",
+      "translit": "Ya vstayú v sem' chasóv.",
+      "en": "I get up at seven o'clock.",
+      "accept_ru": [
+        "В семь часов я встаю."
+      ],
+      "accept_en": [
+        "I get up at seven."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "встаю",
+          "в",
+          "семь",
+          "часов"
+        ],
+        "extra_tiles": [
+          "умываюсь",
+          "умывается",
+          "спать"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s02",
+      "ru": "Обычно я просыпаюсь в шесть часов.",
+      "stress": "Обы́чно я просыпа́юсь в шесть часо́в.",
+      "translit": "Obýchno ya prosypáyus' v shest' chasóv.",
+      "en": "I usually wake up at six o'clock.",
+      "accept_ru": [
+        "Я обычно просыпаюсь в шесть часов."
+      ],
+      "accept_en": [
+        "Usually I wake up at six."
+      ],
+      "word_bank": {
+        "answer": [
+          "обычно",
+          "я",
+          "просыпаюсь",
+          "в",
+          "шесть",
+          "часов"
+        ],
+        "extra_tiles": [
+          "час",
+          "умывается",
+          "встаю"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s03",
+      "ru": "Потом я умываюсь и завтракаю.",
+      "stress": "Пото́м я умыва́юсь и за́втракаю.",
+      "translit": "Potóm ya umyváyus' i závtrakayu.",
+      "en": "Then I wash and have breakfast.",
+      "word_bank": {
+        "answer": [
+          "потом",
+          "я",
+          "умываюсь",
+          "и",
+          "завтракаю"
+        ],
+        "extra_tiles": [
+          "ужинает",
+          "отдыхаю",
+          "ужинаю"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s04",
+      "ru": "В восемь часов я иду в школу.",
+      "stress": "В во́семь часо́в я иду́ в шко́лу.",
+      "translit": "V vósem' chasóv ya idú v shkólu.",
+      "en": "At eight o'clock I go to school.",
+      "accept_ru": [
+        "Я иду в школу в восемь часов."
+      ],
+      "accept_en": [
+        "I go to school at eight."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "восемь",
+          "часов",
+          "я",
+          "иду",
+          "в",
+          "школу"
+        ],
+        "extra_tiles": [
+          "часа",
+          "вставать",
+          "ужинает"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s05",
+      "ru": "Днём я обедаю в школе.",
+      "stress": "Днём я обе́даю в шко́ле.",
+      "translit": "Dnyom ya obédayu v shkóle.",
+      "en": "In the afternoon I have lunch at school.",
+      "accept_en": [
+        "I have lunch at school."
+      ],
+      "word_bank": {
+        "answer": [
+          "днём",
+          "я",
+          "обедаю",
+          "в",
+          "школе"
+        ],
+        "extra_tiles": [
+          "завтракаю",
+          "час",
+          "часа"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s06",
+      "ru": "Вечером я отдыхаю.",
+      "stress": "Ве́чером я отдыха́ю.",
+      "translit": "Vécherom ya otdykháyu.",
+      "en": "In the evening I relax.",
+      "accept_ru": [
+        "Я отдыхаю вечером."
+      ],
+      "accept_en": [
+        "I rest in the evening."
+      ],
+      "word_bank": {
+        "answer": [
+          "вечером",
+          "я",
+          "отдыхаю"
+        ],
+        "extra_tiles": [
+          "вставать",
+          "умываться",
+          "работает"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s07",
+      "ru": "Папа работает в банке.",
+      "stress": "Па́па рабо́тает в ба́нке.",
+      "translit": "Pápa rabótayet v bánke.",
+      "en": "Dad works at a bank.",
+      "accept_en": [
+        "My dad works in a bank."
+      ],
+      "word_bank": {
+        "answer": [
+          "папа",
+          "работает",
+          "в",
+          "банке"
+        ],
+        "extra_tiles": [
+          "отдыхаю",
+          "обычно",
+          "вставать"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s08",
+      "ru": "Мы ужинаем в семь часов.",
+      "stress": "Мы у́жинаем в семь часо́в.",
+      "translit": "My úzhinayem v sem' chasóv.",
+      "en": "We have dinner at seven o'clock.",
+      "accept_en": [
+        "We eat dinner at seven."
+      ],
+      "word_bank": {
+        "answer": [
+          "мы",
+          "ужинаем",
+          "в",
+          "семь",
+          "часов"
+        ],
+        "extra_tiles": [
+          "спать",
+          "ужинает",
+          "работаешь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s09",
+      "ru": "Я ложусь спать в одиннадцать часов.",
+      "stress": "Я ложу́сь спать в оди́ннадцать часо́в.",
+      "translit": "Ya lozhús' spat' v odínnadtsat' chasóv.",
+      "en": "I go to bed at eleven o'clock.",
+      "accept_en": [
+        "I go to bed at eleven."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "ложусь",
+          "спать",
+          "в",
+          "одиннадцать",
+          "часов"
+        ],
+        "extra_tiles": [
+          "завтракаю",
+          "часа",
+          "обычно"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s10",
+      "ru": "Когда ты встаёшь?",
+      "stress": "Когда́ ты встаёшь?",
+      "translit": "Kogdá ty vstayosh'?",
+      "en": "When do you get up?",
+      "accept_en": [
+        "What time do you get up?"
+      ],
+      "word_bank": {
+        "answer": [
+          "когда",
+          "ты",
+          "встаёшь"
+        ],
+        "extra_tiles": [
+          "часа",
+          "ужинаем",
+          "обедаю"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s11",
+      "ru": "Мама встаёт рано.",
+      "stress": "Ма́ма встаёт ра́но.",
+      "translit": "Máma vstayot ráno.",
+      "en": "Mom gets up early.",
+      "word_bank": {
+        "answer": [
+          "мама",
+          "встаёт",
+          "рано"
+        ],
+        "extra_tiles": [
+          "час",
+          "часы",
+          "работают"
+        ]
+      }
+    },
+    {
+      "id": "a1-u16-s12",
+      "ru": "В субботу я встаю поздно.",
+      "stress": "В суббо́ту я встаю́ по́здно.",
+      "translit": "V subbótu ya vstayú pózdno.",
+      "en": "On Saturday I get up late.",
+      "accept_ru": [
+        "Я встаю поздно в субботу."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "субботу",
+          "я",
+          "встаю",
+          "поздно"
+        ],
+        "extra_tiles": [
+          "встаёшь",
+          "работаешь",
+          "отдыхаю"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u16-g01",
+      "prompt": "Я ___ в семь часов.",
+      "options": [
+        "встаю",
+        "встаёт",
+        "встаёшь",
+        "вставать"
+      ],
+      "answer": "встаю",
+      "en": "I get up at seven o'clock."
+    },
+    {
+      "id": "a1-u16-g02",
+      "prompt": "Утром я ___.",
+      "options": [
+        "умываюсь",
+        "умывается",
+        "умываешься",
+        "умываться"
+      ],
+      "answer": "умываюсь",
+      "en": "In the morning I wash."
+    },
+    {
+      "id": "a1-u16-g03",
+      "prompt": "Папа ___ в банке.",
+      "options": [
+        "работает",
+        "работаю",
+        "работаешь",
+        "работают"
+      ],
+      "answer": "работает",
+      "en": "Dad works at a bank."
+    },
+    {
+      "id": "a1-u16-g04",
+      "prompt": "Я ложусь спать в одиннадцать ___.",
+      "options": [
+        "часов",
+        "часа",
+        "час",
+        "часы"
+      ],
+      "answer": "часов",
+      "en": "I go to bed at eleven."
+    },
+    {
+      "id": "a1-u16-g05",
+      "prompt": "Мы ___ в семь часов.",
+      "options": [
+        "ужинаем",
+        "ужинаю",
+        "ужинает",
+        "ужинают"
+      ],
+      "answer": "ужинаем",
+      "en": "We have dinner at seven."
+    }
+  ],
+  "dialogue": {
+    "title": "Early bird",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Марк, когда ты встаёшь?",
+        "stress": "Марк, когда́ ты встаёшь?",
+        "translit": "Mark, kogdá ty vstayosh'?",
+        "en": "Mark, when do you get up?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Обычно в семь часов. Потом я завтракаю и иду в школу.",
+        "stress": "Обы́чно в семь часо́в. Пото́м я за́втракаю и иду́ в шко́лу.",
+        "translit": "Obýchno v sem' chasóv. Potóm ya závtrakayu i idú v shkólu.",
+        "en": "Usually at seven. Then I have breakfast and go to school."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "А я встаю в шесть часов.",
+        "stress": "А я встаю́ в шесть часо́в.",
+        "translit": "A ya vstayú v shest' chasóv.",
+        "en": "And I get up at six."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Почему так рано?",
+        "stress": "Почему́ так ра́но?",
+        "translit": "Pochemú tak ráno?",
+        "en": "Why so early?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Потому что я работаю утром.",
+        "stress": "Потому́ что я рабо́таю у́тром.",
+        "translit": "Potomú chto ya rabótayu útrom.",
+        "en": "Because I work in the morning."
+      }
+    ],
+    "questions": [
+      {
+        "question": "When does Mark usually get up?",
+        "options": [
+          "At seven",
+          "At six",
+          "At eight"
+        ],
+        "answer": "At seven"
+      },
+      {
+        "question": "Why does Anya get up early?",
+        "options": [
+          "She works in the morning",
+          "She has a lesson",
+          "Her dog wakes her"
+        ],
+        "answer": "She works in the morning"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u16-wr01",
+    "prompt": "Describe your morning in 3–4 sentences.",
+    "use": [
+      "обы́чно",
+      "я встаю́ в … часо́в",
+      "пото́м"
+    ],
+    "model": {
+      "ru": "Обычно я встаю в семь часов. Потом я умываюсь и завтракаю. В восемь часов я иду в школу.",
+      "stress": "Обы́чно я встаю́ в семь часо́в. Пото́м я умыва́юсь и за́втракаю. В во́семь часо́в я иду́ в шко́лу."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

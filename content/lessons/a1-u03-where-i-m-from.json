@@ -1,0 +1,653 @@
+{
+  "id": "a1-u03",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 3,
+  "title": "Where I'm from",
+  "goal": "Say where you are from and which language you speak.",
+  "grammar": [
+    {
+      "title": "из + country or city",
+      "explanation": "'From' is из, and the place name changes its ending (genitive case). Learn these as ready-made chunks for now: Росси́я → из Росси́и, Эсто́ния → из Эсто́нии, Москва́ → из Москвы́, Та́ллин → из Та́ллина. Pattern: -ия → -ии, -а → -ы, consonant → add -а."
+    },
+    {
+      "title": "Nationality: male and female forms",
+      "explanation": "ру́сский (a Russian man) / ру́сская (a Russian woman); эсто́нец (an Estonian man) / эсто́нка (an Estonian woman)."
+    },
+    {
+      "title": "Speaking a language: по-…",
+      "explanation": "говори́ть по-ру́сски = to speak Russian. я говорю́, ты говори́шь, он/она́ говори́т."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u03-w01",
+      "ru": "откуда",
+      "stress": "отку́да",
+      "translit": "otkúda",
+      "en": "where from",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u03-w02",
+      "ru": "из",
+      "stress": "из",
+      "translit": "iz",
+      "en": "from",
+      "pos": "preposition",
+      "note": "followed by the genitive case"
+    },
+    {
+      "id": "a1-u03-w03",
+      "ru": "Россия",
+      "stress": "Росси́я",
+      "translit": "Rossíya",
+      "en": "Russia",
+      "pos": "noun f",
+      "note": "из Росси́и = from Russia"
+    },
+    {
+      "id": "a1-u03-w04",
+      "ru": "Эстония",
+      "stress": "Эсто́ния",
+      "translit": "Estóniya",
+      "en": "Estonia",
+      "pos": "noun f",
+      "note": "из Эсто́нии = from Estonia"
+    },
+    {
+      "id": "a1-u03-w05",
+      "ru": "Германия",
+      "stress": "Герма́ния",
+      "translit": "Germániya",
+      "en": "Germany",
+      "pos": "noun f",
+      "note": "из Герма́нии = from Germany"
+    },
+    {
+      "id": "a1-u03-w06",
+      "ru": "Англия",
+      "stress": "А́нглия",
+      "translit": "Ángliya",
+      "en": "England",
+      "pos": "noun f",
+      "note": "из А́нглии = from England"
+    },
+    {
+      "id": "a1-u03-w07",
+      "ru": "Москва",
+      "stress": "Москва́",
+      "translit": "Moskvá",
+      "en": "Moscow",
+      "pos": "noun f",
+      "note": "из Москвы́ = from Moscow"
+    },
+    {
+      "id": "a1-u03-w08",
+      "ru": "Таллин",
+      "stress": "Та́ллин",
+      "translit": "Tállin",
+      "en": "Tallinn",
+      "pos": "noun m",
+      "note": "из Та́ллина = from Tallinn"
+    },
+    {
+      "id": "a1-u03-w09",
+      "ru": "страна",
+      "stress": "страна́",
+      "translit": "straná",
+      "en": "country",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u03-w10",
+      "ru": "город",
+      "stress": "го́род",
+      "translit": "górod",
+      "en": "city, town",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u03-w11",
+      "ru": "русский",
+      "stress": "ру́сский",
+      "translit": "rússkiy",
+      "en": "Russian (man)",
+      "pos": "noun / adj m"
+    },
+    {
+      "id": "a1-u03-w12",
+      "ru": "русская",
+      "stress": "ру́сская",
+      "translit": "rússkaya",
+      "en": "Russian (woman)",
+      "pos": "noun / adj f"
+    },
+    {
+      "id": "a1-u03-w13",
+      "ru": "эстонец",
+      "stress": "эсто́нец",
+      "translit": "estónets",
+      "en": "Estonian (man)",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u03-w14",
+      "ru": "эстонка",
+      "stress": "эсто́нка",
+      "translit": "estónka",
+      "en": "Estonian (woman)",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u03-w15",
+      "ru": "говорю",
+      "stress": "говорю́",
+      "translit": "govoryú",
+      "en": "I speak",
+      "pos": "verb",
+      "note": "from говори́ть"
+    },
+    {
+      "id": "a1-u03-w16",
+      "ru": "говоришь",
+      "stress": "говори́шь",
+      "translit": "govorísh'",
+      "en": "you speak (informal)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u03-w17",
+      "ru": "по-русски",
+      "stress": "по-ру́сски",
+      "translit": "po-rússki",
+      "en": "in Russian",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u03-w18",
+      "ru": "по-английски",
+      "stress": "по-англи́йски",
+      "translit": "po-anglíyski",
+      "en": "in English",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u03-w19",
+      "ru": "по-эстонски",
+      "stress": "по-эсто́нски",
+      "translit": "po-estónski",
+      "en": "in Estonian",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u03-w20",
+      "ru": "немного",
+      "stress": "немно́го",
+      "translit": "nemnógo",
+      "en": "a little",
+      "pos": "adverb"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u03-s01",
+      "ru": "Откуда ты?",
+      "stress": "Отку́да ты?",
+      "translit": "Otkúda ty?",
+      "en": "Where are you from?",
+      "word_bank": {
+        "answer": [
+          "откуда",
+          "ты"
+        ],
+        "extra_tiles": [
+          "русский",
+          "страна",
+          "по-английски"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s02",
+      "ru": "Я из Эстонии.",
+      "stress": "Я из Эсто́нии.",
+      "translit": "Ya iz Estónii.",
+      "en": "I am from Estonia.",
+      "accept_en": [
+        "I'm from Estonia."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "из",
+          "Эстонии"
+        ],
+        "extra_tiles": [
+          "Англия",
+          "Москве",
+          "Москва"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s03",
+      "ru": "Я из Таллина.",
+      "stress": "Я из Та́ллина.",
+      "translit": "Ya iz Tállina.",
+      "en": "I am from Tallinn.",
+      "accept_en": [
+        "I'm from Tallinn."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "из",
+          "Таллина"
+        ],
+        "extra_tiles": [
+          "Эстонию",
+          "Москва",
+          "эстонка"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s04",
+      "ru": "Мария из России.",
+      "stress": "Мари́я из Росси́и.",
+      "translit": "Maríya iz Rossíi.",
+      "en": "Maria is from Russia.",
+      "accept_en": [
+        "Maria's from Russia."
+      ],
+      "word_bank": {
+        "answer": [
+          "Мария",
+          "из",
+          "России"
+        ],
+        "extra_tiles": [
+          "Москву",
+          "страна",
+          "немного"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s05",
+      "ru": "Она из Москвы.",
+      "stress": "Она́ из Москвы́.",
+      "translit": "Oná iz Moskvý.",
+      "en": "She is from Moscow.",
+      "accept_en": [
+        "She's from Moscow."
+      ],
+      "word_bank": {
+        "answer": [
+          "она",
+          "из",
+          "Москвы"
+        ],
+        "extra_tiles": [
+          "где",
+          "Германия",
+          "по-эстонски"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s06",
+      "ru": "Откуда вы?",
+      "stress": "Отку́да вы?",
+      "translit": "Otkúda vy?",
+      "en": "Where are you from? (polite)",
+      "accept_en": [
+        "Where are you from?"
+      ],
+      "word_bank": {
+        "answer": [
+          "откуда",
+          "вы"
+        ],
+        "extra_tiles": [
+          "Эстонией",
+          "по-эстонски",
+          "как"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s07",
+      "ru": "Иван русский.",
+      "stress": "Ива́н ру́сский.",
+      "translit": "Iván rússkiy.",
+      "en": "Ivan is Russian.",
+      "accept_en": [
+        "Ivan's Russian."
+      ],
+      "word_bank": {
+        "answer": [
+          "Иван",
+          "русский"
+        ],
+        "extra_tiles": [
+          "говорю",
+          "страна",
+          "Москва"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s08",
+      "ru": "Анна русская.",
+      "stress": "А́нна ру́сская.",
+      "translit": "Ánna rússkaya.",
+      "en": "Anna is Russian.",
+      "accept_en": [
+        "Anna's Russian."
+      ],
+      "word_bank": {
+        "answer": [
+          "Анна",
+          "русская"
+        ],
+        "extra_tiles": [
+          "откуда",
+          "где",
+          "Москвы"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s09",
+      "ru": "Я эстонец.",
+      "stress": "Я эсто́нец.",
+      "translit": "Ya estónets.",
+      "en": "I am Estonian. (said by a man)",
+      "accept_en": [
+        "I'm Estonian.",
+        "I am Estonian."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "эстонец"
+        ],
+        "extra_tiles": [
+          "Эстония",
+          "страна",
+          "говорю"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s10",
+      "ru": "Я эстонка.",
+      "stress": "Я эсто́нка.",
+      "translit": "Ya estónka.",
+      "en": "I am Estonian. (said by a woman)",
+      "accept_en": [
+        "I'm Estonian.",
+        "I am Estonian."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "эстонка"
+        ],
+        "extra_tiles": [
+          "говорю",
+          "по-эстонски",
+          "кто"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s11",
+      "ru": "Я немного говорю по-русски.",
+      "stress": "Я немно́го говорю́ по-ру́сски.",
+      "translit": "Ya nemnógo govoryú po-rússki.",
+      "en": "I speak a little Russian.",
+      "accept_ru": [
+        "Я говорю по-русски немного.",
+        "Я говорю немного по-русски."
+      ],
+      "accept_en": [
+        "I speak Russian a little."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "немного",
+          "говорю",
+          "по-русски"
+        ],
+        "extra_tiles": [
+          "по-английски",
+          "Англия",
+          "Москву"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s12",
+      "ru": "Ты говоришь по-английски?",
+      "stress": "Ты говори́шь по-англи́йски?",
+      "translit": "Ty govorísh' po-anglíyski?",
+      "en": "Do you speak English?",
+      "word_bank": {
+        "answer": [
+          "ты",
+          "говоришь",
+          "по-английски"
+        ],
+        "extra_tiles": [
+          "из",
+          "говорю",
+          "Москву"
+        ]
+      }
+    },
+    {
+      "id": "a1-u03-s13",
+      "ru": "Да, я говорю по-английски.",
+      "stress": "Да, я говорю́ по-англи́йски.",
+      "translit": "Da, ya govoryú po-anglíyski.",
+      "en": "Yes, I speak English.",
+      "word_bank": {
+        "answer": [
+          "да",
+          "я",
+          "говорю",
+          "по-английски"
+        ],
+        "extra_tiles": [
+          "откуда",
+          "Москве",
+          "русская"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u03-g01",
+      "prompt": "Я из ___.",
+      "options": [
+        "Эстонии",
+        "Эстония",
+        "Эстонию",
+        "Эстонией"
+      ],
+      "answer": "Эстонии",
+      "en": "I am from Estonia."
+    },
+    {
+      "id": "a1-u03-g02",
+      "prompt": "Она из ___.",
+      "options": [
+        "Москвы",
+        "Москва",
+        "Москве",
+        "Москву"
+      ],
+      "answer": "Москвы",
+      "en": "She is from Moscow."
+    },
+    {
+      "id": "a1-u03-g03",
+      "prompt": "Анна ___.",
+      "options": [
+        "русская",
+        "русский",
+        "русски",
+        "Россия"
+      ],
+      "answer": "русская",
+      "en": "Anna is Russian."
+    },
+    {
+      "id": "a1-u03-g04",
+      "prompt": "Я говорю ___.",
+      "options": [
+        "по-русски",
+        "русский",
+        "Россия",
+        "русская"
+      ],
+      "answer": "по-русски",
+      "en": "I speak Russian."
+    },
+    {
+      "id": "a1-u03-g05",
+      "prompt": "___ ты? — Я из Таллина.",
+      "options": [
+        "Откуда",
+        "Кто",
+        "Как",
+        "Где"
+      ],
+      "answer": "Откуда",
+      "en": "Where are you from? — I'm from Tallinn."
+    }
+  ],
+  "dialogue": {
+    "title": "Where are you from?",
+    "lines": [
+      {
+        "speaker": "Марк",
+        "ru": "Аня, откуда ты?",
+        "stress": "А́ня, отку́да ты?",
+        "translit": "Ánya, otkúda ty?",
+        "en": "Anya, where are you from?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Я из России, из Москвы. А ты?",
+        "stress": "Я из Росси́и, из Москвы́. А ты?",
+        "translit": "Ya iz Rossíi, iz Moskvý. A ty?",
+        "en": "I'm from Russia, from Moscow. And you?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Я из Эстонии, из Таллина.",
+        "stress": "Я из Эсто́нии, из Та́ллина.",
+        "translit": "Ya iz Estónii, iz Tállina.",
+        "en": "I'm from Estonia, from Tallinn."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Ты говоришь по-русски?",
+        "stress": "Ты говори́шь по-ру́сски?",
+        "translit": "Ty govorísh' po-rússki?",
+        "en": "Do you speak Russian?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Да, немного.",
+        "stress": "Да, немно́го.",
+        "translit": "Da, nemnógo.",
+        "en": "Yes, a little."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which city is Anya from?",
+        "options": [
+          "Moscow",
+          "Tallinn",
+          "Riga",
+          "Tartu"
+        ],
+        "answer": "Moscow"
+      },
+      {
+        "question": "How much Russian does Mark speak?",
+        "options": [
+          "A little",
+          "None",
+          "Perfectly"
+        ],
+        "answer": "A little"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u03-wr01",
+    "prompt": "Say which country and city you are from, and which languages you speak.",
+    "use": [
+      "я из…",
+      "я говорю́ по-…",
+      "немно́го"
+    ],
+    "model": {
+      "ru": "Я из Эстонии, из Таллина. Я говорю по-эстонски и по-английски. По-русски я говорю немного.",
+      "stress": "Я из Эсто́нии, из Та́ллина. Я говорю́ по-эсто́нски и по-англи́йски. По-ру́сски я говорю́ немно́го."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

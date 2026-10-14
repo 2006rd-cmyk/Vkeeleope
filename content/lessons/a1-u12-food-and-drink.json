@@ -1,0 +1,697 @@
+{
+  "id": "a1-u12",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 12,
+  "title": "Food and drink",
+  "goal": "Say what you eat and drink and what you want.",
+  "grammar": [
+    {
+      "title": "Three irregular verbs",
+      "explanation": "есть (to eat): я ем, ты ешь, он ест, мы еди́м, вы еди́те, они́ едя́т. пить (to drink): я пью, ты пьёшь, он пьёт, мы пьём, вы пьёте, они́ пьют. хоте́ть (to want): я хочу́, ты хо́чешь, он хо́чет, мы хоти́м, вы хоти́те, они́ хотя́т."
+    },
+    {
+      "title": "Object of a verb (accusative)",
+      "explanation": "The thing you eat, drink or want changes only if it is a feminine -а / -я word: вода́ → Я пью во́ду, ры́ба → Я ем ры́бу, ка́ша → Я ем ка́шу. Masculine things and -о words stay the same: Я ем хлеб. Я пью молоко́."
+    },
+    {
+      "title": "не = not",
+      "explanation": "не goes right before the verb: Я не ем мя́со."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u12-w01",
+      "ru": "еда",
+      "stress": "еда́",
+      "translit": "yedá",
+      "en": "food",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u12-w02",
+      "ru": "хлеб",
+      "stress": "хлеб",
+      "translit": "khleb",
+      "en": "bread",
+      "pos": "noun m",
+      "say": "khlep"
+    },
+    {
+      "id": "a1-u12-w03",
+      "ru": "сыр",
+      "stress": "сыр",
+      "translit": "syr",
+      "en": "cheese",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u12-w04",
+      "ru": "мясо",
+      "stress": "мя́со",
+      "translit": "myáso",
+      "en": "meat",
+      "pos": "noun n"
+    },
+    {
+      "id": "a1-u12-w05",
+      "ru": "рыба",
+      "stress": "ры́ба",
+      "translit": "rýba",
+      "en": "fish",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u12-w06",
+      "ru": "суп",
+      "stress": "суп",
+      "translit": "sup",
+      "en": "soup",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u12-w07",
+      "ru": "салат",
+      "stress": "сала́т",
+      "translit": "salát",
+      "en": "salad",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u12-w08",
+      "ru": "каша",
+      "stress": "ка́ша",
+      "translit": "kásha",
+      "en": "porridge",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u12-w09",
+      "ru": "яблоко",
+      "stress": "я́блоко",
+      "translit": "yábloko",
+      "en": "apple",
+      "pos": "noun n"
+    },
+    {
+      "id": "a1-u12-w10",
+      "ru": "молоко",
+      "stress": "молоко́",
+      "translit": "molokó",
+      "en": "milk",
+      "pos": "noun n",
+      "say": "malakó"
+    },
+    {
+      "id": "a1-u12-w11",
+      "ru": "вода",
+      "stress": "вода́",
+      "translit": "vodá",
+      "en": "water",
+      "pos": "noun f",
+      "note": "Я пью во́ду"
+    },
+    {
+      "id": "a1-u12-w12",
+      "ru": "чай",
+      "stress": "чай",
+      "translit": "chay",
+      "en": "tea",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u12-w13",
+      "ru": "кофе",
+      "stress": "ко́фе",
+      "translit": "kófe",
+      "en": "coffee",
+      "pos": "noun m",
+      "note": "masculine and never changes"
+    },
+    {
+      "id": "a1-u12-w14",
+      "ru": "сок",
+      "stress": "сок",
+      "translit": "sok",
+      "en": "juice",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u12-w15",
+      "ru": "хочу",
+      "stress": "хочу́",
+      "translit": "khochú",
+      "en": "I want",
+      "pos": "verb",
+      "note": "from хоте́ть"
+    },
+    {
+      "id": "a1-u12-w16",
+      "ru": "хочешь",
+      "stress": "хо́чешь",
+      "translit": "khóchesh'",
+      "en": "you want (informal)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u12-w17",
+      "ru": "ем",
+      "stress": "ем",
+      "translit": "yem",
+      "en": "I eat",
+      "pos": "verb",
+      "note": "from есть"
+    },
+    {
+      "id": "a1-u12-w18",
+      "ru": "ест",
+      "stress": "ест",
+      "translit": "yest",
+      "en": "he / she eats",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u12-w19",
+      "ru": "пью",
+      "stress": "пью",
+      "translit": "p'yu",
+      "en": "I drink",
+      "pos": "verb",
+      "note": "from пить"
+    },
+    {
+      "id": "a1-u12-w20",
+      "ru": "пьёшь",
+      "stress": "пьёшь",
+      "translit": "p'yosh'",
+      "en": "you drink (informal)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u12-w21",
+      "ru": "завтрак",
+      "stress": "за́втрак",
+      "translit": "závtrak",
+      "en": "breakfast",
+      "pos": "noun m",
+      "note": "на за́втрак = for breakfast"
+    },
+    {
+      "id": "a1-u12-w22",
+      "ru": "обед",
+      "stress": "обе́д",
+      "translit": "obéd",
+      "en": "lunch",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u12-w23",
+      "ru": "ужин",
+      "stress": "у́жин",
+      "translit": "úzhin",
+      "en": "dinner",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u12-w24",
+      "ru": "вкусно",
+      "stress": "вку́сно",
+      "translit": "vkúsno",
+      "en": "tasty, delicious",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u12-w25",
+      "ru": "не",
+      "stress": "не",
+      "translit": "ne",
+      "en": "not",
+      "pos": "particle"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u12-s01",
+      "ru": "Я хочу есть.",
+      "stress": "Я хочу́ есть.",
+      "translit": "Ya khochú yest'.",
+      "en": "I am hungry.",
+      "accept_en": [
+        "I want to eat.",
+        "I'm hungry."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "хочу",
+          "есть"
+        ],
+        "extra_tiles": [
+          "салат",
+          "ем",
+          "пью"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s02",
+      "ru": "Я хочу пить.",
+      "stress": "Я хочу́ пить.",
+      "translit": "Ya khochú pit'.",
+      "en": "I am thirsty.",
+      "accept_en": [
+        "I want to drink.",
+        "I'm thirsty."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "хочу",
+          "пить"
+        ],
+        "extra_tiles": [
+          "чай",
+          "хлеб",
+          "молоко"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s03",
+      "ru": "Что ты хочешь?",
+      "stress": "Что ты хо́чешь?",
+      "translit": "Chto ty khóchesh'?",
+      "en": "What do you want?",
+      "accept_en": [
+        "What would you like?"
+      ],
+      "word_bank": {
+        "answer": [
+          "что",
+          "ты",
+          "хочешь"
+        ],
+        "extra_tiles": [
+          "салат",
+          "воды",
+          "каша"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s04",
+      "ru": "Я пью воду.",
+      "stress": "Я пью во́ду.",
+      "translit": "Ya p'yu vódu.",
+      "en": "I drink water.",
+      "accept_en": [
+        "I am drinking water."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "пью",
+          "воду"
+        ],
+        "extra_tiles": [
+          "пьёшь",
+          "рыбы",
+          "хочешь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s05",
+      "ru": "Я ем хлеб и сыр.",
+      "stress": "Я ем хлеб и сыр.",
+      "translit": "Ya yem khleb i syr.",
+      "en": "I eat bread and cheese.",
+      "accept_en": [
+        "I am eating bread and cheese."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "ем",
+          "хлеб",
+          "и",
+          "сыр"
+        ],
+        "extra_tiles": [
+          "рыба",
+          "каша",
+          "хочешь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s06",
+      "ru": "Ты пьёшь кофе?",
+      "stress": "Ты пьёшь ко́фе?",
+      "translit": "Ty p'yosh' kófe?",
+      "en": "Do you drink coffee?",
+      "accept_en": [
+        "Are you drinking coffee?"
+      ],
+      "word_bank": {
+        "answer": [
+          "ты",
+          "пьёшь",
+          "кофе"
+        ],
+        "extra_tiles": [
+          "едят",
+          "чай",
+          "воды"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s07",
+      "ru": "Нет, я пью чай.",
+      "stress": "Нет, я пью чай.",
+      "translit": "Net, ya p'yu chay.",
+      "en": "No, I drink tea.",
+      "accept_en": [
+        "No, I'm drinking tea."
+      ],
+      "word_bank": {
+        "answer": [
+          "нет",
+          "я",
+          "пью",
+          "чай"
+        ],
+        "extra_tiles": [
+          "еда",
+          "хочешь",
+          "сок"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s08",
+      "ru": "На завтрак я ем кашу.",
+      "stress": "На за́втрак я ем ка́шу.",
+      "translit": "Na závtrak ya yem káshu.",
+      "en": "For breakfast I eat porridge.",
+      "accept_ru": [
+        "Я ем кашу на завтрак."
+      ],
+      "accept_en": [
+        "I eat porridge for breakfast."
+      ],
+      "word_bank": {
+        "answer": [
+          "на",
+          "завтрак",
+          "я",
+          "ем",
+          "кашу"
+        ],
+        "extra_tiles": [
+          "пьют",
+          "ест",
+          "сок"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s09",
+      "ru": "Сегодня на ужин рыба.",
+      "stress": "Сего́дня на у́жин ры́ба.",
+      "translit": "Segódnya na úzhin rýba.",
+      "en": "Today there is fish for dinner.",
+      "accept_en": [
+        "We're having fish for dinner today."
+      ],
+      "word_bank": {
+        "answer": [
+          "сегодня",
+          "на",
+          "ужин",
+          "рыба"
+        ],
+        "extra_tiles": [
+          "воды",
+          "воде",
+          "хочешь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s10",
+      "ru": "Он не ест мясо.",
+      "stress": "Он не ест мя́со.",
+      "translit": "On ne yest myáso.",
+      "en": "He does not eat meat.",
+      "accept_en": [
+        "He doesn't eat meat."
+      ],
+      "word_bank": {
+        "answer": [
+          "он",
+          "не",
+          "ест",
+          "мясо"
+        ],
+        "extra_tiles": [
+          "сыр",
+          "ешь",
+          "рыбе"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s11",
+      "ru": "Она хочет салат.",
+      "stress": "Она́ хо́чет сала́т.",
+      "translit": "Oná khóchet salát.",
+      "en": "She wants a salad.",
+      "accept_en": [
+        "She wants salad."
+      ],
+      "word_bank": {
+        "answer": [
+          "она",
+          "хочет",
+          "салат"
+        ],
+        "extra_tiles": [
+          "рыба",
+          "не",
+          "пьёт"
+        ]
+      }
+    },
+    {
+      "id": "a1-u12-s12",
+      "ru": "Очень вкусно!",
+      "stress": "О́чень вку́сно!",
+      "translit": "Óchen' vkúsno!",
+      "en": "Very tasty!",
+      "accept_en": [
+        "Delicious!",
+        "It's very tasty!"
+      ],
+      "word_bank": {
+        "answer": [
+          "очень",
+          "вкусно"
+        ],
+        "extra_tiles": [
+          "чай",
+          "ужин",
+          "ешь"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u12-g01",
+      "prompt": "Я пью ___.",
+      "options": [
+        "воду",
+        "вода",
+        "воде",
+        "воды"
+      ],
+      "answer": "воду",
+      "en": "I drink water."
+    },
+    {
+      "id": "a1-u12-g02",
+      "prompt": "Я ___ хлеб.",
+      "options": [
+        "ем",
+        "ест",
+        "ешь",
+        "едят"
+      ],
+      "answer": "ем",
+      "en": "I eat bread."
+    },
+    {
+      "id": "a1-u12-g03",
+      "prompt": "Ты ___ кофе?",
+      "options": [
+        "пьёшь",
+        "пью",
+        "пьёт",
+        "пьют"
+      ],
+      "answer": "пьёшь",
+      "en": "Do you drink coffee?"
+    },
+    {
+      "id": "a1-u12-g04",
+      "prompt": "Что ты ___?",
+      "options": [
+        "хочешь",
+        "хочу",
+        "хочет",
+        "хотят"
+      ],
+      "answer": "хочешь",
+      "en": "What do you want?"
+    },
+    {
+      "id": "a1-u12-g05",
+      "prompt": "Я ем ___.",
+      "options": [
+        "рыбу",
+        "рыба",
+        "рыбы",
+        "рыбе"
+      ],
+      "answer": "рыбу",
+      "en": "I eat fish."
+    }
+  ],
+  "dialogue": {
+    "title": "Breakfast",
+    "lines": [
+      {
+        "speaker": "Мама",
+        "ru": "Аня, ты хочешь есть?",
+        "stress": "А́ня, ты хо́чешь есть?",
+        "translit": "Ánya, ty khóchesh' yest'?",
+        "en": "Anya, are you hungry?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Да, очень! Что у нас на завтрак?",
+        "stress": "Да, о́чень! Что у нас на за́втрак?",
+        "translit": "Da, óchen'! Chto u nas na závtrak?",
+        "en": "Yes, very! What's for breakfast?"
+      },
+      {
+        "speaker": "Мама",
+        "ru": "Каша, хлеб и сыр.",
+        "stress": "Ка́ша, хлеб и сыр.",
+        "translit": "Kásha, khleb i syr.",
+        "en": "Porridge, bread and cheese."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "А что ты пьёшь?",
+        "stress": "А что ты пьёшь?",
+        "translit": "A chto ty p'yosh'?",
+        "en": "And what are you drinking?"
+      },
+      {
+        "speaker": "Мама",
+        "ru": "Кофе. А ты?",
+        "stress": "Ко́фе. А ты?",
+        "translit": "Kófe. A ty?",
+        "en": "Coffee. And you?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "А я пью чай.",
+        "stress": "А я пью чай.",
+        "translit": "A ya p'yu chay.",
+        "en": "And I'm drinking tea."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What does Mom drink?",
+        "options": [
+          "Coffee",
+          "Tea",
+          "Milk",
+          "Juice"
+        ],
+        "answer": "Coffee"
+      },
+      {
+        "question": "What is for breakfast?",
+        "options": [
+          "Porridge, bread and cheese",
+          "Fish and salad",
+          "Soup"
+        ],
+        "answer": "Porridge, bread and cheese"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u12-wr01",
+    "prompt": "Say what you eat and drink in the morning, and what you want now.",
+    "use": [
+      "у́тром я ем…",
+      "я пью…",
+      "я хочу́…"
+    ],
+    "model": {
+      "ru": "Утром я ем кашу и пью чай. Сейчас я хочу яблоко.",
+      "stress": "У́тром я ем ка́шу и пью чай. Сейча́с я хочу́ я́блоко."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

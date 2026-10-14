@@ -1,0 +1,686 @@
+{
+  "id": "a1-u05",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 5,
+  "title": "My family",
+  "goal": "Show and describe your family.",
+  "grammar": [
+    {
+      "title": "Noun gender",
+      "explanation": "Every noun is masculine, feminine or neuter. Usually: ends in a consonant → masculine (брат, дом); ends in -а / -я → feminine (ма́ма, семья́); ends in -о / -е → neuter (у́тро). Some words follow their meaning: па́па and де́душка end in -а but are masculine."
+    },
+    {
+      "title": "my / your",
+      "explanation": "мой (m), моя́ (f), моё (n), мои́ (plural). твой, твоя́, твоё, твои́ work the same way. мой брат, моя́ сестра́, мои́ роди́тели."
+    },
+    {
+      "title": "I have = у меня́ есть",
+      "explanation": "Russian says 'at me there is': У меня́ есть брат. When you describe what you have (big, small), drop есть: У меня́ больша́я семья́."
+    },
+    {
+      "title": "his / her",
+      "explanation": "его́ (his) and её (her) never change: его́ сестра́, её брат. In the phrase 'his name is' the same words mean 'him / her': Его́ зову́т Макси́м."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u05-w01",
+      "ru": "семья",
+      "stress": "семья́",
+      "translit": "sem'yá",
+      "en": "family",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u05-w02",
+      "ru": "мама",
+      "stress": "ма́ма",
+      "translit": "máma",
+      "en": "mom",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u05-w03",
+      "ru": "папа",
+      "stress": "па́па",
+      "translit": "pápa",
+      "en": "dad",
+      "pos": "noun m",
+      "note": "masculine, although it ends in -а"
+    },
+    {
+      "id": "a1-u05-w04",
+      "ru": "мать",
+      "stress": "мать",
+      "translit": "mat'",
+      "en": "mother",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u05-w05",
+      "ru": "отец",
+      "stress": "оте́ц",
+      "translit": "otéts",
+      "en": "father",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u05-w06",
+      "ru": "брат",
+      "stress": "брат",
+      "translit": "brat",
+      "en": "brother",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u05-w07",
+      "ru": "сестра",
+      "stress": "сестра́",
+      "translit": "sestrá",
+      "en": "sister",
+      "pos": "noun f",
+      "say": "sistrá"
+    },
+    {
+      "id": "a1-u05-w08",
+      "ru": "бабушка",
+      "stress": "ба́бушка",
+      "translit": "bábushka",
+      "en": "grandmother",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u05-w09",
+      "ru": "дедушка",
+      "stress": "де́душка",
+      "translit": "dédushka",
+      "en": "grandfather",
+      "pos": "noun m",
+      "note": "masculine, although it ends in -а"
+    },
+    {
+      "id": "a1-u05-w10",
+      "ru": "сын",
+      "stress": "сын",
+      "translit": "syn",
+      "en": "son",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u05-w11",
+      "ru": "дочь",
+      "stress": "дочь",
+      "translit": "doch'",
+      "en": "daughter",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u05-w12",
+      "ru": "родители",
+      "stress": "роди́тели",
+      "translit": "rodíteli",
+      "en": "parents",
+      "pos": "noun pl"
+    },
+    {
+      "id": "a1-u05-w13",
+      "ru": "друг",
+      "stress": "друг",
+      "translit": "drug",
+      "en": "friend (male)",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u05-w14",
+      "ru": "подруга",
+      "stress": "подру́га",
+      "translit": "podrúga",
+      "en": "friend (female)",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u05-w15",
+      "ru": "мой",
+      "stress": "мой",
+      "translit": "moy",
+      "en": "my (m)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u05-w16",
+      "ru": "моя",
+      "stress": "моя́",
+      "translit": "moyá",
+      "en": "my (f)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u05-w17",
+      "ru": "мои",
+      "stress": "мои́",
+      "translit": "moí",
+      "en": "my (plural)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u05-w18",
+      "ru": "твой",
+      "stress": "твой",
+      "translit": "tvoy",
+      "en": "your (m, informal)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u05-w19",
+      "ru": "твоя",
+      "stress": "твоя́",
+      "translit": "tvoyá",
+      "en": "your (f, informal)",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u05-w20",
+      "ru": "его",
+      "stress": "его́",
+      "translit": "yegó",
+      "en": "his; him",
+      "pos": "pronoun",
+      "say": "yivó"
+    },
+    {
+      "id": "a1-u05-w21",
+      "ru": "её",
+      "stress": "её",
+      "translit": "yeyo",
+      "en": "her",
+      "pos": "pronoun"
+    },
+    {
+      "id": "a1-u05-w22",
+      "ru": "у меня есть",
+      "stress": "у меня́ есть",
+      "translit": "u menyá yest'",
+      "en": "I have",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u05-w23",
+      "ru": "большой / большая",
+      "stress": "большо́й / больша́я",
+      "translit": "bol'shóy / bol'sháya",
+      "en": "big (m / f)",
+      "pos": "adjective"
+    },
+    {
+      "id": "a1-u05-w24",
+      "ru": "маленький / маленькая",
+      "stress": "ма́ленький / ма́ленькая",
+      "translit": "málen'kiy / málen'kaya",
+      "en": "small (m / f)",
+      "pos": "adjective"
+    },
+    {
+      "id": "a1-u05-w25",
+      "ru": "вот",
+      "stress": "вот",
+      "translit": "vot",
+      "en": "here is, here are",
+      "pos": "particle"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u05-s01",
+      "ru": "Это моя семья.",
+      "stress": "Э́то моя́ семья́.",
+      "translit": "Éto moyá sem'yá.",
+      "en": "This is my family.",
+      "accept_en": [
+        "It is my family."
+      ],
+      "word_bank": {
+        "answer": [
+          "это",
+          "моя",
+          "семья"
+        ],
+        "extra_tiles": [
+          "мне",
+          "твой",
+          "есть"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s02",
+      "ru": "Вот мой папа и моя мама.",
+      "stress": "Вот мой па́па и моя́ ма́ма.",
+      "translit": "Vot moy pápa i moyá máma.",
+      "en": "Here are my dad and my mom.",
+      "accept_en": [
+        "Here is my dad and my mom.",
+        "Here are my dad and mom."
+      ],
+      "word_bank": {
+        "answer": [
+          "вот",
+          "мой",
+          "папа",
+          "и",
+          "моя",
+          "мама"
+        ],
+        "extra_tiles": [
+          "мои",
+          "сестра",
+          "маленькая"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s03",
+      "ru": "У меня есть брат и сестра.",
+      "stress": "У меня́ есть брат и сестра́.",
+      "translit": "U menyá yest' brat i sestrá.",
+      "en": "I have a brother and a sister.",
+      "accept_ru": [
+        "У меня есть сестра и брат."
+      ],
+      "word_bank": {
+        "answer": [
+          "у",
+          "меня",
+          "есть",
+          "брат",
+          "и",
+          "сестра"
+        ],
+        "extra_tiles": [
+          "мама",
+          "моё",
+          "его"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s04",
+      "ru": "Его зовут Максим.",
+      "stress": "Его́ зову́т Макси́м.",
+      "translit": "Yegó zovút Maksím.",
+      "en": "His name is Maksim.",
+      "accept_en": [
+        "He is called Maksim."
+      ],
+      "word_bank": {
+        "answer": [
+          "его",
+          "зовут",
+          "Максим"
+        ],
+        "extra_tiles": [
+          "мать",
+          "большой",
+          "Москве"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s05",
+      "ru": "Её зовут Анна.",
+      "stress": "Её зову́т А́нна.",
+      "translit": "Yeyo zovút Ánna.",
+      "en": "Her name is Anna.",
+      "accept_en": [
+        "She is called Anna."
+      ],
+      "word_bank": {
+        "answer": [
+          "её",
+          "зовут",
+          "Анна"
+        ],
+        "extra_tiles": [
+          "друг",
+          "большая",
+          "Максим"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s06",
+      "ru": "Моя сестра студентка.",
+      "stress": "Моя́ сестра́ студе́нтка.",
+      "translit": "Moyá sestrá studéntka.",
+      "en": "My sister is a student.",
+      "word_bank": {
+        "answer": [
+          "моя",
+          "сестра",
+          "студентка"
+        ],
+        "extra_tiles": [
+          "меня",
+          "мой",
+          "маленький"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s07",
+      "ru": "Моя бабушка из Москвы.",
+      "stress": "Моя́ ба́бушка из Москвы́.",
+      "translit": "Moyá bábushka iz Moskvý.",
+      "en": "My grandmother is from Moscow.",
+      "accept_en": [
+        "My grandma is from Moscow."
+      ],
+      "word_bank": {
+        "answer": [
+          "моя",
+          "бабушка",
+          "из",
+          "Москвы"
+        ],
+        "extra_tiles": [
+          "ей",
+          "мама",
+          "Таллина"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s08",
+      "ru": "Мои родители из Эстонии.",
+      "stress": "Мои́ роди́тели из Эсто́нии.",
+      "translit": "Moí rodíteli iz Estónii.",
+      "en": "My parents are from Estonia.",
+      "word_bank": {
+        "answer": [
+          "мои",
+          "родители",
+          "из",
+          "Эстонии"
+        ],
+        "extra_tiles": [
+          "мой",
+          "сестра",
+          "Анна"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s09",
+      "ru": "У меня большая семья.",
+      "stress": "У меня́ больша́я семья́.",
+      "translit": "U menyá bol'sháya sem'yá.",
+      "en": "I have a big family.",
+      "accept_en": [
+        "My family is big."
+      ],
+      "word_bank": {
+        "answer": [
+          "у",
+          "меня",
+          "большая",
+          "семья"
+        ],
+        "extra_tiles": [
+          "вот",
+          "бабушка",
+          "я"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s10",
+      "ru": "Это твой брат?",
+      "stress": "Э́то твой брат?",
+      "translit": "Éto tvoy brat?",
+      "en": "Is this your brother?",
+      "accept_en": [
+        "Is that your brother?"
+      ],
+      "word_bank": {
+        "answer": [
+          "это",
+          "твой",
+          "брат"
+        ],
+        "extra_tiles": [
+          "она",
+          "родители",
+          "маленькая"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s11",
+      "ru": "Нет, это мой друг.",
+      "stress": "Нет, э́то мой друг.",
+      "translit": "Net, éto moy drug.",
+      "en": "No, this is my friend.",
+      "accept_en": [
+        "No, that is my friend.",
+        "No, it's my friend."
+      ],
+      "word_bank": {
+        "answer": [
+          "нет",
+          "это",
+          "мой",
+          "друг"
+        ],
+        "extra_tiles": [
+          "подруга",
+          "мои",
+          "меня"
+        ]
+      }
+    },
+    {
+      "id": "a1-u05-s12",
+      "ru": "Моему дедушке восемьдесят лет.",
+      "stress": "Моему́ де́душке во́семьдесят лет.",
+      "translit": "Moyemú dédushke vósem'desyat let.",
+      "en": "My grandfather is eighty years old.",
+      "accept_en": [
+        "My grandfather is eighty.",
+        "My grandpa is eighty."
+      ],
+      "word_bank": {
+        "answer": [
+          "моему",
+          "дедушке",
+          "восемьдесят",
+          "лет"
+        ],
+        "extra_tiles": [
+          "мои",
+          "мне",
+          "его"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u05-g01",
+      "prompt": "Это ___ мама.",
+      "options": [
+        "моя",
+        "мой",
+        "моё",
+        "мои"
+      ],
+      "answer": "моя",
+      "en": "This is my mom."
+    },
+    {
+      "id": "a1-u05-g02",
+      "prompt": "Это ___ папа.",
+      "options": [
+        "мой",
+        "моя",
+        "моё",
+        "мои"
+      ],
+      "answer": "мой",
+      "en": "This is my dad."
+    },
+    {
+      "id": "a1-u05-g03",
+      "prompt": "Это ___ родители.",
+      "options": [
+        "мои",
+        "мой",
+        "моя",
+        "моё"
+      ],
+      "answer": "мои",
+      "en": "These are my parents."
+    },
+    {
+      "id": "a1-u05-g04",
+      "prompt": "У ___ есть брат.",
+      "options": [
+        "меня",
+        "я",
+        "мне",
+        "мой"
+      ],
+      "answer": "меня",
+      "en": "I have a brother."
+    },
+    {
+      "id": "a1-u05-g05",
+      "prompt": "У меня есть сестра. ___ зовут Анна.",
+      "options": [
+        "Её",
+        "Его",
+        "Она",
+        "Ей"
+      ],
+      "answer": "Её",
+      "en": "I have a sister. Her name is Anna."
+    }
+  ],
+  "dialogue": {
+    "title": "Family photo",
+    "lines": [
+      {
+        "speaker": "Марк",
+        "ru": "Это твоя семья?",
+        "stress": "Э́то твоя́ семья́?",
+        "translit": "Éto tvoyá sem'yá?",
+        "en": "Is this your family?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Да. Вот моя мама, а это мой папа.",
+        "stress": "Да. Вот моя́ ма́ма, а э́то мой па́па.",
+        "translit": "Da. Vot moyá máma, a éto moy pápa.",
+        "en": "Yes. Here is my mom, and this is my dad."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "А кто это?",
+        "stress": "А кто э́то?",
+        "translit": "A kto éto?",
+        "en": "And who is this?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Это мой брат. Его зовут Иван.",
+        "stress": "Э́то мой брат. Его́ зову́т Ива́н.",
+        "translit": "Éto moy brat. Yegó zovút Iván.",
+        "en": "This is my brother. His name is Ivan."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "У тебя большая семья!",
+        "stress": "У тебя́ больша́я семья́!",
+        "translit": "U tebyá bol'sháya sem'yá!",
+        "en": "You have a big family!"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is Anya's brother called?",
+        "options": [
+          "Ivan",
+          "Mark",
+          "Maksim",
+          "Barsik"
+        ],
+        "answer": "Ivan"
+      },
+      {
+        "question": "What does Mark say about the family?",
+        "options": [
+          "It is big",
+          "It is small",
+          "It is from Tallinn"
+        ],
+        "answer": "It is big"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u05-wr01",
+    "prompt": "Describe your family in 3–4 sentences.",
+    "use": [
+      "э́то моя́ семья́",
+      "у меня́ есть",
+      "его́ / её зову́т"
+    ],
+    "model": {
+      "ru": "Это моя семья. У меня есть мама, папа и сестра. Её зовут Анна. Моя сестра студентка.",
+      "stress": "Э́то моя́ семья́. У меня́ есть ма́ма, па́па и сестра́. Её зову́т А́нна. Моя́ сестра́ студе́нтка."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

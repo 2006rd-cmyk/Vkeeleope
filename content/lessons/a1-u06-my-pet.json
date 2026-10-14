@@ -1,0 +1,561 @@
+{
+  "id": "a1-u06",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 6,
+  "title": "My pet",
+  "goal": "Talk about your pet: what it is, its name, what it is like.",
+  "grammar": [
+    {
+      "title": "Adjectives agree with the noun",
+      "explanation": "Adjective endings follow the noun's gender: большо́й кот (m), больша́я соба́ка (f). Typical endings: masculine -ый / -ий / -ой, feminine -ая / -яя."
+    },
+    {
+      "title": "I don't have = у меня́ нет",
+      "explanation": "After нет the noun changes (genitive case). Learn the chunks: У меня́ нет соба́ки. У меня́ нет ко́шки. У меня́ нет кота́."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u06-w01",
+      "ru": "собака",
+      "stress": "соба́ка",
+      "translit": "sobáka",
+      "en": "dog",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u06-w02",
+      "ru": "кошка",
+      "stress": "ко́шка",
+      "translit": "kóshka",
+      "en": "cat (female; also 'cat' in general)",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u06-w03",
+      "ru": "кот",
+      "stress": "кот",
+      "translit": "kot",
+      "en": "cat (male)",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u06-w04",
+      "ru": "попугай",
+      "stress": "попуга́й",
+      "translit": "popugáy",
+      "en": "parrot",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u06-w05",
+      "ru": "хомяк",
+      "stress": "хомя́к",
+      "translit": "khomyák",
+      "en": "hamster",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u06-w06",
+      "ru": "рыбка",
+      "stress": "ры́бка",
+      "translit": "rýbka",
+      "en": "(pet) fish",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u06-w07",
+      "ru": "домашнее животное",
+      "stress": "дома́шнее живо́тное",
+      "translit": "domáshneye zhivótnoye",
+      "en": "pet",
+      "pos": "phrase n",
+      "note": "literally 'home animal'"
+    },
+    {
+      "id": "a1-u06-w08",
+      "ru": "умный / умная",
+      "stress": "у́мный / у́мная",
+      "translit": "úmnyy / úmnaya",
+      "en": "smart (m / f)",
+      "pos": "adjective"
+    },
+    {
+      "id": "a1-u06-w09",
+      "ru": "красивый / красивая",
+      "stress": "краси́вый / краси́вая",
+      "translit": "krasívyy / krasívaya",
+      "en": "beautiful (m / f)",
+      "pos": "adjective"
+    },
+    {
+      "id": "a1-u06-w10",
+      "ru": "старый / старая",
+      "stress": "ста́рый / ста́рая",
+      "translit": "stáryy / stáraya",
+      "en": "old (m / f)",
+      "pos": "adjective"
+    },
+    {
+      "id": "a1-u06-w11",
+      "ru": "молодой / молодая",
+      "stress": "молодо́й / молода́я",
+      "translit": "molodóy / molodáya",
+      "en": "young (m / f)",
+      "pos": "adjective"
+    },
+    {
+      "id": "a1-u06-w12",
+      "ru": "у тебя есть…?",
+      "stress": "у тебя́ есть…?",
+      "translit": "u tebyá yest'…?",
+      "en": "do you have…?",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u06-w13",
+      "ru": "у меня нет…",
+      "stress": "у меня́ нет…",
+      "translit": "u menyá net…",
+      "en": "I don't have…",
+      "pos": "phrase",
+      "note": "followed by the genitive case"
+    },
+    {
+      "id": "a1-u06-w14",
+      "ru": "говорит",
+      "stress": "говори́т",
+      "translit": "govorít",
+      "en": "(he / she / it) talks",
+      "pos": "verb"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u06-s01",
+      "ru": "У меня есть собака.",
+      "stress": "У меня́ есть соба́ка.",
+      "translit": "U menyá yest' sobáka.",
+      "en": "I have a dog.",
+      "accept_en": [
+        "I've got a dog."
+      ],
+      "word_bank": {
+        "answer": [
+          "у",
+          "меня",
+          "есть",
+          "собака"
+        ],
+        "extra_tiles": [
+          "красивая",
+          "молодой",
+          "красивый"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s02",
+      "ru": "Её зовут Белка.",
+      "stress": "Её зову́т Бе́лка.",
+      "translit": "Yeyo zovút Bélka.",
+      "en": "Her name is Belka.",
+      "accept_en": [
+        "She is called Belka."
+      ],
+      "word_bank": {
+        "answer": [
+          "её",
+          "зовут",
+          "Белка"
+        ],
+        "extra_tiles": [
+          "попугай",
+          "умный",
+          "Барсик"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s03",
+      "ru": "У меня есть кот. Его зовут Барсик.",
+      "stress": "У меня́ есть кот. Его́ зову́т Ба́рсик.",
+      "translit": "U menyá yest' kot. Yegó zovút Bársik.",
+      "en": "I have a cat. His name is Barsik.",
+      "accept_en": [
+        "I have a cat. He is called Barsik."
+      ],
+      "word_bank": {
+        "answer": [
+          "у",
+          "меня",
+          "есть",
+          "кот",
+          "его",
+          "зовут",
+          "Барсик"
+        ],
+        "extra_tiles": [
+          "молодой",
+          "собаку",
+          "Тарту"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s04",
+      "ru": "Моя собака большая.",
+      "stress": "Моя́ соба́ка больша́я.",
+      "translit": "Moyá sobáka bol'sháya.",
+      "en": "My dog is big.",
+      "word_bank": {
+        "answer": [
+          "моя",
+          "собака",
+          "большая"
+        ],
+        "extra_tiles": [
+          "умный",
+          "большой",
+          "кошка"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s05",
+      "ru": "Мой кот маленький.",
+      "stress": "Мой кот ма́ленький.",
+      "translit": "Moy kot málen'kiy.",
+      "en": "My cat is small.",
+      "word_bank": {
+        "answer": [
+          "мой",
+          "кот",
+          "маленький"
+        ],
+        "extra_tiles": [
+          "умный",
+          "большое",
+          "говорит"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s06",
+      "ru": "Это твоя кошка?",
+      "stress": "Э́то твоя́ ко́шка?",
+      "translit": "Éto tvoyá kóshka?",
+      "en": "Is this your cat?",
+      "accept_en": [
+        "Is that your cat?"
+      ],
+      "word_bank": {
+        "answer": [
+          "это",
+          "твоя",
+          "кошка"
+        ],
+        "extra_tiles": [
+          "старая",
+          "её",
+          "домашнее"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s07",
+      "ru": "Да, это моя кошка.",
+      "stress": "Да, э́то моя́ ко́шка.",
+      "translit": "Da, éto moyá kóshka.",
+      "en": "Yes, this is my cat.",
+      "accept_en": [
+        "Yes, it's my cat."
+      ],
+      "word_bank": {
+        "answer": [
+          "да",
+          "это",
+          "моя",
+          "кошка"
+        ],
+        "extra_tiles": [
+          "умный",
+          "старая",
+          "говорит"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s08",
+      "ru": "У тебя есть собака?",
+      "stress": "У тебя́ есть соба́ка?",
+      "translit": "U tebyá yest' sobáka?",
+      "en": "Do you have a dog?",
+      "accept_en": [
+        "Have you got a dog?"
+      ],
+      "word_bank": {
+        "answer": [
+          "у",
+          "тебя",
+          "есть",
+          "собака"
+        ],
+        "extra_tiles": [
+          "меня",
+          "маленькая",
+          "большое"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s09",
+      "ru": "Нет, у меня нет собаки.",
+      "stress": "Нет, у меня́ нет соба́ки.",
+      "translit": "Net, u menyá net sobáki.",
+      "en": "No, I don't have a dog.",
+      "accept_en": [
+        "No, I haven't got a dog."
+      ],
+      "word_bank": {
+        "answer": [
+          "нет",
+          "у",
+          "меня",
+          "нет",
+          "собаки"
+        ],
+        "extra_tiles": [
+          "собаку",
+          "её",
+          "маленькое"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s10",
+      "ru": "Моя собака очень умная.",
+      "stress": "Моя́ соба́ка о́чень у́мная.",
+      "translit": "Moyá sobáka óchen' úmnaya.",
+      "en": "My dog is very smart.",
+      "accept_en": [
+        "My dog is very clever."
+      ],
+      "word_bank": {
+        "answer": [
+          "моя",
+          "собака",
+          "очень",
+          "умная"
+        ],
+        "extra_tiles": [
+          "есть",
+          "нет",
+          "тебя"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s11",
+      "ru": "Мой попугай говорит по-русски!",
+      "stress": "Мой попуга́й говори́т по-ру́сски!",
+      "translit": "Moy popugáy govorít po-rússki!",
+      "en": "My parrot speaks Russian!",
+      "accept_en": [
+        "My parrot talks in Russian!"
+      ],
+      "word_bank": {
+        "answer": [
+          "мой",
+          "попугай",
+          "говорит",
+          "по-русски"
+        ],
+        "extra_tiles": [
+          "собака",
+          "умная",
+          "у"
+        ]
+      }
+    },
+    {
+      "id": "a1-u06-s12",
+      "ru": "Сколько лет твоей собаке? — Ей три года.",
+      "stress": "Ско́лько лет твое́й соба́ке? — Ей три го́да.",
+      "translit": "Skól'ko let tvoyéy sobáke? — Yey tri góda.",
+      "en": "How old is your dog? — She is three.",
+      "accept_en": [
+        "How old is your dog? — It is three years old."
+      ]
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u06-g01",
+      "prompt": "Моя собака ___.",
+      "options": [
+        "большая",
+        "большой",
+        "большое",
+        "большие"
+      ],
+      "answer": "большая",
+      "en": "My dog is big."
+    },
+    {
+      "id": "a1-u06-g02",
+      "prompt": "Мой кот ___.",
+      "options": [
+        "маленький",
+        "маленькая",
+        "маленькое",
+        "маленькие"
+      ],
+      "answer": "маленький",
+      "en": "My cat is small."
+    },
+    {
+      "id": "a1-u06-g03",
+      "prompt": "У меня есть кот. ___ зовут Барсик.",
+      "options": [
+        "Его",
+        "Её",
+        "Он",
+        "Ему"
+      ],
+      "answer": "Его",
+      "en": "I have a cat. His name is Barsik."
+    },
+    {
+      "id": "a1-u06-g04",
+      "prompt": "У меня нет ___.",
+      "options": [
+        "собаки",
+        "собака",
+        "собаку",
+        "собакой"
+      ],
+      "answer": "собаки",
+      "en": "I don't have a dog."
+    }
+  ],
+  "dialogue": {
+    "title": "Belka",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "У тебя есть собака?",
+        "stress": "У тебя́ есть соба́ка?",
+        "translit": "U tebyá yest' sobáka?",
+        "en": "Do you have a dog?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Да, у меня есть собака. Её зовут Белка.",
+        "stress": "Да, у меня́ есть соба́ка. Её зову́т Бе́лка.",
+        "translit": "Da, u menyá yest' sobáka. Yeyo zovút Bélka.",
+        "en": "Yes, I have a dog. Her name is Belka."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Она большая?",
+        "stress": "Она́ больша́я?",
+        "translit": "Oná bol'sháya?",
+        "en": "Is she big?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Нет, маленькая, но очень умная.",
+        "stress": "Нет, ма́ленькая, но о́чень у́мная.",
+        "translit": "Net, málen'kaya, no óchen' úmnaya.",
+        "en": "No, small, but very smart."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "А у меня есть кот. Его зовут Барсик.",
+        "stress": "А у меня́ есть кот. Его́ зову́т Ба́рсик.",
+        "translit": "A u menyá yest' kot. Yegó zovút Bársik.",
+        "en": "And I have a cat. His name is Barsik."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is Belka like?",
+        "options": [
+          "Small and smart",
+          "Big and old",
+          "Big and smart"
+        ],
+        "answer": "Small and smart"
+      },
+      {
+        "question": "What pet does Anya have?",
+        "options": [
+          "A cat",
+          "A dog",
+          "A parrot",
+          "A hamster"
+        ],
+        "answer": "A cat"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u06-wr01",
+    "prompt": "Describe a pet: yours, or one you would like to have.",
+    "use": [
+      "у меня́ есть / нет",
+      "её / его́ зову́т",
+      "describing words"
+    ],
+    "model": {
+      "ru": "У меня есть собака. Её зовут Белка. Она маленькая и очень умная.",
+      "stress": "У меня́ есть соба́ка. Её зову́т Бе́лка. Она́ ма́ленькая и о́чень у́мная."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

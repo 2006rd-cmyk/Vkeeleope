@@ -1,0 +1,641 @@
+{
+  "id": "a1-u13",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 13,
+  "title": "In a café",
+  "goal": "Order food and drinks, ask the price, ask for the bill.",
+  "grammar": [
+    {
+      "title": "Ordering",
+      "explanation": "Мне + what you want (no change): Мне ко́фе, пожа́луйста. Or Да́йте, пожа́луйста… + accusative: Да́йте, пожа́луйста, сала́т."
+    },
+    {
+      "title": "с + instrumental = with",
+      "explanation": "Learn as chunks: чай с молоко́м (tea with milk), ко́фе с са́харом (coffee with sugar)."
+    },
+    {
+      "title": "рубль / рубля́ / рубле́й",
+      "explanation": "Same rule as год: 1 рубль, 2–4 рубля́, 5–20 рубле́й. 100 = сто, 200 = две́сти, 300 = три́ста, 400 = четы́реста, 500 = пятьсо́т, 1000 = ты́сяча."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u13-w01",
+      "ru": "кафе",
+      "stress": "кафе́",
+      "translit": "kafé",
+      "en": "café",
+      "pos": "noun n",
+      "note": "never changes"
+    },
+    {
+      "id": "a1-u13-w02",
+      "ru": "меню",
+      "stress": "меню́",
+      "translit": "menyú",
+      "en": "menu",
+      "pos": "noun n",
+      "note": "never changes"
+    },
+    {
+      "id": "a1-u13-w03",
+      "ru": "официант",
+      "stress": "официа́нт",
+      "translit": "ofitsiánt",
+      "en": "waiter",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u13-w04",
+      "ru": "счёт",
+      "stress": "счёт",
+      "translit": "schyot",
+      "en": "bill, check",
+      "pos": "noun m",
+      "say": "shchot",
+      "note": "сч is said like щ"
+    },
+    {
+      "id": "a1-u13-w05",
+      "ru": "чашка",
+      "stress": "ча́шка",
+      "translit": "cháshka",
+      "en": "cup",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u13-w06",
+      "ru": "стакан",
+      "stress": "стака́н",
+      "translit": "stakán",
+      "en": "glass",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u13-w07",
+      "ru": "можно…?",
+      "stress": "мо́жно…?",
+      "translit": "mózhno…?",
+      "en": "may I…? can I have…?",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u13-w08",
+      "ru": "дайте",
+      "stress": "да́йте",
+      "translit": "dáyte",
+      "en": "give (polite)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u13-w09",
+      "ru": "с молоком",
+      "stress": "с молоко́м",
+      "translit": "s molokóm",
+      "en": "with milk",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u13-w10",
+      "ru": "с сахаром",
+      "stress": "с са́харом",
+      "translit": "s sákharom",
+      "en": "with sugar",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u13-w11",
+      "ru": "ваш",
+      "stress": "ваш",
+      "translit": "vash",
+      "en": "your (polite / plural)",
+      "pos": "pronoun",
+      "note": "ва́ша (f)"
+    },
+    {
+      "id": "a1-u13-w12",
+      "ru": "рубль",
+      "stress": "рубль",
+      "translit": "rubl'",
+      "en": "rouble",
+      "pos": "noun m",
+      "note": "2 рубля́, 5 рубле́й"
+    },
+    {
+      "id": "a1-u13-w13",
+      "ru": "двести",
+      "stress": "две́сти",
+      "translit": "dvésti",
+      "en": "two hundred",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u13-w14",
+      "ru": "триста",
+      "stress": "три́ста",
+      "translit": "trísta",
+      "en": "three hundred",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u13-w15",
+      "ru": "пятьсот",
+      "stress": "пятьсо́т",
+      "translit": "pyat'sót",
+      "en": "five hundred",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u13-w16",
+      "ru": "тысяча",
+      "stress": "ты́сяча",
+      "translit": "týsyacha",
+      "en": "thousand",
+      "pos": "number"
+    },
+    {
+      "id": "a1-u13-w17",
+      "ru": "дорого",
+      "stress": "до́рого",
+      "translit": "dórogo",
+      "en": "expensive",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u13-w18",
+      "ru": "дёшево",
+      "stress": "дёшево",
+      "translit": "dyoshevo",
+      "en": "cheap",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u13-w19",
+      "ru": "всё",
+      "stress": "всё",
+      "translit": "vsyo",
+      "en": "everything",
+      "pos": "pronoun"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u13-s01",
+      "ru": "Здравствуйте! Можно меню?",
+      "stress": "Здра́вствуйте! Мо́жно меню́?",
+      "translit": "Zdrávstvuyte! Mózhno menyú?",
+      "en": "Hello! May I have the menu?",
+      "accept_en": [
+        "Hello! Can I have the menu?"
+      ],
+      "word_bank": {
+        "answer": [
+          "здравствуйте",
+          "можно",
+          "меню"
+        ],
+        "extra_tiles": [
+          "дёшево",
+          "стою",
+          "вот"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s02",
+      "ru": "Мне кофе, пожалуйста.",
+      "stress": "Мне ко́фе, пожа́луйста.",
+      "translit": "Mne kófe, pozháluysta.",
+      "en": "A coffee for me, please.",
+      "accept_en": [
+        "Coffee for me, please.",
+        "I'll have coffee, please."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "кофе",
+          "пожалуйста"
+        ],
+        "extra_tiles": [
+          "стоят",
+          "сколько",
+          "рублей"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s03",
+      "ru": "Мне чай с молоком.",
+      "stress": "Мне чай с молоко́м.",
+      "translit": "Mne chay s molokóm.",
+      "en": "Tea with milk for me.",
+      "accept_en": [
+        "I'll have tea with milk."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "чай",
+          "с",
+          "молоком"
+        ],
+        "extra_tiles": [
+          "официант",
+          "молока",
+          "триста"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s04",
+      "ru": "Дайте, пожалуйста, салат.",
+      "stress": "Да́йте, пожа́луйста, сала́т.",
+      "translit": "Dáyte, pozháluysta, salát.",
+      "en": "A salad, please.",
+      "accept_en": [
+        "Give me a salad, please."
+      ],
+      "word_bank": {
+        "answer": [
+          "дайте",
+          "пожалуйста",
+          "салат"
+        ],
+        "extra_tiles": [
+          "меню",
+          "чашка",
+          "рубль"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s05",
+      "ru": "Сколько стоит кофе?",
+      "stress": "Ско́лько сто́ит ко́фе?",
+      "translit": "Skól'ko stóit kófe?",
+      "en": "How much is the coffee?",
+      "accept_en": [
+        "How much does the coffee cost?"
+      ],
+      "word_bank": {
+        "answer": [
+          "сколько",
+          "стоит",
+          "кофе"
+        ],
+        "extra_tiles": [
+          "рубль",
+          "рублю",
+          "молоко"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s06",
+      "ru": "Кофе стоит двести рублей.",
+      "stress": "Ко́фе сто́ит две́сти рубле́й.",
+      "translit": "Kófe stóit dvésti rubléy.",
+      "en": "The coffee costs two hundred roubles.",
+      "accept_en": [
+        "Coffee is two hundred roubles."
+      ],
+      "word_bank": {
+        "answer": [
+          "кофе",
+          "стоит",
+          "двести",
+          "рублей"
+        ],
+        "extra_tiles": [
+          "сахаром",
+          "стоят",
+          "с"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s07",
+      "ru": "Это стоит пятьсот рублей.",
+      "stress": "Э́то сто́ит пятьсо́т рубле́й.",
+      "translit": "Éto stóit pyat'sót rubléy.",
+      "en": "This costs five hundred roubles.",
+      "accept_en": [
+        "It costs five hundred roubles."
+      ],
+      "word_bank": {
+        "answer": [
+          "это",
+          "стоит",
+          "пятьсот",
+          "рублей"
+        ],
+        "extra_tiles": [
+          "дёшево",
+          "рубль",
+          "стакан"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s08",
+      "ru": "Счёт, пожалуйста!",
+      "stress": "Счёт, пожа́луйста!",
+      "translit": "Schyot, pozháluysta!",
+      "en": "The bill, please!",
+      "accept_en": [
+        "Check, please!"
+      ],
+      "word_bank": {
+        "answer": [
+          "счёт",
+          "пожалуйста"
+        ],
+        "extra_tiles": [
+          "молоком",
+          "рублём",
+          "двести"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s09",
+      "ru": "Вот ваш счёт.",
+      "stress": "Вот ваш счёт.",
+      "translit": "Vot vash schyot.",
+      "en": "Here is your bill.",
+      "accept_en": [
+        "Here's your check."
+      ],
+      "word_bank": {
+        "answer": [
+          "вот",
+          "ваш",
+          "счёт"
+        ],
+        "extra_tiles": [
+          "меню",
+          "можно",
+          "дёшево"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s10",
+      "ru": "Это очень дорого!",
+      "stress": "Э́то о́чень до́рого!",
+      "translit": "Éto óchen' dórogo!",
+      "en": "This is very expensive!",
+      "accept_en": [
+        "That's very expensive!"
+      ],
+      "word_bank": {
+        "answer": [
+          "это",
+          "очень",
+          "дорого"
+        ],
+        "extra_tiles": [
+          "двести",
+          "молоком",
+          "пятьсот"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s11",
+      "ru": "Чашка чая стоит сто рублей.",
+      "stress": "Ча́шка ча́я сто́ит сто рубле́й.",
+      "translit": "Cháshka cháya stóit sto rubléy.",
+      "en": "A cup of tea costs one hundred roubles.",
+      "accept_en": [
+        "A cup of tea is a hundred roubles."
+      ],
+      "word_bank": {
+        "answer": [
+          "чашка",
+          "чая",
+          "стоит",
+          "сто",
+          "рублей"
+        ],
+        "extra_tiles": [
+          "стакан",
+          "стоишь",
+          "кафе"
+        ]
+      }
+    },
+    {
+      "id": "a1-u13-s12",
+      "ru": "Спасибо, всё было очень вкусно.",
+      "stress": "Спаси́бо, всё бы́ло о́чень вку́сно.",
+      "translit": "Spasíbo, vsyo býlo óchen' vkúsno.",
+      "en": "Thank you, everything was very tasty.",
+      "accept_en": [
+        "Thanks, it was all delicious."
+      ],
+      "word_bank": {
+        "answer": [
+          "спасибо",
+          "всё",
+          "было",
+          "очень",
+          "вкусно"
+        ],
+        "extra_tiles": [
+          "сколько",
+          "ваш",
+          "рублю"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u13-g01",
+      "prompt": "Сколько ___ кофе?",
+      "options": [
+        "стоит",
+        "стоят",
+        "стою",
+        "стоишь"
+      ],
+      "answer": "стоит",
+      "en": "How much is the coffee?"
+    },
+    {
+      "id": "a1-u13-g02",
+      "prompt": "Это стоит сто ___.",
+      "options": [
+        "рублей",
+        "рубль",
+        "рубля",
+        "рублю"
+      ],
+      "answer": "рублей",
+      "en": "This costs one hundred roubles."
+    },
+    {
+      "id": "a1-u13-g03",
+      "prompt": "Это стоит два ___.",
+      "options": [
+        "рубля",
+        "рублей",
+        "рубль",
+        "рублём"
+      ],
+      "answer": "рубля",
+      "en": "This costs two roubles."
+    },
+    {
+      "id": "a1-u13-g04",
+      "prompt": "Чай с ___, пожалуйста.",
+      "options": [
+        "молоком",
+        "молоко",
+        "молока",
+        "молоку"
+      ],
+      "answer": "молоком",
+      "en": "Tea with milk, please."
+    },
+    {
+      "id": "a1-u13-g05",
+      "prompt": "___ меню?",
+      "options": [
+        "Можно",
+        "Дайте",
+        "Сколько",
+        "Вот"
+      ],
+      "answer": "Можно",
+      "en": "May I have the menu?"
+    }
+  ],
+  "dialogue": {
+    "title": "In the café",
+    "lines": [
+      {
+        "speaker": "Официант",
+        "ru": "Здравствуйте! Вот меню.",
+        "stress": "Здра́вствуйте! Вот меню́.",
+        "translit": "Zdrávstvuyte! Vot menyú.",
+        "en": "Hello! Here is the menu."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Спасибо. Мне кофе с молоком, пожалуйста.",
+        "stress": "Спаси́бо. Мне ко́фе с молоко́м, пожа́луйста.",
+        "translit": "Spasíbo. Mne kófe s molokóm, pozháluysta.",
+        "en": "Thank you. A coffee with milk for me, please."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "А мне чай и салат.",
+        "stress": "А мне чай и сала́т.",
+        "translit": "A mne chay i salát.",
+        "en": "And tea and a salad for me."
+      },
+      {
+        "speaker": "Официант",
+        "ru": "Хорошо.",
+        "stress": "Хорошо́.",
+        "translit": "Khoroshó.",
+        "en": "Okay."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Счёт, пожалуйста! Сколько это стоит?",
+        "stress": "Счёт, пожа́луйста! Ско́лько э́то сто́ит?",
+        "translit": "Schyot, pozháluysta! Skól'ko éto stóit?",
+        "en": "The bill, please! How much is it?"
+      },
+      {
+        "speaker": "Официант",
+        "ru": "Пятьсот рублей.",
+        "stress": "Пятьсо́т рубле́й.",
+        "translit": "Pyat'sót rubléy.",
+        "en": "Five hundred roubles."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What does Anya order?",
+        "options": [
+          "Coffee with milk",
+          "Tea",
+          "A salad"
+        ],
+        "answer": "Coffee with milk"
+      },
+      {
+        "question": "How much is the bill?",
+        "options": [
+          "500 roubles",
+          "200 roubles",
+          "100 roubles"
+        ],
+        "answer": "500 roubles"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u13-wr01",
+    "prompt": "In a café: order a drink and something to eat, and ask the price.",
+    "use": [
+      "мне…, пожа́луйста",
+      "с молоко́м / с са́харом",
+      "ско́лько сто́ит…?"
+    ],
+    "model": {
+      "ru": "Здравствуйте! Мне кофе с молоком, пожалуйста. И салат. Сколько стоит салат?",
+      "stress": "Здра́вствуйте! Мне ко́фе с молоко́м, пожа́луйста. И сала́т. Ско́лько сто́ит сала́т?"
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

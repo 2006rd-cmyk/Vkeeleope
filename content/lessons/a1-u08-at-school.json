@@ -1,0 +1,638 @@
+{
+  "id": "a1-u08",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 8,
+  "title": "At school",
+  "goal": "Talk about school and studying.",
+  "grammar": [
+    {
+      "title": "Where? vs where to?",
+      "explanation": "Where you ARE: в + -е (prepositional): Я в шко́ле. Where you are GOING: в + -у for -а nouns (accusative): Я иду́ в шко́лу. Masculine nouns like университе́т do not change after 'where to': Я иду́ в университе́т."
+    },
+    {
+      "title": "иду́ vs хожу́",
+      "explanation": "иду́ = I am going (right now, one direction). хожу́ = I go (regularly, as a habit). Сейча́с я иду́ в шко́лу. Ка́ждый день я хожу́ в шко́лу."
+    },
+    {
+      "title": "учи́ться vs учи́ть",
+      "explanation": "учи́ться = to be a student somewhere: Я учу́сь в шко́ле. учи́ть = to learn something: Я учу́ ру́сский язы́к."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u08-w01",
+      "ru": "школа",
+      "stress": "шко́ла",
+      "translit": "shkóla",
+      "en": "school",
+      "pos": "noun f",
+      "note": "в шко́ле = at school; в шко́лу = to school"
+    },
+    {
+      "id": "a1-u08-w02",
+      "ru": "университет",
+      "stress": "университе́т",
+      "translit": "universitét",
+      "en": "university",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u08-w03",
+      "ru": "учусь",
+      "stress": "учу́сь",
+      "translit": "uchús'",
+      "en": "I study (am a student)",
+      "pos": "verb",
+      "note": "from учи́ться: ты у́чишься, он у́чится"
+    },
+    {
+      "id": "a1-u08-w04",
+      "ru": "учишься",
+      "stress": "у́чишься",
+      "translit": "úchish'sya",
+      "en": "you study (informal)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u08-w05",
+      "ru": "учится",
+      "stress": "у́чится",
+      "translit": "úchitsya",
+      "en": "he / she studies",
+      "pos": "verb",
+      "say": "úchitsa"
+    },
+    {
+      "id": "a1-u08-w06",
+      "ru": "учу",
+      "stress": "учу́",
+      "translit": "uchú",
+      "en": "I learn (something)",
+      "pos": "verb",
+      "note": "from учи́ть"
+    },
+    {
+      "id": "a1-u08-w07",
+      "ru": "учитель",
+      "stress": "учи́тель",
+      "translit": "uchítel'",
+      "en": "teacher (male)",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u08-w08",
+      "ru": "учительница",
+      "stress": "учи́тельница",
+      "translit": "uchítel'nitsa",
+      "en": "teacher (female)",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u08-w09",
+      "ru": "ученик",
+      "stress": "учени́к",
+      "translit": "ucheník",
+      "en": "pupil (male)",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u08-w10",
+      "ru": "ученица",
+      "stress": "учени́ца",
+      "translit": "uchenítsa",
+      "en": "pupil (female)",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u08-w11",
+      "ru": "урок",
+      "stress": "уро́к",
+      "translit": "urók",
+      "en": "lesson, class",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u08-w12",
+      "ru": "класс",
+      "stress": "класс",
+      "translit": "klass",
+      "en": "class, grade; classroom",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u08-w13",
+      "ru": "предмет",
+      "stress": "предме́т",
+      "translit": "predmét",
+      "en": "school subject",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u08-w14",
+      "ru": "любимый",
+      "stress": "люби́мый",
+      "translit": "lyubímyy",
+      "en": "favourite",
+      "pos": "adjective"
+    },
+    {
+      "id": "a1-u08-w15",
+      "ru": "язык",
+      "stress": "язы́к",
+      "translit": "yazýk",
+      "en": "language",
+      "pos": "noun m",
+      "say": "yizýk"
+    },
+    {
+      "id": "a1-u08-w16",
+      "ru": "книга",
+      "stress": "кни́га",
+      "translit": "kníga",
+      "en": "book",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u08-w17",
+      "ru": "тетрадь",
+      "stress": "тетра́дь",
+      "translit": "tetrád'",
+      "en": "notebook",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u08-w18",
+      "ru": "иду",
+      "stress": "иду́",
+      "translit": "idú",
+      "en": "I am going (on foot, now)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u08-w19",
+      "ru": "хожу",
+      "stress": "хожу́",
+      "translit": "khozhú",
+      "en": "I go (regularly)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u08-w20",
+      "ru": "сейчас",
+      "stress": "сейча́с",
+      "translit": "seychás",
+      "en": "right now",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u08-w21",
+      "ru": "каждый день",
+      "stress": "ка́ждый день",
+      "translit": "kázhdyy den'",
+      "en": "every day",
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u08-s01",
+      "ru": "Я учусь в школе.",
+      "stress": "Я учу́сь в шко́ле.",
+      "translit": "Ya uchús' v shkóle.",
+      "en": "I study at school.",
+      "accept_en": [
+        "I go to school."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "учусь",
+          "в",
+          "школе"
+        ],
+        "extra_tiles": [
+          "урок",
+          "класс",
+          "университет"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s02",
+      "ru": "Где ты учишься?",
+      "stress": "Где ты у́чишься?",
+      "translit": "Gde ty úchish'sya?",
+      "en": "Where do you study?",
+      "word_bank": {
+        "answer": [
+          "где",
+          "ты",
+          "учишься"
+        ],
+        "extra_tiles": [
+          "учусь",
+          "иду",
+          "каждый"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s03",
+      "ru": "Мой брат учится в университете.",
+      "stress": "Мой брат у́чится в университе́те.",
+      "translit": "Moy brat úchitsya v universitéte.",
+      "en": "My brother studies at university.",
+      "accept_en": [
+        "My brother is at university."
+      ],
+      "word_bank": {
+        "answer": [
+          "мой",
+          "брат",
+          "учится",
+          "в",
+          "университете"
+        ],
+        "extra_tiles": [
+          "любимый",
+          "каждый",
+          "школе"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s04",
+      "ru": "Каждый день я хожу в школу.",
+      "stress": "Ка́ждый день я хожу́ в шко́лу.",
+      "translit": "Kázhdyy den' ya khozhú v shkólu.",
+      "en": "Every day I go to school.",
+      "accept_ru": [
+        "Я хожу в школу каждый день."
+      ],
+      "accept_en": [
+        "I go to school every day."
+      ],
+      "word_bank": {
+        "answer": [
+          "каждый",
+          "день",
+          "я",
+          "хожу",
+          "в",
+          "школу"
+        ],
+        "extra_tiles": [
+          "учит",
+          "сейчас",
+          "университет"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s05",
+      "ru": "Сейчас я иду в школу.",
+      "stress": "Сейча́с я иду́ в шко́лу.",
+      "translit": "Seychás ya idú v shkólu.",
+      "en": "Right now I am going to school.",
+      "accept_ru": [
+        "Я сейчас иду в школу."
+      ],
+      "accept_en": [
+        "I'm going to school now.",
+        "I am going to school now."
+      ],
+      "word_bank": {
+        "answer": [
+          "сейчас",
+          "я",
+          "иду",
+          "в",
+          "школу"
+        ],
+        "extra_tiles": [
+          "ученик",
+          "учу",
+          "книга"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s06",
+      "ru": "Это мой учитель.",
+      "stress": "Э́то мой учи́тель.",
+      "translit": "Éto moy uchítel'.",
+      "en": "This is my teacher.",
+      "word_bank": {
+        "answer": [
+          "это",
+          "мой",
+          "учитель"
+        ],
+        "extra_tiles": [
+          "школе",
+          "учительница",
+          "урок"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s07",
+      "ru": "Моя учительница из Москвы.",
+      "stress": "Моя́ учи́тельница из Москвы́.",
+      "translit": "Moyá uchítel'nitsa iz Moskvý.",
+      "en": "My teacher is from Moscow.",
+      "word_bank": {
+        "answer": [
+          "моя",
+          "учительница",
+          "из",
+          "Москвы"
+        ],
+        "extra_tiles": [
+          "ученица",
+          "учишься",
+          "России"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s08",
+      "ru": "У меня урок.",
+      "stress": "У меня́ уро́к.",
+      "translit": "U menyá urók.",
+      "en": "I have a lesson.",
+      "accept_en": [
+        "I have a class."
+      ],
+      "word_bank": {
+        "answer": [
+          "у",
+          "меня",
+          "урок"
+        ],
+        "extra_tiles": [
+          "школу",
+          "тетрадь",
+          "учишься"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s09",
+      "ru": "Я в десятом классе.",
+      "stress": "Я в деся́том кла́ссе.",
+      "translit": "Ya v desyátom klásse.",
+      "en": "I am in tenth grade.",
+      "accept_en": [
+        "I'm in the tenth grade.",
+        "I'm in year ten."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "в",
+          "десятом",
+          "классе"
+        ],
+        "extra_tiles": [
+          "ученица",
+          "учусь",
+          "сейчас"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s10",
+      "ru": "Я учу русский язык.",
+      "stress": "Я учу́ ру́сский язы́к.",
+      "translit": "Ya uchú rússkiy yazýk.",
+      "en": "I am learning Russian.",
+      "accept_en": [
+        "I learn Russian.",
+        "I'm learning the Russian language."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "учу",
+          "русский",
+          "язык"
+        ],
+        "extra_tiles": [
+          "университет",
+          "урок",
+          "школе"
+        ]
+      }
+    },
+    {
+      "id": "a1-u08-s11",
+      "ru": "Русский язык — мой любимый предмет.",
+      "stress": "Ру́сский язы́к — мой люби́мый предме́т.",
+      "translit": "Rússkiy yazýk — moy lyubímyy predmét.",
+      "en": "Russian is my favourite subject.",
+      "accept_en": [
+        "Russian is my favorite subject."
+      ]
+    },
+    {
+      "id": "a1-u08-s12",
+      "ru": "Где моя тетрадь?",
+      "stress": "Где моя́ тетра́дь?",
+      "translit": "Gde moyá tetrád'?",
+      "en": "Where is my notebook?",
+      "word_bank": {
+        "answer": [
+          "где",
+          "моя",
+          "тетрадь"
+        ],
+        "extra_tiles": [
+          "предмет",
+          "учусь",
+          "книга"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u08-g01",
+      "prompt": "Я учусь в ___.",
+      "options": [
+        "школе",
+        "школу",
+        "школа",
+        "школы"
+      ],
+      "answer": "школе",
+      "en": "I study at school."
+    },
+    {
+      "id": "a1-u08-g02",
+      "prompt": "Сейчас я иду в ___.",
+      "options": [
+        "школу",
+        "школе",
+        "школа",
+        "школы"
+      ],
+      "answer": "школу",
+      "en": "Right now I am going to school."
+    },
+    {
+      "id": "a1-u08-g03",
+      "prompt": "Каждый день я ___ в школу.",
+      "options": [
+        "хожу",
+        "иду",
+        "учусь",
+        "учу"
+      ],
+      "answer": "хожу",
+      "en": "Every day I go to school."
+    },
+    {
+      "id": "a1-u08-g04",
+      "prompt": "Я ___ русский язык.",
+      "options": [
+        "учу",
+        "учусь",
+        "учится",
+        "учишься"
+      ],
+      "answer": "учу",
+      "en": "I am learning Russian."
+    },
+    {
+      "id": "a1-u08-g05",
+      "prompt": "Мой брат ___ в университете.",
+      "options": [
+        "учится",
+        "учусь",
+        "учит",
+        "учу"
+      ],
+      "answer": "учится",
+      "en": "My brother studies at university."
+    }
+  ],
+  "dialogue": {
+    "title": "Off to school",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Привет! Ты идёшь в школу?",
+        "stress": "Приве́т! Ты идёшь в шко́лу?",
+        "translit": "Privét! Ty idyosh' v shkólu?",
+        "en": "Hi! Are you going to school?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Да, сейчас у меня урок.",
+        "stress": "Да, сейча́с у меня́ уро́к.",
+        "translit": "Da, seychás u menyá urók.",
+        "en": "Yes, I have a lesson now."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Русский язык?",
+        "stress": "Ру́сский язы́к?",
+        "translit": "Rússkiy yazýk?",
+        "en": "Russian?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Да! Русский язык — мой любимый предмет.",
+        "stress": "Да! Ру́сский язы́к — мой люби́мый предме́т.",
+        "translit": "Da! Rússkiy yazýk — moy lyubímyy predmét.",
+        "en": "Yes! Russian is my favourite subject."
+      },
+      {
+        "speaker": "Аня",
+        "ru": "А я учусь в университете.",
+        "stress": "А я учу́сь в университе́те.",
+        "translit": "A ya uchús' v universitéte.",
+        "en": "And I study at university."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Where is Mark going?",
+        "options": [
+          "To school",
+          "To university",
+          "Home"
+        ],
+        "answer": "To school"
+      },
+      {
+        "question": "What is Mark's favourite subject?",
+        "options": [
+          "Russian",
+          "English",
+          "Estonian"
+        ],
+        "answer": "Russian"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u08-wr01",
+    "prompt": "Say where you study (or studied), what your favourite subject is, and how often you go there.",
+    "use": [
+      "я учу́сь в…",
+      "мой люби́мый предме́т",
+      "ка́ждый день я хожу́ в…"
+    ],
+    "model": {
+      "ru": "Я учусь в университете. Мой любимый предмет — русский язык. Каждый день я хожу в университет.",
+      "stress": "Я учу́сь в университе́те. Мой люби́мый предме́т — ру́сский язы́к. Ка́ждый день я хожу́ в университе́т."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

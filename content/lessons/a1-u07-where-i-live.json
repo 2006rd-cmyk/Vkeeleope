@@ -1,0 +1,602 @@
+{
+  "id": "a1-u07",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 7,
+  "title": "Where I live",
+  "goal": "Say where you live and ask others.",
+  "grammar": [
+    {
+      "title": "The verb жить (to live)",
+      "explanation": "я живу́, ты живёшь, он / она́ живёт, мы живём, вы живёте, они́ живу́т."
+    },
+    {
+      "title": "в / на + place = where (prepositional case)",
+      "explanation": "To say WHERE something is, use в (in) or на (on / at) and change the ending, usually to -е: Москва́ → в Москве́, Та́ллин → в Та́ллине, дом → в до́ме, кварти́ра → в кварти́ре. Words in -ия take -ии: в Росси́и, в Эсто́нии. Streets take на: на у́лице."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u07-w01",
+      "ru": "жить",
+      "stress": "жить",
+      "translit": "zhit'",
+      "en": "to live",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u07-w02",
+      "ru": "живу",
+      "stress": "живу́",
+      "translit": "zhivú",
+      "en": "I live",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u07-w03",
+      "ru": "живёшь",
+      "stress": "живёшь",
+      "translit": "zhivyosh'",
+      "en": "you live (informal)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u07-w04",
+      "ru": "живёт",
+      "stress": "живёт",
+      "translit": "zhivyot",
+      "en": "he / she lives",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u07-w05",
+      "ru": "живём",
+      "stress": "живём",
+      "translit": "zhivyom",
+      "en": "we live",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u07-w06",
+      "ru": "живёте",
+      "stress": "живёте",
+      "translit": "zhivyote",
+      "en": "you live (polite / plural)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u07-w07",
+      "ru": "живут",
+      "stress": "живу́т",
+      "translit": "zhivút",
+      "en": "they live",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u07-w08",
+      "ru": "где",
+      "stress": "где",
+      "translit": "gde",
+      "en": "where",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u07-w09",
+      "ru": "дом",
+      "stress": "дом",
+      "translit": "dom",
+      "en": "house; home",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u07-w10",
+      "ru": "квартира",
+      "stress": "кварти́ра",
+      "translit": "kvartíra",
+      "en": "flat, apartment",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u07-w11",
+      "ru": "улица",
+      "stress": "у́лица",
+      "translit": "úlitsa",
+      "en": "street",
+      "pos": "noun f",
+      "note": "на у́лице = on the street"
+    },
+    {
+      "id": "a1-u07-w12",
+      "ru": "деревня",
+      "stress": "дере́вня",
+      "translit": "derévnya",
+      "en": "village",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u07-w13",
+      "ru": "центр",
+      "stress": "центр",
+      "translit": "tsentr",
+      "en": "centre",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u07-w14",
+      "ru": "в",
+      "stress": "в",
+      "translit": "v",
+      "en": "in",
+      "pos": "preposition"
+    },
+    {
+      "id": "a1-u07-w15",
+      "ru": "на",
+      "stress": "на",
+      "translit": "na",
+      "en": "on, at",
+      "pos": "preposition"
+    },
+    {
+      "id": "a1-u07-w16",
+      "ru": "здесь",
+      "stress": "здесь",
+      "translit": "zdes'",
+      "en": "here",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u07-w17",
+      "ru": "там",
+      "stress": "там",
+      "translit": "tam",
+      "en": "there",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u07-w18",
+      "ru": "дома",
+      "stress": "до́ма",
+      "translit": "dóma",
+      "en": "at home",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u07-w19",
+      "ru": "рядом",
+      "stress": "ря́дом",
+      "translit": "ryádom",
+      "en": "nearby, next door",
+      "pos": "adverb"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u07-s01",
+      "ru": "Где ты живёшь?",
+      "stress": "Где ты живёшь?",
+      "translit": "Gde ty zhivyosh'?",
+      "en": "Where do you live?",
+      "word_bank": {
+        "answer": [
+          "где",
+          "ты",
+          "живёшь"
+        ],
+        "extra_tiles": [
+          "деревня",
+          "квартира",
+          "Эстонией"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s02",
+      "ru": "Я живу в Таллине.",
+      "stress": "Я живу́ в Та́ллине.",
+      "translit": "Ya zhivú v Tálline.",
+      "en": "I live in Tallinn.",
+      "word_bank": {
+        "answer": [
+          "я",
+          "живу",
+          "в",
+          "Таллине"
+        ],
+        "extra_tiles": [
+          "Эстония",
+          "Эстонией",
+          "дома"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s03",
+      "ru": "Мария живёт в Москве.",
+      "stress": "Мари́я живёт в Москве́.",
+      "translit": "Maríya zhivyot v Moskvé.",
+      "en": "Maria lives in Moscow.",
+      "word_bank": {
+        "answer": [
+          "Мария",
+          "живёт",
+          "в",
+          "Москве"
+        ],
+        "extra_tiles": [
+          "на",
+          "центр",
+          "Москвы"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s04",
+      "ru": "Мы живём в квартире.",
+      "stress": "Мы живём в кварти́ре.",
+      "translit": "My zhivyom v kvartíre.",
+      "en": "We live in a flat.",
+      "accept_en": [
+        "We live in an apartment."
+      ],
+      "word_bank": {
+        "answer": [
+          "мы",
+          "живём",
+          "в",
+          "квартире"
+        ],
+        "extra_tiles": [
+          "деревня",
+          "улица",
+          "дома"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s05",
+      "ru": "Я живу в доме.",
+      "stress": "Я живу́ в до́ме.",
+      "translit": "Ya zhivú v dóme.",
+      "en": "I live in a house.",
+      "word_bank": {
+        "answer": [
+          "я",
+          "живу",
+          "в",
+          "доме"
+        ],
+        "extra_tiles": [
+          "Эстонию",
+          "живёт",
+          "живёшь"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s06",
+      "ru": "Моя бабушка живёт в деревне.",
+      "stress": "Моя́ ба́бушка живёт в дере́вне.",
+      "translit": "Moyá bábushka zhivyot v derévne.",
+      "en": "My grandmother lives in a village.",
+      "accept_en": [
+        "My grandma lives in a village."
+      ],
+      "word_bank": {
+        "answer": [
+          "моя",
+          "бабушка",
+          "живёт",
+          "в",
+          "деревне"
+        ],
+        "extra_tiles": [
+          "живут",
+          "рядом",
+          "из"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s07",
+      "ru": "Я живу на улице Пушкина.",
+      "stress": "Я живу́ на у́лице Пу́шкина.",
+      "translit": "Ya zhivú na úlitse Púshkina.",
+      "en": "I live on Pushkin Street.",
+      "word_bank": {
+        "answer": [
+          "я",
+          "живу",
+          "на",
+          "улице",
+          "Пушкина"
+        ],
+        "extra_tiles": [
+          "из",
+          "улица",
+          "Москвы"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s08",
+      "ru": "Они живут в центре.",
+      "stress": "Они́ живу́т в це́нтре.",
+      "translit": "Oní zhivút v tséntre.",
+      "en": "They live in the centre.",
+      "accept_en": [
+        "They live downtown.",
+        "They live in the center."
+      ],
+      "word_bank": {
+        "answer": [
+          "они",
+          "живут",
+          "в",
+          "центре"
+        ],
+        "extra_tiles": [
+          "где",
+          "живёшь",
+          "улица"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s09",
+      "ru": "Вы живёте в России?",
+      "stress": "Вы живёте в Росси́и?",
+      "translit": "Vy zhivyote v Rossíi?",
+      "en": "Do you live in Russia?",
+      "word_bank": {
+        "answer": [
+          "вы",
+          "живёте",
+          "в",
+          "России"
+        ],
+        "extra_tiles": [
+          "жить",
+          "живу",
+          "Тарту"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s10",
+      "ru": "Где ты? — Я дома.",
+      "stress": "Где ты? — Я до́ма.",
+      "translit": "Gde ty? — Ya dóma.",
+      "en": "Where are you? — I am at home.",
+      "accept_en": [
+        "Where are you? — I'm at home."
+      ]
+    },
+    {
+      "id": "a1-u07-s11",
+      "ru": "Мой дом здесь, а школа там.",
+      "stress": "Мой дом здесь, а шко́ла там.",
+      "translit": "Moy dom zdes', a shkóla tam.",
+      "en": "My house is here, and the school is there.",
+      "accept_en": [
+        "My home is here and the school is there."
+      ],
+      "word_bank": {
+        "answer": [
+          "мой",
+          "дом",
+          "здесь",
+          "а",
+          "школа",
+          "там"
+        ],
+        "extra_tiles": [
+          "дома",
+          "жить",
+          "Эстония"
+        ]
+      }
+    },
+    {
+      "id": "a1-u07-s12",
+      "ru": "Мы живём рядом.",
+      "stress": "Мы живём ря́дом.",
+      "translit": "My zhivyom ryádom.",
+      "en": "We live nearby.",
+      "accept_en": [
+        "We live next door."
+      ],
+      "word_bank": {
+        "answer": [
+          "мы",
+          "живём",
+          "рядом"
+        ],
+        "extra_tiles": [
+          "Москвы",
+          "в",
+          "дом"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u07-g01",
+      "prompt": "Я живу в ___.",
+      "options": [
+        "Москве",
+        "Москва",
+        "Москвы",
+        "Москву"
+      ],
+      "answer": "Москве",
+      "en": "I live in Moscow."
+    },
+    {
+      "id": "a1-u07-g02",
+      "prompt": "Мы живём в ___.",
+      "options": [
+        "Эстонии",
+        "Эстония",
+        "Эстонию",
+        "Эстонией"
+      ],
+      "answer": "Эстонии",
+      "en": "We live in Estonia."
+    },
+    {
+      "id": "a1-u07-g03",
+      "prompt": "Где ты ___?",
+      "options": [
+        "живёшь",
+        "живу",
+        "живёт",
+        "живут"
+      ],
+      "answer": "живёшь",
+      "en": "Where do you live?"
+    },
+    {
+      "id": "a1-u07-g04",
+      "prompt": "Они ___ в центре.",
+      "options": [
+        "живут",
+        "живёт",
+        "живу",
+        "живём"
+      ],
+      "answer": "живут",
+      "en": "They live in the centre."
+    },
+    {
+      "id": "a1-u07-g05",
+      "prompt": "Я живу ___ улице Пушкина.",
+      "options": [
+        "на",
+        "в",
+        "из",
+        "у"
+      ],
+      "answer": "на",
+      "en": "I live on Pushkin Street."
+    }
+  ],
+  "dialogue": {
+    "title": "Where do you live?",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Марк, где ты живёшь?",
+        "stress": "Марк, где ты живёшь?",
+        "translit": "Mark, gde ty zhivyosh'?",
+        "en": "Mark, where do you live?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Я живу в Таллине, в центре. А ты?",
+        "stress": "Я живу́ в Та́ллине, в це́нтре. А ты?",
+        "translit": "Ya zhivú v Tálline, v tséntre. A ty?",
+        "en": "I live in Tallinn, in the centre. And you?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Я живу в Москве, на улице Пушкина.",
+        "stress": "Я живу́ в Москве́, на у́лице Пу́шкина.",
+        "translit": "Ya zhivú v Moskvé, na úlitse Púshkina.",
+        "en": "I live in Moscow, on Pushkin Street."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Ты живёшь в квартире?",
+        "stress": "Ты живёшь в кварти́ре?",
+        "translit": "Ty zhivyosh' v kvartíre?",
+        "en": "Do you live in a flat?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Да, в квартире. А моя бабушка живёт в деревне.",
+        "stress": "Да, в кварти́ре. А моя́ ба́бушка живёт в дере́вне.",
+        "translit": "Da, v kvartíre. A moyá bábushka zhivyot v derévne.",
+        "en": "Yes, in a flat. And my grandmother lives in a village."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Where in Tallinn does Mark live?",
+        "options": [
+          "In the centre",
+          "In a village",
+          "On Pushkin Street"
+        ],
+        "answer": "In the centre"
+      },
+      {
+        "question": "Who lives in a village?",
+        "options": [
+          "Anya's grandmother",
+          "Anya",
+          "Mark"
+        ],
+        "answer": "Anya's grandmother"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u07-wr01",
+    "prompt": "Say where you live, and where two other people live.",
+    "use": [
+      "я живу́ в / на…",
+      "живёт",
+      "в кварти́ре / в до́ме / в дере́вне"
+    ],
+    "model": {
+      "ru": "Я живу в Таллине, в квартире. Моя бабушка живёт в деревне. Мой друг живёт рядом.",
+      "stress": "Я живу́ в Та́ллине, в кварти́ре. Моя́ ба́бушка живёт в дере́вне. Мой друг живёт ря́дом."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

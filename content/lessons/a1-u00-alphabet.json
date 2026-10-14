@@ -1,0 +1,721 @@
+{
+  "id": "a1-u00",
+  "level": "A1",
+  "section": "A1.1",
+  "number": 0,
+  "title": "The Cyrillic alphabet",
+  "goal": "Read every Russian letter and sound out simple words.",
+  "lessons": [
+    {
+      "lesson": 1,
+      "title": "Look and sound like English",
+      "groups": [
+        1
+      ]
+    },
+    {
+      "lesson": 2,
+      "title": "False friends: look English, sound different",
+      "groups": [
+        2
+      ]
+    },
+    {
+      "lesson": 3,
+      "title": "New shapes, part 1",
+      "letters": [
+        "Б б",
+        "Г г",
+        "Д д",
+        "Ё ё",
+        "Ж ж",
+        "З з",
+        "И и",
+        "Й й",
+        "Л л",
+        "П п"
+      ]
+    },
+    {
+      "lesson": 4,
+      "title": "New shapes, part 2",
+      "letters": [
+        "Ф ф",
+        "Ц ц",
+        "Ч ч",
+        "Ш ш",
+        "Щ щ",
+        "Ы ы",
+        "Э э",
+        "Ю ю",
+        "Я я"
+      ]
+    },
+    {
+      "lesson": 5,
+      "title": "The two signs + pronunciation rules",
+      "groups": [
+        4
+      ]
+    },
+    {
+      "lesson": 6,
+      "title": "Reading check: all 33 letters"
+    }
+  ],
+  "letters": [
+    {
+      "letter": "А а",
+      "translit": "a",
+      "sound": "a as in 'father'",
+      "example": {
+        "ru": "мама",
+        "stress": "ма́ма",
+        "translit": "máma",
+        "en": "mom"
+      },
+      "group": 1
+    },
+    {
+      "letter": "Б б",
+      "translit": "b",
+      "sound": "b as in 'bed'",
+      "example": {
+        "ru": "брат",
+        "stress": "брат",
+        "translit": "brat",
+        "en": "brother"
+      },
+      "group": 3
+    },
+    {
+      "letter": "В в",
+      "translit": "v",
+      "sound": "v as in 'van' (NOT b!)",
+      "example": {
+        "ru": "вот",
+        "stress": "вот",
+        "translit": "vot",
+        "en": "here is"
+      },
+      "group": 2
+    },
+    {
+      "letter": "Г г",
+      "translit": "g",
+      "sound": "g as in 'go'",
+      "example": {
+        "ru": "год",
+        "stress": "год",
+        "translit": "god",
+        "en": "year"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Д д",
+      "translit": "d",
+      "sound": "d as in 'dog'",
+      "example": {
+        "ru": "дом",
+        "stress": "дом",
+        "translit": "dom",
+        "en": "house"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Е е",
+      "translit": "ye",
+      "sound": "ye as in 'yes' at the start of a word; after a consonant it softens it (нет ≈ 'nyet')",
+      "example": {
+        "ru": "нет",
+        "stress": "нет",
+        "translit": "net",
+        "en": "no"
+      },
+      "group": 2
+    },
+    {
+      "letter": "Ё ё",
+      "translit": "yo",
+      "sound": "yo as in 'yogurt' (always stressed)",
+      "example": {
+        "ru": "ёж",
+        "stress": "ёж",
+        "translit": "yozh",
+        "en": "hedgehog"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Ж ж",
+      "translit": "zh",
+      "sound": "s as in 'pleasure'",
+      "example": {
+        "ru": "жена",
+        "stress": "жена́",
+        "translit": "zhená",
+        "en": "wife"
+      },
+      "group": 3
+    },
+    {
+      "letter": "З з",
+      "translit": "z",
+      "sound": "z as in 'zoo'",
+      "example": {
+        "ru": "зима",
+        "stress": "зима́",
+        "translit": "zimá",
+        "en": "winter"
+      },
+      "group": 3
+    },
+    {
+      "letter": "И и",
+      "translit": "i",
+      "sound": "ee as in 'see'",
+      "example": {
+        "ru": "кино",
+        "stress": "кино́",
+        "translit": "kinó",
+        "en": "cinema"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Й й",
+      "translit": "y",
+      "sound": "y as in 'boy'",
+      "example": {
+        "ru": "чай",
+        "stress": "чай",
+        "translit": "chay",
+        "en": "tea"
+      },
+      "group": 3
+    },
+    {
+      "letter": "К к",
+      "translit": "k",
+      "sound": "k as in 'kite'",
+      "example": {
+        "ru": "кот",
+        "stress": "кот",
+        "translit": "kot",
+        "en": "cat (tomcat)"
+      },
+      "group": 1
+    },
+    {
+      "letter": "Л л",
+      "translit": "l",
+      "sound": "l as in 'lamp'",
+      "example": {
+        "ru": "лампа",
+        "stress": "ла́мпа",
+        "translit": "lámpa",
+        "en": "lamp"
+      },
+      "group": 3
+    },
+    {
+      "letter": "М м",
+      "translit": "m",
+      "sound": "m as in 'mom'",
+      "example": {
+        "ru": "мама",
+        "stress": "ма́ма",
+        "translit": "máma",
+        "en": "mom"
+      },
+      "group": 1
+    },
+    {
+      "letter": "Н н",
+      "translit": "n",
+      "sound": "n as in 'no' (NOT h!)",
+      "example": {
+        "ru": "нос",
+        "stress": "нос",
+        "translit": "nos",
+        "en": "nose"
+      },
+      "group": 2
+    },
+    {
+      "letter": "О о",
+      "translit": "o",
+      "sound": "o as in 'more' when stressed, like 'a' when not",
+      "example": {
+        "ru": "он",
+        "stress": "он",
+        "translit": "on",
+        "en": "he"
+      },
+      "group": 1
+    },
+    {
+      "letter": "П п",
+      "translit": "p",
+      "sound": "p as in 'pen'",
+      "example": {
+        "ru": "папа",
+        "stress": "па́па",
+        "translit": "pápa",
+        "en": "dad"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Р р",
+      "translit": "r",
+      "sound": "rolled r (NOT p!)",
+      "example": {
+        "ru": "рука",
+        "stress": "рука́",
+        "translit": "ruká",
+        "en": "hand"
+      },
+      "group": 2
+    },
+    {
+      "letter": "С с",
+      "translit": "s",
+      "sound": "s as in 'sun' (NOT k!)",
+      "example": {
+        "ru": "сок",
+        "stress": "сок",
+        "translit": "sok",
+        "en": "juice"
+      },
+      "group": 2
+    },
+    {
+      "letter": "Т т",
+      "translit": "t",
+      "sound": "t as in 'tea'",
+      "example": {
+        "ru": "там",
+        "stress": "там",
+        "translit": "tam",
+        "en": "there"
+      },
+      "group": 1
+    },
+    {
+      "letter": "У у",
+      "translit": "u",
+      "sound": "oo as in 'boot' (NOT y!)",
+      "example": {
+        "ru": "утро",
+        "stress": "у́тро",
+        "translit": "útro",
+        "en": "morning"
+      },
+      "group": 2
+    },
+    {
+      "letter": "Ф ф",
+      "translit": "f",
+      "sound": "f as in 'fun'",
+      "example": {
+        "ru": "фото",
+        "stress": "фо́то",
+        "translit": "fóto",
+        "en": "photo"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Х х",
+      "translit": "kh",
+      "sound": "ch as in Scottish 'loch' (NOT x!)",
+      "example": {
+        "ru": "хорошо",
+        "stress": "хорошо́",
+        "translit": "khoroshó",
+        "en": "good"
+      },
+      "group": 2
+    },
+    {
+      "letter": "Ц ц",
+      "translit": "ts",
+      "sound": "ts as in 'cats'",
+      "example": {
+        "ru": "центр",
+        "stress": "центр",
+        "translit": "tsentr",
+        "en": "centre"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Ч ч",
+      "translit": "ch",
+      "sound": "ch as in 'chair'",
+      "example": {
+        "ru": "чай",
+        "stress": "чай",
+        "translit": "chay",
+        "en": "tea"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Ш ш",
+      "translit": "sh",
+      "sound": "sh as in 'shop'",
+      "example": {
+        "ru": "школа",
+        "stress": "шко́ла",
+        "translit": "shkóla",
+        "en": "school"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Щ щ",
+      "translit": "shch",
+      "sound": "long soft 'sh', as in 'sheep'",
+      "example": {
+        "ru": "борщ",
+        "stress": "борщ",
+        "translit": "borshch",
+        "en": "borscht"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Ъ ъ",
+      "translit": "(silent)",
+      "sound": "hard sign: no sound, keeps letters apart",
+      "example": {
+        "ru": "подъезд",
+        "stress": "подъе́зд",
+        "translit": "podyézd",
+        "en": "entrance (of a building)"
+      },
+      "group": 4
+    },
+    {
+      "letter": "Ы ы",
+      "translit": "y",
+      "sound": "like 'i' in 'bit' with the tongue pulled back",
+      "example": {
+        "ru": "мы",
+        "stress": "мы",
+        "translit": "my",
+        "en": "we"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Ь ь",
+      "translit": "'",
+      "sound": "soft sign: no sound, softens the letter before it",
+      "example": {
+        "ru": "мать",
+        "stress": "мать",
+        "translit": "mat'",
+        "en": "mother"
+      },
+      "group": 4
+    },
+    {
+      "letter": "Э э",
+      "translit": "e",
+      "sound": "e as in 'met'",
+      "example": {
+        "ru": "это",
+        "stress": "э́то",
+        "translit": "éto",
+        "en": "this"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Ю ю",
+      "translit": "yu",
+      "sound": "yu as in 'you'",
+      "example": {
+        "ru": "юг",
+        "stress": "юг",
+        "translit": "yug",
+        "en": "south"
+      },
+      "group": 3
+    },
+    {
+      "letter": "Я я",
+      "translit": "ya",
+      "sound": "ya as in 'yard'",
+      "example": {
+        "ru": "я",
+        "stress": "я",
+        "translit": "ya",
+        "en": "I"
+      },
+      "group": 3
+    }
+  ],
+  "groups": [
+    {
+      "group": 1,
+      "title": "Look and sound like English",
+      "letters": [
+        "А а",
+        "К к",
+        "М м",
+        "О о",
+        "Т т"
+      ],
+      "reading_words": [
+        {
+          "ru": "мама",
+          "stress": "ма́ма",
+          "translit": "máma",
+          "en": "mom"
+        },
+        {
+          "ru": "кот",
+          "stress": "кот",
+          "translit": "kot",
+          "en": "cat"
+        },
+        {
+          "ru": "там",
+          "stress": "там",
+          "translit": "tam",
+          "en": "there"
+        },
+        {
+          "ru": "так",
+          "stress": "так",
+          "translit": "tak",
+          "en": "so, like this"
+        },
+        {
+          "ru": "кто",
+          "stress": "кто",
+          "translit": "kto",
+          "en": "who"
+        },
+        {
+          "ru": "атом",
+          "stress": "а́том",
+          "translit": "átom",
+          "en": "atom"
+        }
+      ]
+    },
+    {
+      "group": 2,
+      "title": "False friends: look English, sound different",
+      "letters": [
+        "В в",
+        "Е е",
+        "Н н",
+        "Р р",
+        "С с",
+        "У у",
+        "Х х"
+      ],
+      "reading_words": [
+        {
+          "ru": "вот",
+          "stress": "вот",
+          "translit": "vot",
+          "en": "here is"
+        },
+        {
+          "ru": "нет",
+          "stress": "нет",
+          "translit": "net",
+          "en": "no"
+        },
+        {
+          "ru": "метро",
+          "stress": "метро́",
+          "translit": "metró",
+          "en": "metro"
+        },
+        {
+          "ru": "сок",
+          "stress": "сок",
+          "translit": "sok",
+          "en": "juice"
+        },
+        {
+          "ru": "сестра",
+          "stress": "сестра́",
+          "translit": "sestrá",
+          "en": "sister"
+        },
+        {
+          "ru": "Москва",
+          "stress": "Москва́",
+          "translit": "Moskvá",
+          "en": "Moscow"
+        },
+        {
+          "ru": "ресторан",
+          "stress": "рестора́н",
+          "translit": "restorán",
+          "en": "restaurant"
+        },
+        {
+          "ru": "текст",
+          "stress": "текст",
+          "translit": "tekst",
+          "en": "text"
+        }
+      ]
+    },
+    {
+      "group": 3,
+      "title": "New shapes",
+      "letters": [
+        "Б б",
+        "Г г",
+        "Д д",
+        "Ё ё",
+        "Ж ж",
+        "З з",
+        "И и",
+        "Й й",
+        "Л л",
+        "П п",
+        "Ф ф",
+        "Ц ц",
+        "Ч ч",
+        "Ш ш",
+        "Щ щ",
+        "Ы ы",
+        "Э э",
+        "Ю ю",
+        "Я я"
+      ],
+      "reading_words": [
+        {
+          "ru": "да",
+          "stress": "да",
+          "translit": "da",
+          "en": "yes"
+        },
+        {
+          "ru": "дом",
+          "stress": "дом",
+          "translit": "dom",
+          "en": "house"
+        },
+        {
+          "ru": "брат",
+          "stress": "брат",
+          "translit": "brat",
+          "en": "brother"
+        },
+        {
+          "ru": "папа",
+          "stress": "па́па",
+          "translit": "pápa",
+          "en": "dad"
+        },
+        {
+          "ru": "привет",
+          "stress": "приве́т",
+          "translit": "privét",
+          "en": "hi"
+        },
+        {
+          "ru": "чай",
+          "stress": "чай",
+          "translit": "chay",
+          "en": "tea"
+        },
+        {
+          "ru": "школа",
+          "stress": "шко́ла",
+          "translit": "shkóla",
+          "en": "school"
+        },
+        {
+          "ru": "Россия",
+          "stress": "Росси́я",
+          "translit": "Rossíya",
+          "en": "Russia"
+        },
+        {
+          "ru": "я",
+          "stress": "я",
+          "translit": "ya",
+          "en": "I"
+        },
+        {
+          "ru": "это",
+          "stress": "э́то",
+          "translit": "éto",
+          "en": "this"
+        }
+      ]
+    },
+    {
+      "group": 4,
+      "title": "The two signs",
+      "letters": [
+        "Ъ ъ",
+        "Ь ь"
+      ],
+      "reading_words": [
+        {
+          "ru": "мать",
+          "stress": "мать",
+          "translit": "mat'",
+          "en": "mother"
+        },
+        {
+          "ru": "семь",
+          "stress": "семь",
+          "translit": "sem'",
+          "en": "seven"
+        },
+        {
+          "ru": "день",
+          "stress": "день",
+          "translit": "den'",
+          "en": "day"
+        },
+        {
+          "ru": "подъезд",
+          "stress": "подъе́зд",
+          "translit": "podyézd",
+          "en": "entrance"
+        }
+      ]
+    }
+  ],
+  "pronunciation_rules": [
+    {
+      "title": "Stress matters",
+      "explanation": "Every word has one stressed vowel (marked with ´ in this course). Stress is not written in normal Russian texts, so learn it with each word."
+    },
+    {
+      "title": "Unstressed О sounds like А",
+      "explanation": "молоко́ (milk) is said 'malakó'. хорошо́ is said 'kharashó'."
+    },
+    {
+      "title": "Unstressed Е and Я sound close to И",
+      "explanation": "сестра́ sounds like 'sistrá'. язы́к sounds like 'yizýk'."
+    },
+    {
+      "title": "Voiced consonants go voiceless at the end of a word",
+      "explanation": "хлеб (bread) is said 'khlep'. год (year) is said 'got'."
+    },
+    {
+      "title": "Г is said as В in -ого / -его",
+      "explanation": "его́ (him/his) is said 'yivó'. сего́дня (today) is said 'sivódnya'."
+    }
+  ]
+}

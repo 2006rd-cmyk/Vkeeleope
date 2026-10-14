@@ -1,0 +1,633 @@
+{
+  "id": "a1-u11",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 11,
+  "title": "Days and time",
+  "goal": "Say what day it is, tell the time, say when something happens.",
+  "grammar": [
+    {
+      "title": "в + day of the week",
+      "explanation": "'On Monday' is в + the day, and -а days change to -у: в понеде́льник, во вто́рник, в сре́ду, в четве́рг, в пя́тницу, в суббо́ту, в воскресе́нье."
+    },
+    {
+      "title": "час / часа́ / часо́в",
+      "explanation": "Same rule as год: 1 → час (Сейча́с час), 2–4 → часа́ (два часа́), 5–20 → часо́в (пять часо́в). 'At three o'clock' = в три часа́."
+    },
+    {
+      "title": "Parts of the day",
+      "explanation": "у́тром (in the morning), днём (in the afternoon), ве́чером (in the evening), но́чью (at night)."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u11-w01",
+      "ru": "понедельник",
+      "stress": "понеде́льник",
+      "translit": "ponedél'nik",
+      "en": "Monday",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u11-w02",
+      "ru": "вторник",
+      "stress": "вто́рник",
+      "translit": "vtórnik",
+      "en": "Tuesday",
+      "pos": "noun m",
+      "note": "во вто́рник = on Tuesday"
+    },
+    {
+      "id": "a1-u11-w03",
+      "ru": "среда",
+      "stress": "среда́",
+      "translit": "sredá",
+      "en": "Wednesday",
+      "pos": "noun f",
+      "note": "в сре́ду = on Wednesday"
+    },
+    {
+      "id": "a1-u11-w04",
+      "ru": "четверг",
+      "stress": "четве́рг",
+      "translit": "chetvérg",
+      "en": "Thursday",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u11-w05",
+      "ru": "пятница",
+      "stress": "пя́тница",
+      "translit": "pyátnitsa",
+      "en": "Friday",
+      "pos": "noun f",
+      "note": "в пя́тницу = on Friday"
+    },
+    {
+      "id": "a1-u11-w06",
+      "ru": "суббота",
+      "stress": "суббо́та",
+      "translit": "subbóta",
+      "en": "Saturday",
+      "pos": "noun f",
+      "note": "в суббо́ту = on Saturday"
+    },
+    {
+      "id": "a1-u11-w07",
+      "ru": "воскресенье",
+      "stress": "воскресе́нье",
+      "translit": "voskresén'ye",
+      "en": "Sunday",
+      "pos": "noun n"
+    },
+    {
+      "id": "a1-u11-w08",
+      "ru": "сегодня",
+      "stress": "сего́дня",
+      "translit": "segódnya",
+      "en": "today",
+      "pos": "adverb",
+      "say": "sivódnya"
+    },
+    {
+      "id": "a1-u11-w09",
+      "ru": "завтра",
+      "stress": "за́втра",
+      "translit": "závtra",
+      "en": "tomorrow",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u11-w10",
+      "ru": "вчера",
+      "stress": "вчера́",
+      "translit": "vcherá",
+      "en": "yesterday",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u11-w11",
+      "ru": "день",
+      "stress": "день",
+      "translit": "den'",
+      "en": "day",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u11-w12",
+      "ru": "неделя",
+      "stress": "неде́ля",
+      "translit": "nedélya",
+      "en": "week",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u11-w13",
+      "ru": "час",
+      "stress": "час",
+      "translit": "chas",
+      "en": "hour; one o'clock",
+      "pos": "noun m",
+      "note": "2 часа́, 5 часо́в"
+    },
+    {
+      "id": "a1-u11-w14",
+      "ru": "минута",
+      "stress": "мину́та",
+      "translit": "minúta",
+      "en": "minute",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u11-w15",
+      "ru": "который час?",
+      "stress": "кото́рый час?",
+      "translit": "kotóryy chas?",
+      "en": "what time is it?",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u11-w16",
+      "ru": "утром",
+      "stress": "у́тром",
+      "translit": "útrom",
+      "en": "in the morning",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u11-w17",
+      "ru": "днём",
+      "stress": "днём",
+      "translit": "dnyom",
+      "en": "in the afternoon, during the day",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u11-w18",
+      "ru": "вечером",
+      "stress": "ве́чером",
+      "translit": "vécherom",
+      "en": "in the evening",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u11-w19",
+      "ru": "ночью",
+      "stress": "но́чью",
+      "translit": "nóch'yu",
+      "en": "at night",
+      "pos": "adverb"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u11-s01",
+      "ru": "Какой сегодня день?",
+      "stress": "Како́й сего́дня день?",
+      "translit": "Kakóy segódnya den'?",
+      "en": "What day is it today?",
+      "accept_en": [
+        "What day is today?"
+      ],
+      "word_bank": {
+        "answer": [
+          "какой",
+          "сегодня",
+          "день"
+        ],
+        "extra_tiles": [
+          "вечером",
+          "неделя",
+          "ночью"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s02",
+      "ru": "Сегодня понедельник.",
+      "stress": "Сего́дня понеде́льник.",
+      "translit": "Segódnya ponedél'nik.",
+      "en": "Today is Monday.",
+      "accept_en": [
+        "It's Monday today."
+      ],
+      "word_bank": {
+        "answer": [
+          "сегодня",
+          "понедельник"
+        ],
+        "extra_tiles": [
+          "завтра",
+          "час",
+          "днём"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s03",
+      "ru": "Завтра вторник.",
+      "stress": "За́втра вто́рник.",
+      "translit": "Závtra vtórnik.",
+      "en": "Tomorrow is Tuesday.",
+      "word_bank": {
+        "answer": [
+          "завтра",
+          "вторник"
+        ],
+        "extra_tiles": [
+          "день",
+          "часы",
+          "суббота"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s04",
+      "ru": "Который час?",
+      "stress": "Кото́рый час?",
+      "translit": "Kotóryy chas?",
+      "en": "What time is it?",
+      "word_bank": {
+        "answer": [
+          "который",
+          "час"
+        ],
+        "extra_tiles": [
+          "понедельник",
+          "минута",
+          "днём"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s05",
+      "ru": "Сейчас час.",
+      "stress": "Сейча́с час.",
+      "translit": "Seychás chas.",
+      "en": "It is one o'clock.",
+      "accept_en": [
+        "It's one o'clock now."
+      ],
+      "word_bank": {
+        "answer": [
+          "сейчас",
+          "час"
+        ],
+        "extra_tiles": [
+          "часы",
+          "ночью",
+          "утром"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s06",
+      "ru": "Сейчас три часа.",
+      "stress": "Сейча́с три часа́.",
+      "translit": "Seychás tri chasá.",
+      "en": "It is three o'clock.",
+      "accept_en": [
+        "It's three o'clock now."
+      ],
+      "word_bank": {
+        "answer": [
+          "сейчас",
+          "три",
+          "часа"
+        ],
+        "extra_tiles": [
+          "среды",
+          "ночью",
+          "пятнице"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s07",
+      "ru": "Сейчас пять часов.",
+      "stress": "Сейча́с пять часо́в.",
+      "translit": "Seychás pyat' chasóv.",
+      "en": "It is five o'clock.",
+      "accept_en": [
+        "It's five o'clock now."
+      ],
+      "word_bank": {
+        "answer": [
+          "сейчас",
+          "пять",
+          "часов"
+        ],
+        "extra_tiles": [
+          "среда",
+          "минута",
+          "утром"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s08",
+      "ru": "В пятницу у меня урок.",
+      "stress": "В пя́тницу у меня́ уро́к.",
+      "translit": "V pyátnitsu u menyá urók.",
+      "en": "On Friday I have a lesson.",
+      "accept_ru": [
+        "У меня урок в пятницу."
+      ],
+      "accept_en": [
+        "I have a lesson on Friday."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "пятницу",
+          "у",
+          "меня",
+          "урок"
+        ],
+        "extra_tiles": [
+          "сегодня",
+          "суббота",
+          "пятница"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s09",
+      "ru": "В субботу я дома.",
+      "stress": "В суббо́ту я до́ма.",
+      "translit": "V subbótu ya dóma.",
+      "en": "On Saturday I am at home.",
+      "accept_ru": [
+        "Я дома в субботу."
+      ],
+      "accept_en": [
+        "I'm at home on Saturday."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "субботу",
+          "я",
+          "дома"
+        ],
+        "extra_tiles": [
+          "минута",
+          "пятницы",
+          "вечером"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s10",
+      "ru": "Урок в два часа.",
+      "stress": "Уро́к в два часа́.",
+      "translit": "Urók v dva chasá.",
+      "en": "The lesson is at two o'clock.",
+      "accept_en": [
+        "The class is at two."
+      ],
+      "word_bank": {
+        "answer": [
+          "урок",
+          "в",
+          "два",
+          "часа"
+        ],
+        "extra_tiles": [
+          "минута",
+          "час",
+          "вчера"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s11",
+      "ru": "Утром я в школе, а вечером дома.",
+      "stress": "У́тром я в шко́ле, а ве́чером до́ма.",
+      "translit": "Útrom ya v shkóle, a vécherom dóma.",
+      "en": "In the morning I am at school, and in the evening at home.",
+      "word_bank": {
+        "answer": [
+          "утром",
+          "я",
+          "в",
+          "школе",
+          "а",
+          "вечером",
+          "дома"
+        ],
+        "extra_tiles": [
+          "воскресенье",
+          "днём",
+          "пятница"
+        ]
+      }
+    },
+    {
+      "id": "a1-u11-s12",
+      "ru": "В среду я в Таллине.",
+      "stress": "В сре́ду я в Та́ллине.",
+      "translit": "V srédu ya v Tálline.",
+      "en": "On Wednesday I am in Tallinn.",
+      "accept_ru": [
+        "Я в Таллине в среду."
+      ],
+      "accept_en": [
+        "I'm in Tallinn on Wednesday."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "среду",
+          "я",
+          "в",
+          "Таллине"
+        ],
+        "extra_tiles": [
+          "ночью",
+          "часы",
+          "Москва"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u11-g01",
+      "prompt": "В ___ у меня урок. (Wednesday)",
+      "options": [
+        "среду",
+        "среда",
+        "среде",
+        "среды"
+      ],
+      "answer": "среду",
+      "en": "On Wednesday I have a lesson."
+    },
+    {
+      "id": "a1-u11-g02",
+      "prompt": "Сейчас пять ___.",
+      "options": [
+        "часов",
+        "часа",
+        "час",
+        "часы"
+      ],
+      "answer": "часов",
+      "en": "It is five o'clock."
+    },
+    {
+      "id": "a1-u11-g03",
+      "prompt": "Сейчас два ___.",
+      "options": [
+        "часа",
+        "часов",
+        "час",
+        "часы"
+      ],
+      "answer": "часа",
+      "en": "It is two o'clock."
+    },
+    {
+      "id": "a1-u11-g04",
+      "prompt": "Какой ___ день?",
+      "options": [
+        "сегодня",
+        "вчера",
+        "утром",
+        "минута"
+      ],
+      "answer": "сегодня",
+      "en": "What day is it today?"
+    },
+    {
+      "id": "a1-u11-g05",
+      "prompt": "В ___ я дома. (Friday)",
+      "options": [
+        "пятницу",
+        "пятница",
+        "пятнице",
+        "пятницы"
+      ],
+      "answer": "пятницу",
+      "en": "On Friday I am at home."
+    }
+  ],
+  "dialogue": {
+    "title": "What time is it?",
+    "lines": [
+      {
+        "speaker": "Марк",
+        "ru": "Аня, какой сегодня день?",
+        "stress": "А́ня, како́й сего́дня день?",
+        "translit": "Ánya, kakóy segódnya den'?",
+        "en": "Anya, what day is it today?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Сегодня пятница.",
+        "stress": "Сего́дня пя́тница.",
+        "translit": "Segódnya pyátnitsa.",
+        "en": "Today is Friday."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "А который час?",
+        "stress": "А кото́рый час?",
+        "translit": "A kotóryy chas?",
+        "en": "And what time is it?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Сейчас три часа.",
+        "stress": "Сейча́с три часа́.",
+        "translit": "Seychás tri chasá.",
+        "en": "It's three o'clock."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Ой! У меня урок в три часа!",
+        "stress": "Ой! У меня́ уро́к в три часа́!",
+        "translit": "Oy! U menyá urók v tri chasá!",
+        "en": "Oh! I have a lesson at three!"
+      }
+    ],
+    "questions": [
+      {
+        "question": "What day is it?",
+        "options": [
+          "Friday",
+          "Monday",
+          "Sunday"
+        ],
+        "answer": "Friday"
+      },
+      {
+        "question": "When is Mark's lesson?",
+        "options": [
+          "At three",
+          "At five",
+          "At one"
+        ],
+        "answer": "At three"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u11-wr01",
+    "prompt": "Write what day it is today, what day it is tomorrow, and what time it is now.",
+    "use": [
+      "сего́дня",
+      "за́втра",
+      "сейча́с … час / часа́ / часо́в"
+    ],
+    "model": {
+      "ru": "Сегодня среда. Завтра четверг. Сейчас три часа.",
+      "stress": "Сего́дня среда́. За́втра четве́рг. Сейча́с три часа́."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

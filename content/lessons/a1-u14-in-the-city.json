@@ -1,0 +1,595 @@
+{
+  "id": "a1-u14",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 14,
+  "title": "In the city",
+  "goal": "Ask where places are and understand simple directions.",
+  "grammar": [
+    {
+      "title": "в or на?",
+      "explanation": "Most places take в: в магази́не, в апте́ке, в ба́нке, в па́рке, в музе́е. Some take на and must be learned: на по́чте (at the post office), на вокза́ле (at the station), на остано́вке (at the stop), на у́лице."
+    },
+    {
+      "title": "Where is…?",
+      "explanation": "Где нахо́дится…? is the polite, full way to ask. Где… ? alone is fine too."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u14-w01",
+      "ru": "магазин",
+      "stress": "магази́н",
+      "translit": "magazín",
+      "en": "shop",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u14-w02",
+      "ru": "аптека",
+      "stress": "апте́ка",
+      "translit": "aptéka",
+      "en": "pharmacy",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u14-w03",
+      "ru": "почта",
+      "stress": "по́чта",
+      "translit": "póchta",
+      "en": "post office",
+      "pos": "noun f",
+      "note": "на по́чте"
+    },
+    {
+      "id": "a1-u14-w04",
+      "ru": "банк",
+      "stress": "банк",
+      "translit": "bank",
+      "en": "bank",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u14-w05",
+      "ru": "музей",
+      "stress": "музе́й",
+      "translit": "muzéy",
+      "en": "museum",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u14-w06",
+      "ru": "парк",
+      "stress": "парк",
+      "translit": "park",
+      "en": "park",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u14-w07",
+      "ru": "вокзал",
+      "stress": "вокза́л",
+      "translit": "vokzál",
+      "en": "railway station",
+      "pos": "noun m",
+      "note": "на вокза́ле"
+    },
+    {
+      "id": "a1-u14-w08",
+      "ru": "остановка",
+      "stress": "остано́вка",
+      "translit": "ostanóvka",
+      "en": "bus / tram stop",
+      "pos": "noun f",
+      "note": "на остано́вке"
+    },
+    {
+      "id": "a1-u14-w09",
+      "ru": "гостиница",
+      "stress": "гости́ница",
+      "translit": "gostínitsa",
+      "en": "hotel",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u14-w10",
+      "ru": "находится",
+      "stress": "нахо́дится",
+      "translit": "nakhóditsya",
+      "en": "is located",
+      "pos": "verb",
+      "say": "nakhóditsa"
+    },
+    {
+      "id": "a1-u14-w11",
+      "ru": "налево",
+      "stress": "нале́во",
+      "translit": "nalévo",
+      "en": "to the left",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u14-w12",
+      "ru": "направо",
+      "stress": "напра́во",
+      "translit": "naprávo",
+      "en": "to the right",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u14-w13",
+      "ru": "прямо",
+      "stress": "пря́мо",
+      "translit": "pryámo",
+      "en": "straight ahead",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u14-w14",
+      "ru": "потом",
+      "stress": "пото́м",
+      "translit": "potóm",
+      "en": "then, after that",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u14-w15",
+      "ru": "далеко",
+      "stress": "далеко́",
+      "translit": "dalekó",
+      "en": "far",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u14-w16",
+      "ru": "близко",
+      "stress": "бли́зко",
+      "translit": "blízko",
+      "en": "near, close",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u14-w17",
+      "ru": "идите",
+      "stress": "иди́те",
+      "translit": "idíte",
+      "en": "go (polite, on foot)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u14-w18",
+      "ru": "скажите, пожалуйста",
+      "stress": "скажи́те, пожа́луйста",
+      "translit": "skazhíte, pozháluysta",
+      "en": "tell me, please; excuse me",
+      "pos": "phrase",
+      "note": "polite way to start a question"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u14-s01",
+      "ru": "Извините, где находится аптека?",
+      "stress": "Извини́те, где нахо́дится апте́ка?",
+      "translit": "Izviníte, gde nakhóditsya aptéka?",
+      "en": "Excuse me, where is the pharmacy?",
+      "word_bank": {
+        "answer": [
+          "извините",
+          "где",
+          "находится",
+          "аптека"
+        ],
+        "extra_tiles": [
+          "банк",
+          "пожалуйста",
+          "почта"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s02",
+      "ru": "Аптека там, налево.",
+      "stress": "Апте́ка там, нале́во.",
+      "translit": "Aptéka tam, nalévo.",
+      "en": "The pharmacy is over there, on the left.",
+      "accept_en": [
+        "The pharmacy is there, to the left."
+      ],
+      "word_bank": {
+        "answer": [
+          "аптека",
+          "там",
+          "налево"
+        ],
+        "extra_tiles": [
+          "гостиница",
+          "близко",
+          "магазина"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s03",
+      "ru": "Идите прямо, потом направо.",
+      "stress": "Иди́те пря́мо, пото́м напра́во.",
+      "translit": "Idíte pryámo, potóm naprávo.",
+      "en": "Go straight, then turn right.",
+      "accept_en": [
+        "Go straight ahead, then right."
+      ],
+      "word_bank": {
+        "answer": [
+          "идите",
+          "прямо",
+          "потом",
+          "направо"
+        ],
+        "extra_tiles": [
+          "налево",
+          "у",
+          "банк"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s04",
+      "ru": "Банк далеко?",
+      "stress": "Банк далеко́?",
+      "translit": "Bank dalekó?",
+      "en": "Is the bank far?",
+      "word_bank": {
+        "answer": [
+          "банк",
+          "далеко"
+        ],
+        "extra_tiles": [
+          "гостиница",
+          "близко",
+          "музей"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s05",
+      "ru": "Нет, банк близко.",
+      "stress": "Нет, банк бли́зко.",
+      "translit": "Net, bank blízko.",
+      "en": "No, the bank is close.",
+      "accept_en": [
+        "No, the bank is near."
+      ],
+      "word_bank": {
+        "answer": [
+          "нет",
+          "банк",
+          "близко"
+        ],
+        "extra_tiles": [
+          "из",
+          "находятся",
+          "налево"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s06",
+      "ru": "Скажите, пожалуйста, где почта?",
+      "stress": "Скажи́те, пожа́луйста, где по́чта?",
+      "translit": "Skazhíte, pozháluysta, gde póchta?",
+      "en": "Excuse me, where is the post office?",
+      "accept_en": [
+        "Tell me please, where is the post office?"
+      ],
+      "word_bank": {
+        "answer": [
+          "скажите",
+          "пожалуйста",
+          "где",
+          "почта"
+        ],
+        "extra_tiles": [
+          "аптека",
+          "магазина",
+          "банк"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s07",
+      "ru": "Я на почте.",
+      "stress": "Я на по́чте.",
+      "translit": "Ya na póchte.",
+      "en": "I am at the post office.",
+      "accept_en": [
+        "I'm at the post office."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "на",
+          "почте"
+        ],
+        "extra_tiles": [
+          "в",
+          "потом",
+          "находишься"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s08",
+      "ru": "Мама в магазине.",
+      "stress": "Ма́ма в магази́не.",
+      "translit": "Máma v magazíne.",
+      "en": "Mom is at the shop.",
+      "accept_en": [
+        "Mom is in the shop.",
+        "Mom is at the store."
+      ],
+      "word_bank": {
+        "answer": [
+          "мама",
+          "в",
+          "магазине"
+        ],
+        "extra_tiles": [
+          "остановка",
+          "скажите",
+          "у"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s09",
+      "ru": "Мы в парке.",
+      "stress": "Мы в па́рке.",
+      "translit": "My v párke.",
+      "en": "We are in the park.",
+      "accept_en": [
+        "We're in the park."
+      ],
+      "word_bank": {
+        "answer": [
+          "мы",
+          "в",
+          "парке"
+        ],
+        "extra_tiles": [
+          "направо",
+          "магазину",
+          "находятся"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s10",
+      "ru": "Папа на вокзале.",
+      "stress": "Па́па на вокза́ле.",
+      "translit": "Pápa na vokzále.",
+      "en": "Dad is at the station.",
+      "accept_en": [
+        "Dad is at the railway station."
+      ],
+      "word_bank": {
+        "answer": [
+          "папа",
+          "на",
+          "вокзале"
+        ],
+        "extra_tiles": [
+          "магазина",
+          "магазин",
+          "из"
+        ]
+      }
+    },
+    {
+      "id": "a1-u14-s11",
+      "ru": "Где остановка? — Остановка рядом.",
+      "stress": "Где остано́вка? — Остано́вка ря́дом.",
+      "translit": "Gde ostanóvka? — Ostanóvka ryádom.",
+      "en": "Where is the stop? — The stop is nearby."
+    },
+    {
+      "id": "a1-u14-s12",
+      "ru": "Музей налево, а парк направо.",
+      "stress": "Музе́й нале́во, а парк напра́во.",
+      "translit": "Muzéy nalévo, a park naprávo.",
+      "en": "The museum is on the left, and the park is on the right.",
+      "word_bank": {
+        "answer": [
+          "музей",
+          "налево",
+          "а",
+          "парк",
+          "направо"
+        ],
+        "extra_tiles": [
+          "банк",
+          "вокзал",
+          "потом"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u14-g01",
+      "prompt": "Я на ___.",
+      "options": [
+        "почте",
+        "почта",
+        "почту",
+        "почты"
+      ],
+      "answer": "почте",
+      "en": "I am at the post office."
+    },
+    {
+      "id": "a1-u14-g02",
+      "prompt": "Мама в ___.",
+      "options": [
+        "магазине",
+        "магазин",
+        "магазина",
+        "магазину"
+      ],
+      "answer": "магазине",
+      "en": "Mom is at the shop."
+    },
+    {
+      "id": "a1-u14-g03",
+      "prompt": "Где ___ аптека?",
+      "options": [
+        "находится",
+        "находишься",
+        "находятся",
+        "находиться"
+      ],
+      "answer": "находится",
+      "en": "Where is the pharmacy?"
+    },
+    {
+      "id": "a1-u14-g04",
+      "prompt": "Папа ___ вокзале.",
+      "options": [
+        "на",
+        "в",
+        "из",
+        "у"
+      ],
+      "answer": "на",
+      "en": "Dad is at the station."
+    },
+    {
+      "id": "a1-u14-g05",
+      "prompt": "Банк ___? — Нет, близко.",
+      "options": [
+        "далеко",
+        "налево",
+        "прямо",
+        "потом"
+      ],
+      "answer": "далеко",
+      "en": "Is the bank far? — No, close."
+    }
+  ],
+  "dialogue": {
+    "title": "Where is the pharmacy?",
+    "lines": [
+      {
+        "speaker": "Марк",
+        "ru": "Извините, где находится аптека?",
+        "stress": "Извини́те, где нахо́дится апте́ка?",
+        "translit": "Izviníte, gde nakhóditsya aptéka?",
+        "en": "Excuse me, where is the pharmacy?"
+      },
+      {
+        "speaker": "Женщина",
+        "ru": "Идите прямо, потом налево.",
+        "stress": "Иди́те пря́мо, пото́м нале́во.",
+        "translit": "Idíte pryámo, potóm nalévo.",
+        "en": "Go straight, then left."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Это далеко?",
+        "stress": "Э́то далеко́?",
+        "translit": "Éto dalekó?",
+        "en": "Is it far?"
+      },
+      {
+        "speaker": "Женщина",
+        "ru": "Нет, близко. Рядом с почтой.",
+        "stress": "Нет, бли́зко. Ря́дом с по́чтой.",
+        "translit": "Net, blízko. Ryádom s póchtoy.",
+        "en": "No, it's close. Next to the post office."
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Спасибо!",
+        "stress": "Спаси́бо!",
+        "translit": "Spasíbo!",
+        "en": "Thank you!"
+      }
+    ],
+    "questions": [
+      {
+        "question": "How does Mark get to the pharmacy?",
+        "options": [
+          "Straight, then left",
+          "Straight, then right",
+          "Left, then straight"
+        ],
+        "answer": "Straight, then left"
+      },
+      {
+        "question": "What is the pharmacy next to?",
+        "options": [
+          "The post office",
+          "The bank",
+          "The park"
+        ],
+        "answer": "The post office"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u14-wr01",
+    "prompt": "Ask where a place is, then write the answer with directions.",
+    "use": [
+      "извини́те, где нахо́дится…?",
+      "иди́те пря́мо / нале́во / напра́во",
+      "бли́зко / далеко́"
+    ],
+    "model": {
+      "ru": "Извините, где находится почта? — Идите прямо, потом налево. Почта близко.",
+      "stress": "Извини́те, где нахо́дится по́чта? — Иди́те пря́мо, пото́м нале́во. По́чта бли́зко."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

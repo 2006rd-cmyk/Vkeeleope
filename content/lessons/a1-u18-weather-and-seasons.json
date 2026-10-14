@@ -1,0 +1,625 @@
+{
+  "id": "a1-u18",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 18,
+  "title": "Weather and seasons",
+  "goal": "Talk about the weather, seasons and months.",
+  "grammar": [
+    {
+      "title": "Sentences with no subject",
+      "explanation": "Хо́лодно. (It is cold.) Тепло́. (It is warm.) Add мне for how YOU feel: Мне хо́лодно. (I am cold.)"
+    },
+    {
+      "title": "Seasons",
+      "explanation": "зима́ → зимо́й (in winter), весна́ → весно́й, ле́то → ле́том, о́сень → о́сенью."
+    },
+    {
+      "title": "Months",
+      "explanation": "в + prepositional: в январе́, в феврале́, в ма́рте, в апре́ле, в ма́е, в ию́не, в ию́ле, в а́вгусте, в сентябре́, в октябре́, в ноябре́, в декабре́."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u18-w01",
+      "ru": "погода",
+      "stress": "пого́да",
+      "translit": "pogóda",
+      "en": "weather",
+      "pos": "noun f"
+    },
+    {
+      "id": "a1-u18-w02",
+      "ru": "зима",
+      "stress": "зима́",
+      "translit": "zimá",
+      "en": "winter",
+      "pos": "noun f",
+      "note": "зимо́й = in winter"
+    },
+    {
+      "id": "a1-u18-w03",
+      "ru": "весна",
+      "stress": "весна́",
+      "translit": "vesná",
+      "en": "spring",
+      "pos": "noun f",
+      "note": "весно́й = in spring"
+    },
+    {
+      "id": "a1-u18-w04",
+      "ru": "лето",
+      "stress": "ле́то",
+      "translit": "léto",
+      "en": "summer",
+      "pos": "noun n",
+      "note": "ле́том = in summer"
+    },
+    {
+      "id": "a1-u18-w05",
+      "ru": "осень",
+      "stress": "о́сень",
+      "translit": "ósen'",
+      "en": "autumn",
+      "pos": "noun f",
+      "note": "о́сенью = in autumn"
+    },
+    {
+      "id": "a1-u18-w06",
+      "ru": "холодно",
+      "stress": "хо́лодно",
+      "translit": "khólodno",
+      "en": "cold (it is)",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u18-w07",
+      "ru": "тепло",
+      "stress": "тепло́",
+      "translit": "tepló",
+      "en": "warm (it is)",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u18-w08",
+      "ru": "жарко",
+      "stress": "жа́рко",
+      "translit": "zhárko",
+      "en": "hot (it is)",
+      "pos": "adverb"
+    },
+    {
+      "id": "a1-u18-w09",
+      "ru": "солнечно",
+      "stress": "со́лнечно",
+      "translit": "sólnechno",
+      "en": "sunny",
+      "pos": "adverb",
+      "say": "sólnichna",
+      "note": "the first л is silent"
+    },
+    {
+      "id": "a1-u18-w10",
+      "ru": "дождь",
+      "stress": "дождь",
+      "translit": "dozhd'",
+      "en": "rain",
+      "pos": "noun m",
+      "note": "идёт дождь = it is raining"
+    },
+    {
+      "id": "a1-u18-w11",
+      "ru": "снег",
+      "stress": "снег",
+      "translit": "sneg",
+      "en": "snow",
+      "pos": "noun m",
+      "note": "идёт снег = it is snowing"
+    },
+    {
+      "id": "a1-u18-w12",
+      "ru": "ветер",
+      "stress": "ве́тер",
+      "translit": "véter",
+      "en": "wind",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u18-w13",
+      "ru": "градус",
+      "stress": "гра́дус",
+      "translit": "grádus",
+      "en": "degree",
+      "pos": "noun m",
+      "note": "5 гра́дусов"
+    },
+    {
+      "id": "a1-u18-w14",
+      "ru": "месяц",
+      "stress": "ме́сяц",
+      "translit": "mésyats",
+      "en": "month",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u18-w15",
+      "ru": "январь",
+      "stress": "янва́рь",
+      "translit": "yanvár'",
+      "en": "January",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u18-w16",
+      "ru": "март",
+      "stress": "март",
+      "translit": "mart",
+      "en": "March",
+      "pos": "noun m"
+    },
+    {
+      "id": "a1-u18-w17",
+      "ru": "май",
+      "stress": "май",
+      "translit": "may",
+      "en": "May",
+      "pos": "noun m",
+      "note": "в ма́е"
+    },
+    {
+      "id": "a1-u18-w18",
+      "ru": "июль",
+      "stress": "ию́ль",
+      "translit": "iyúl'",
+      "en": "July",
+      "pos": "noun m",
+      "note": "в ию́ле"
+    },
+    {
+      "id": "a1-u18-w19",
+      "ru": "день рождения",
+      "stress": "день рожде́ния",
+      "translit": "den' rozhdéniya",
+      "en": "birthday",
+      "pos": "phrase"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u18-s01",
+      "ru": "Какая сегодня погода?",
+      "stress": "Кака́я сего́дня пого́да?",
+      "translit": "Kakáya segódnya pogóda?",
+      "en": "What is the weather like today?",
+      "accept_en": [
+        "What's the weather today?"
+      ],
+      "word_bank": {
+        "answer": [
+          "какая",
+          "сегодня",
+          "погода"
+        ],
+        "extra_tiles": [
+          "зима",
+          "рождения",
+          "градус"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s02",
+      "ru": "Сегодня холодно.",
+      "stress": "Сего́дня хо́лодно.",
+      "translit": "Segódnya khólodno.",
+      "en": "It is cold today.",
+      "accept_en": [
+        "Today it's cold."
+      ],
+      "word_bank": {
+        "answer": [
+          "сегодня",
+          "холодно"
+        ],
+        "extra_tiles": [
+          "рождения",
+          "снега",
+          "снег"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s03",
+      "ru": "Идёт снег.",
+      "stress": "Идёт снег.",
+      "translit": "Idyot sneg.",
+      "en": "It is snowing.",
+      "accept_en": [
+        "It's snowing."
+      ],
+      "word_bank": {
+        "answer": [
+          "идёт",
+          "снег"
+        ],
+        "extra_tiles": [
+          "месяц",
+          "погоды",
+          "тепло"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s04",
+      "ru": "Идёт дождь.",
+      "stress": "Идёт дождь.",
+      "translit": "Idyot dozhd'.",
+      "en": "It is raining.",
+      "accept_en": [
+        "It's raining."
+      ],
+      "word_bank": {
+        "answer": [
+          "идёт",
+          "дождь"
+        ],
+        "extra_tiles": [
+          "градус",
+          "зимы",
+          "холод"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s05",
+      "ru": "Летом тепло и солнечно.",
+      "stress": "Ле́том тепло́ и со́лнечно.",
+      "translit": "Létom tepló i sólnechno.",
+      "en": "In summer it is warm and sunny.",
+      "word_bank": {
+        "answer": [
+          "летом",
+          "тепло",
+          "и",
+          "солнечно"
+        ],
+        "extra_tiles": [
+          "снега",
+          "июлю",
+          "июль"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s06",
+      "ru": "Зимой в Эстонии холодно.",
+      "stress": "Зимо́й в Эсто́нии хо́лодно.",
+      "translit": "Zimóy v Estónii khólodno.",
+      "en": "In winter it is cold in Estonia.",
+      "accept_ru": [
+        "В Эстонии зимой холодно."
+      ],
+      "accept_en": [
+        "It's cold in Estonia in winter."
+      ],
+      "word_bank": {
+        "answer": [
+          "зимой",
+          "в",
+          "Эстонии",
+          "холодно"
+        ],
+        "extra_tiles": [
+          "зима",
+          "март",
+          "Москва"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s07",
+      "ru": "Мне жарко.",
+      "stress": "Мне жа́рко.",
+      "translit": "Mne zhárko.",
+      "en": "I am hot.",
+      "accept_en": [
+        "I'm hot."
+      ],
+      "word_bank": {
+        "answer": [
+          "мне",
+          "жарко"
+        ],
+        "extra_tiles": [
+          "зима",
+          "солнечно",
+          "холодно"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s08",
+      "ru": "Сегодня минус пять градусов.",
+      "stress": "Сего́дня ми́нус пять гра́дусов.",
+      "translit": "Segódnya mínus pyat' grádusov.",
+      "en": "Today it is minus five degrees.",
+      "accept_en": [
+        "It's minus five today."
+      ],
+      "word_bank": {
+        "answer": [
+          "сегодня",
+          "минус",
+          "пять",
+          "градусов"
+        ],
+        "extra_tiles": [
+          "градус",
+          "погоде",
+          "осень"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s09",
+      "ru": "Я люблю осень.",
+      "stress": "Я люблю́ о́сень.",
+      "translit": "Ya lyublyú ósen'.",
+      "en": "I love autumn.",
+      "accept_en": [
+        "I like autumn.",
+        "I love fall."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "люблю",
+          "осень"
+        ],
+        "extra_tiles": [
+          "снегу",
+          "холодный",
+          "зима"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s10",
+      "ru": "В июле очень тепло.",
+      "stress": "В ию́ле о́чень тепло́.",
+      "translit": "V iyúle óchen' tepló.",
+      "en": "In July it is very warm.",
+      "accept_en": [
+        "It's very warm in July."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "июле",
+          "очень",
+          "тепло"
+        ],
+        "extra_tiles": [
+          "июлю",
+          "ветер",
+          "погоду"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s11",
+      "ru": "Мой день рождения в мае.",
+      "stress": "Мой день рожде́ния в ма́е.",
+      "translit": "Moy den' rozhdéniya v máye.",
+      "en": "My birthday is in May.",
+      "word_bank": {
+        "answer": [
+          "мой",
+          "день",
+          "рождения",
+          "в",
+          "мае"
+        ],
+        "extra_tiles": [
+          "погоду",
+          "дождь",
+          "снег"
+        ]
+      }
+    },
+    {
+      "id": "a1-u18-s12",
+      "ru": "Сегодня сильный ветер.",
+      "stress": "Сего́дня си́льный ве́тер.",
+      "translit": "Segódnya síl'nyy véter.",
+      "en": "There is a strong wind today.",
+      "accept_en": [
+        "It's very windy today."
+      ],
+      "word_bank": {
+        "answer": [
+          "сегодня",
+          "сильный",
+          "ветер"
+        ],
+        "extra_tiles": [
+          "погода",
+          "январь",
+          "снег"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u18-g01",
+      "prompt": "___ в Эстонии холодно.",
+      "options": [
+        "Зимой",
+        "Зима",
+        "Зимы",
+        "Зиму"
+      ],
+      "answer": "Зимой",
+      "en": "In winter it is cold in Estonia."
+    },
+    {
+      "id": "a1-u18-g02",
+      "prompt": "Идёт ___.",
+      "options": [
+        "снег",
+        "снега",
+        "снегу",
+        "снегом"
+      ],
+      "answer": "снег",
+      "en": "It is snowing."
+    },
+    {
+      "id": "a1-u18-g03",
+      "prompt": "Мне ___.",
+      "options": [
+        "холодно",
+        "холодный",
+        "холод",
+        "холодная"
+      ],
+      "answer": "холодно",
+      "en": "I am cold."
+    },
+    {
+      "id": "a1-u18-g04",
+      "prompt": "В ___ очень тепло.",
+      "options": [
+        "июле",
+        "июль",
+        "июля",
+        "июлю"
+      ],
+      "answer": "июле",
+      "en": "In July it is very warm."
+    },
+    {
+      "id": "a1-u18-g05",
+      "prompt": "Какая сегодня ___?",
+      "options": [
+        "погода",
+        "погоду",
+        "погоде",
+        "погоды"
+      ],
+      "answer": "погода",
+      "en": "What is the weather like today?"
+    }
+  ],
+  "dialogue": {
+    "title": "Cold in Tallinn",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Какая сегодня погода в Таллине?",
+        "stress": "Кака́я сего́дня пого́да в Та́ллине?",
+        "translit": "Kakáya segódnya pogóda v Tálline?",
+        "en": "What's the weather like in Tallinn today?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Холодно. Идёт снег. А в Москве?",
+        "stress": "Хо́лодно. Идёт снег. А в Москве́?",
+        "translit": "Khólodno. Idyot sneg. A v Moskvé?",
+        "en": "Cold. It's snowing. And in Moscow?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "Тоже холодно. Минус десять градусов!",
+        "stress": "То́же хо́лодно. Ми́нус де́сять гра́дусов!",
+        "translit": "Tózhe khólodno. Mínus désyat' grádusov!",
+        "en": "Cold too. Minus ten degrees!"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Я люблю лето. Летом тепло.",
+        "stress": "Я люблю́ ле́то. Ле́том тепло́.",
+        "translit": "Ya lyublyú léto. Létom tepló.",
+        "en": "I love summer. It's warm in summer."
+      }
+    ],
+    "questions": [
+      {
+        "question": "What is the weather in Tallinn?",
+        "options": [
+          "Cold and snowing",
+          "Warm and sunny",
+          "Raining"
+        ],
+        "answer": "Cold and snowing"
+      },
+      {
+        "question": "How cold is it in Moscow?",
+        "options": [
+          "Minus ten",
+          "Minus five",
+          "Plus ten"
+        ],
+        "answer": "Minus ten"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u18-wr01",
+    "prompt": "Describe today's weather and say which season you like and why.",
+    "use": [
+      "сего́дня хо́лодно / тепло́",
+      "идёт дождь / снег",
+      "потому́ что"
+    ],
+    "model": {
+      "ru": "Сегодня холодно, идёт дождь. Я люблю лето, потому что летом тепло и солнечно.",
+      "stress": "Сего́дня хо́лодно, идёт дождь. Я люблю́ ле́то, потому́ что ле́том тепло́ и со́лнечно."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "a1-u10",
+  "level": "A1",
+  "kind": "checkpoint",
+  "number": 10,
+  "section": "A1.1",
+  "title": "Checkpoint A1.1",
+  "covers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "questions": 20,
+  "pass_percent": 80
+}

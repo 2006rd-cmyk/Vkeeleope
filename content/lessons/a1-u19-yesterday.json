@@ -1,0 +1,578 @@
+{
+  "id": "a1-u19",
+  "level": "A1",
+  "section": "A1.2",
+  "number": 19,
+  "title": "Yesterday",
+  "goal": "Say where you were and what you did.",
+  "grammar": [
+    {
+      "title": "Past tense",
+      "explanation": "Take the infinitive, drop -ть, add -л (he / I as a man), -ла (she / I as a woman), -ли (we, you, they): чита́ть → чита́л, чита́ла, чита́ли. The ending follows who did it, not 'I / you'."
+    },
+    {
+      "title": "быть in the past",
+      "explanation": "был (m), была́ (f), бы́ло (n), бы́ли (pl): Вчера́ я был до́ма. Вчера́ была́ суббо́та."
+    },
+    {
+      "title": "ходи́л / е́здил = went and came back",
+      "explanation": "В суббо́ту мы ходи́ли в парк (on foot). Я е́здил в Ри́гу (by vehicle)."
+    }
+  ],
+  "words": [
+    {
+      "id": "a1-u19-w01",
+      "ru": "был",
+      "stress": "был",
+      "translit": "byl",
+      "en": "was (m)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u19-w02",
+      "ru": "была",
+      "stress": "была́",
+      "translit": "bylá",
+      "en": "was (f)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u19-w03",
+      "ru": "было",
+      "stress": "бы́ло",
+      "translit": "býlo",
+      "en": "was (n)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u19-w04",
+      "ru": "были",
+      "stress": "бы́ли",
+      "translit": "býli",
+      "en": "were (pl)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u19-w05",
+      "ru": "делал",
+      "stress": "де́лал",
+      "translit": "délal",
+      "en": "did, was doing (m)",
+      "pos": "verb",
+      "note": "де́лала (f)"
+    },
+    {
+      "id": "a1-u19-w06",
+      "ru": "читал",
+      "stress": "чита́л",
+      "translit": "chitál",
+      "en": "read, was reading (m)",
+      "pos": "verb",
+      "note": "чита́ла (f)"
+    },
+    {
+      "id": "a1-u19-w07",
+      "ru": "смотрели",
+      "stress": "смотре́ли",
+      "translit": "smotréli",
+      "en": "watched (pl)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u19-w08",
+      "ru": "жил",
+      "stress": "жил",
+      "translit": "zhil",
+      "en": "lived (m)",
+      "pos": "verb",
+      "note": "жила́ (f)"
+    },
+    {
+      "id": "a1-u19-w09",
+      "ru": "ходили",
+      "stress": "ходи́ли",
+      "translit": "khodíli",
+      "en": "went (on foot, and came back) (pl)",
+      "pos": "verb"
+    },
+    {
+      "id": "a1-u19-w10",
+      "ru": "ездил",
+      "stress": "е́здил",
+      "translit": "yézdil",
+      "en": "went (by vehicle, and came back) (m)",
+      "pos": "verb",
+      "note": "е́здила (f)"
+    },
+    {
+      "id": "a1-u19-w11",
+      "ru": "на прошлой неделе",
+      "stress": "на про́шлой неде́ле",
+      "translit": "na próshloy nedéle",
+      "en": "last week",
+      "pos": "phrase"
+    },
+    {
+      "id": "a1-u19-w12",
+      "ru": "назад",
+      "stress": "наза́д",
+      "translit": "nazád",
+      "en": "ago",
+      "pos": "adverb",
+      "note": "год наза́д = a year ago"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a1-u19-s01",
+      "ru": "Вчера я был дома.",
+      "stress": "Вчера́ я был до́ма.",
+      "translit": "Vcherá ya byl dóma.",
+      "en": "Yesterday I was at home. (man)",
+      "accept_ru": [
+        "Я был дома вчера."
+      ],
+      "accept_en": [
+        "I was at home yesterday."
+      ],
+      "word_bank": {
+        "answer": [
+          "вчера",
+          "я",
+          "был",
+          "дома"
+        ],
+        "extra_tiles": [
+          "на",
+          "читало",
+          "было"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s02",
+      "ru": "Вчера я была в школе.",
+      "stress": "Вчера́ я была́ в шко́ле.",
+      "translit": "Vcherá ya bylá v shkóle.",
+      "en": "Yesterday I was at school. (woman)",
+      "accept_ru": [
+        "Я была в школе вчера."
+      ],
+      "accept_en": [
+        "I was at school yesterday."
+      ],
+      "word_bank": {
+        "answer": [
+          "вчера",
+          "я",
+          "была",
+          "в",
+          "школе"
+        ],
+        "extra_tiles": [
+          "ездил",
+          "неделе",
+          "читал"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s03",
+      "ru": "Где ты был вчера?",
+      "stress": "Где ты был вчера́?",
+      "translit": "Gde ty byl vcherá?",
+      "en": "Where were you yesterday?",
+      "word_bank": {
+        "answer": [
+          "где",
+          "ты",
+          "был",
+          "вчера"
+        ],
+        "extra_tiles": [
+          "на",
+          "жили",
+          "жил"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s04",
+      "ru": "Что ты делал вчера?",
+      "stress": "Что ты де́лал вчера́?",
+      "translit": "Chto ty délal vcherá?",
+      "en": "What did you do yesterday?",
+      "accept_en": [
+        "What were you doing yesterday?"
+      ],
+      "word_bank": {
+        "answer": [
+          "что",
+          "ты",
+          "делал",
+          "вчера"
+        ],
+        "extra_tiles": [
+          "смотрела",
+          "была",
+          "жило"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s05",
+      "ru": "Я читал книгу.",
+      "stress": "Я чита́л кни́гу.",
+      "translit": "Ya chitál knígu.",
+      "en": "I was reading a book.",
+      "accept_en": [
+        "I read a book."
+      ],
+      "word_bank": {
+        "answer": [
+          "я",
+          "читал",
+          "книгу"
+        ],
+        "extra_tiles": [
+          "смотрело",
+          "смотрели",
+          "читала"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s06",
+      "ru": "Мы смотрели фильм.",
+      "stress": "Мы смотре́ли фильм.",
+      "translit": "My smotréli fil'm.",
+      "en": "We watched a film.",
+      "accept_en": [
+        "We were watching a movie."
+      ],
+      "word_bank": {
+        "answer": [
+          "мы",
+          "смотрели",
+          "фильм"
+        ],
+        "extra_tiles": [
+          "читали",
+          "ходили",
+          "жил"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s07",
+      "ru": "Вчера была суббота.",
+      "stress": "Вчера́ была́ суббо́та.",
+      "translit": "Vcherá bylá subbóta.",
+      "en": "Yesterday was Saturday.",
+      "word_bank": {
+        "answer": [
+          "вчера",
+          "была",
+          "суббота"
+        ],
+        "extra_tiles": [
+          "прошлой",
+          "читал",
+          "читали"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s08",
+      "ru": "Раньше я жил в Тарту.",
+      "stress": "Ра́ньше я жил в Та́рту.",
+      "translit": "Rán'she ya zhil v Tártu.",
+      "en": "I used to live in Tartu.",
+      "accept_en": [
+        "Before, I lived in Tartu."
+      ],
+      "word_bank": {
+        "answer": [
+          "раньше",
+          "я",
+          "жил",
+          "в",
+          "Тарту"
+        ],
+        "extra_tiles": [
+          "были",
+          "был",
+          "Марк"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s09",
+      "ru": "Она жила в Москве.",
+      "stress": "Она́ жила́ в Москве́.",
+      "translit": "Oná zhilá v Moskvé.",
+      "en": "She lived in Moscow.",
+      "accept_en": [
+        "She used to live in Moscow."
+      ],
+      "word_bank": {
+        "answer": [
+          "она",
+          "жила",
+          "в",
+          "Москве"
+        ],
+        "extra_tiles": [
+          "делал",
+          "была",
+          "России"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s10",
+      "ru": "В субботу мы ходили в парк.",
+      "stress": "В суббо́ту мы ходи́ли в парк.",
+      "translit": "V subbótu my khodíli v park.",
+      "en": "On Saturday we went to the park.",
+      "accept_ru": [
+        "Мы ходили в парк в субботу."
+      ],
+      "word_bank": {
+        "answer": [
+          "в",
+          "субботу",
+          "мы",
+          "ходили",
+          "в",
+          "парк"
+        ],
+        "extra_tiles": [
+          "на",
+          "читала",
+          "назад"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s11",
+      "ru": "На прошлой неделе я ездил в Ригу.",
+      "stress": "На про́шлой неде́ле я е́здил в Ри́гу.",
+      "translit": "Na próshloy nedéle ya yézdil v Rígu.",
+      "en": "Last week I went to Riga.",
+      "accept_ru": [
+        "Я ездил в Ригу на прошлой неделе."
+      ],
+      "word_bank": {
+        "answer": [
+          "на",
+          "прошлой",
+          "неделе",
+          "я",
+          "ездил",
+          "в",
+          "Ригу"
+        ],
+        "extra_tiles": [
+          "смотрела",
+          "ходили",
+          "Москва"
+        ]
+      }
+    },
+    {
+      "id": "a1-u19-s12",
+      "ru": "Год назад я не говорил по-русски.",
+      "stress": "Год наза́д я не говори́л по-ру́сски.",
+      "translit": "God nazád ya ne govoríl po-rússki.",
+      "en": "A year ago I did not speak Russian.",
+      "accept_en": [
+        "A year ago I couldn't speak Russian."
+      ],
+      "word_bank": {
+        "answer": [
+          "год",
+          "назад",
+          "я",
+          "не",
+          "говорил",
+          "по-русски"
+        ],
+        "extra_tiles": [
+          "прошлой",
+          "жили",
+          "была"
+        ]
+      }
+    }
+  ],
+  "grammar_drills": [
+    {
+      "id": "a1-u19-g01",
+      "prompt": "Вчера Анна ___ дома.",
+      "options": [
+        "была",
+        "был",
+        "было",
+        "были"
+      ],
+      "answer": "была",
+      "en": "Yesterday Anna was at home."
+    },
+    {
+      "id": "a1-u19-g02",
+      "prompt": "Мы ___ фильм.",
+      "options": [
+        "смотрели",
+        "смотрел",
+        "смотрела",
+        "смотрело"
+      ],
+      "answer": "смотрели",
+      "en": "We watched a film."
+    },
+    {
+      "id": "a1-u19-g03",
+      "prompt": "Иван ___ книгу.",
+      "options": [
+        "читал",
+        "читала",
+        "читали",
+        "читало"
+      ],
+      "answer": "читал",
+      "en": "Ivan was reading a book."
+    },
+    {
+      "id": "a1-u19-g04",
+      "prompt": "Раньше она ___ в Москве.",
+      "options": [
+        "жила",
+        "жил",
+        "жили",
+        "жило"
+      ],
+      "answer": "жила",
+      "en": "She used to live in Moscow."
+    },
+    {
+      "id": "a1-u19-g05",
+      "prompt": "Вчера ___ суббота.",
+      "options": [
+        "была",
+        "был",
+        "было",
+        "были"
+      ],
+      "answer": "была",
+      "en": "Yesterday was Saturday."
+    }
+  ],
+  "dialogue": {
+    "title": "Yesterday",
+    "lines": [
+      {
+        "speaker": "Аня",
+        "ru": "Где ты был вчера?",
+        "stress": "Где ты был вчера́?",
+        "translit": "Gde ty byl vcherá?",
+        "en": "Where were you yesterday?"
+      },
+      {
+        "speaker": "Марк",
+        "ru": "Вчера я был дома. Я читал книгу. А ты?",
+        "stress": "Вчера́ я был до́ма. Я чита́л кни́гу. А ты?",
+        "translit": "Vcherá ya byl dóma. Ya chitál knígu. A ty?",
+        "en": "Yesterday I was at home. I was reading a book. And you?"
+      },
+      {
+        "speaker": "Аня",
+        "ru": "А я была в парке. Потом мы с братом смотрели фильм.",
+        "stress": "А я была́ в па́рке. Пото́м мы с бра́том смотре́ли фильм.",
+        "translit": "A ya bylá v párke. Potóm my s brátom smotréli fil'm.",
+        "en": "And I was in the park. Then my brother and I watched a film."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Where was Mark yesterday?",
+        "options": [
+          "At home",
+          "In the park",
+          "At school"
+        ],
+        "answer": "At home"
+      },
+      {
+        "question": "What did Anya do after the park?",
+        "options": [
+          "Watched a film with her brother",
+          "Read a book",
+          "Played football"
+        ],
+        "answer": "Watched a film with her brother"
+      }
+    ]
+  },
+  "writing": {
+    "id": "a1-u19-wr01",
+    "prompt": "Write where you were yesterday and what you did.",
+    "use": [
+      "вчера́ я был / была́",
+      "-л / -ла / -ли",
+      "ве́чером"
+    ],
+    "model": {
+      "ru": "Вчера я был дома. Я читал книгу, а вечером мы смотрели фильм.",
+      "stress": "Вчера́ я был до́ма. Я чита́л кни́гу, а ве́чером мы смотре́ли фильм."
+    },
+    "model_f": {
+      "ru": "Вчера я была дома. Я читала книгу, а вечером мы смотрели фильм.",
+      "stress": "Вчера́ я была́ до́ма. Я чита́ла кни́гу, а ве́чером мы смотре́ли фильм."
+    }
+  },
+  "path": [
+    {
+      "node": 1,
+      "kind": "words",
+      "title": "New words 1",
+      "uses": "first half of words"
+    },
+    {
+      "node": 2,
+      "kind": "words",
+      "title": "New words 2",
+      "uses": "second half of words + first sentences"
+    },
+    {
+      "node": 3,
+      "kind": "grammar",
+      "title": "Grammar",
+      "uses": "grammar notes + grammar_drills"
+    },
+    {
+      "node": 4,
+      "kind": "dialogue",
+      "title": "Dialogue",
+      "uses": "dialogue (listen, read, answer)"
+    },
+    {
+      "node": 5,
+      "kind": "sentences",
+      "title": "Sentences",
+      "uses": "sentences: word bank both ways, typing"
+    },
+    {
+      "node": 6,
+      "kind": "review",
+      "title": "Review",
+      "uses": "items due for review from this and earlier units"
+    },
+    {
+      "node": 7,
+      "kind": "unit_test",
+      "title": "Unit test",
+      "uses": "everything in the unit, pass 80%"
+    }
+  ]
+}
