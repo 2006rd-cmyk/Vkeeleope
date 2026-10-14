@@ -224,7 +224,7 @@
       "ru": "Я читал книгу.",
       "stress": "Я чита́л кни́гу.",
       "translit": "Ya chitál knígu.",
-      "en": "I was reading a book.",
+      "en": "I was reading a book. (man)",
       "accept_en": [
         "I read a book."
       ],

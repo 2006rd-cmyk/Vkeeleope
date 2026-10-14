@@ -8,6 +8,8 @@ export interface Settings {
   sound: boolean;
   slow: boolean;
   keyboard: 'vire' | 'phone';
+  /** How hard lessons are: 'auto' follows recent accuracy (aiming at about 85% right). */
+  challenge: 'auto' | 'normal' | 'hard';
 }
 
 export interface Profile {

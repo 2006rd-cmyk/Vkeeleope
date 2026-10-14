@@ -1,11 +1,12 @@
 // Course content: loading and lookup indexes.
-import type { Content, Drill, Letter, ReadingWord, RuItem, Sentence, Unit, Word } from './types';
+import type { Content, Drill, ReadingWord, RuItem, Sentence, Unit, Word } from './types';
 import { normRu, plain, ruTokens } from './text';
 
-/** Units in this build. 10-first-version.md: Units 0–9 plus Checkpoint 10. */
-export const LAST_UNIT = 10;
+/** Units in this build: A1, Units 1–21. The alphabet unit (0) was dropped after the trial: raud reads Cyrillic already. */
+export const FIRST_UNIT = 1;
+export const LAST_UNIT = 21;
 
-export type CardKind = 'word' | 'sentence' | 'drill' | 'letter';
+export type CardKind = 'word' | 'sentence' | 'drill';
 
 export interface CardItem {
   id: string;
@@ -14,7 +15,6 @@ export interface CardItem {
   word?: Word;
   sentence?: Sentence;
   drill?: Drill;
-  letter?: Letter;
 }
 
 export class Course {
@@ -23,10 +23,12 @@ export class Course {
   readonly gloss = new Map<string, Word>();
   readonly nearForms: Set<string>;
   readonly properNouns = new Set<string>();
+  /** Every single-word form the course uses (normalised → as written), for "other ending" tiles. */
+  readonly forms = new Map<string, string>();
   private readonly syn = new Map<string, Set<string>>();
 
   constructor(readonly content: Content) {
-    this.units = content.units.filter((u) => u.number <= LAST_UNIT).sort((a, b) => a.number - b.number);
+    this.units = content.units.filter((u) => u.number >= FIRST_UNIT && u.number <= LAST_UNIT).sort((a, b) => a.number - b.number);
     this.nearForms = new Set(content.nearForms);
     for (const group of content.synonyms) {
       for (const w of group) {
@@ -36,10 +38,6 @@ export class Course {
       }
     }
     for (const u of this.units) {
-      u.letters?.forEach((l, i) => {
-        const id = letterId(i);
-        this.items.set(id, { id, kind: 'letter', unit: u.number, letter: l });
-      });
       for (const w of u.words ?? []) {
         this.items.set(w.id, { id: w.id, kind: 'word', unit: u.number, word: w });
         const k = normRu(w.ru);
@@ -55,6 +53,21 @@ export class Course {
       for (const d of u.grammar_drills ?? []) this.items.set(d.id, { id: d.id, kind: 'drill', unit: u.number, drill: d });
       u.dialogue?.lines.forEach((l) => this.collectNames(l.ru));
     }
+    // A form is shown in lower case if the course ever writes it that way mid-sentence or as a
+    // word; otherwise it is a name (Таллин, Москве) and keeps its capital.
+    const lower = new Set<string>();
+    const first = new Map<string, string>();
+    for (const it of this.items.values()) {
+      const r = it.word?.ru ?? it.sentence?.ru ?? it.drill?.prompt.replace('___', it.drill.answer) ?? '';
+      for (const sentence of plain(r).split(/[.!?—]+/)) {
+        ruTokens(sentence).forEach((t, i) => {
+          const n = normRu(t);
+          if (!first.has(n)) first.set(n, t);
+          if ((i > 0 || it.kind === 'word') && t === t.toLowerCase()) lower.add(n);
+        });
+      }
+    }
+    for (const [n, t] of first) this.forms.set(n, lower.has(n) ? t.toLowerCase() : t[0].toUpperCase() + t.slice(1).toLowerCase());
   }
 
   /** A word is a name if it is capitalised somewhere other than the start of a sentence. */
@@ -94,23 +107,6 @@ export class Course {
   lookup(token: string): Word | undefined {
     return this.gloss.get(normRu(token));
   }
-
-  /** All letter reading words of unit 0, with the letter examples. */
-  readingWords(): ReadingWord[] {
-    const u0 = this.unit(0);
-    const seen = new Set<string>();
-    const out: ReadingWord[] = [];
-    for (const w of [...(u0.groups ?? []).flatMap((g) => g.reading_words), ...(u0.letters ?? []).map((l) => l.example)]) {
-      if (seen.has(w.ru)) continue;
-      seen.add(w.ru);
-      out.push(w);
-    }
-    return out;
-  }
-}
-
-export function letterId(index: number): string {
-  return `a1-u00-L${String(index + 1).padStart(2, '0')}`;
 }
 
 function firstSentence(s: string): string {
@@ -125,7 +121,6 @@ export function asRu(x: Word | Sentence | ReadingWord | RuItem): RuItem {
 export function cardRu(c: CardItem): RuItem {
   if (c.word) return asRu(c.word);
   if (c.sentence) return asRu(c.sentence);
-  if (c.letter) return { ru: c.letter.letter, stress: c.letter.letter, translit: c.letter.translit, en: c.letter.sound };
   const d = c.drill!;
   const full = d.prompt.replace('___', d.answer);
   return { ru: full, stress: full, translit: '', en: d.en };

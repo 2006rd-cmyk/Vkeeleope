@@ -11,6 +11,7 @@ import {
   isGraded,
   reviewRound,
   type BuildCtx,
+  type Level,
   type Exercise,
   type Graded,
   type LessonPlan,
@@ -62,7 +63,7 @@ export interface Outcome {
   minutes: number;
 }
 
-export const DEFAULT_SETTINGS: Settings = { stress: true, translit: true, sound: true, slow: false, keyboard: 'vire' };
+export const DEFAULT_SETTINGS: Settings = { stress: true, translit: false, sound: true, slow: false, keyboard: 'vire', challenge: 'auto' };
 
 export class Model {
   profile?: Profile;
@@ -86,7 +87,16 @@ export class Model {
     this.days = snap.days;
     this.run = snap.run;
     this.path = allSteps(course);
+    // Cards and a lesson in progress from units no longer in the course (the alphabet) are left
+    // in storage, so a backup keeps them, but are not used.
+    for (const id of [...this.cards.keys()]) if (!course.item(id)) this.cards.delete(id);
     if (this.run && !this.run.plan?.exercises) this.run = undefined;
+    if (this.run && /^u\d+s\d+$/.test(this.run.plan.key) && !this.path.some((s) => s.key === this.run!.plan.key)) this.run = undefined;
+    // Profiles from before the challenge setting: Latin letters off (raud reads Cyrillic), auto challenge.
+    if (this.profile && !this.profile.settings.challenge) {
+      this.profile = { ...this.profile, settings: { ...this.profile.settings, translit: false, challenge: 'auto' } };
+      void this.save({ profile: this.profile });
+    }
   }
 
   get settings(): Settings {
@@ -107,7 +117,34 @@ export class Model {
   }
 
   ctx(): BuildCtx {
-    return { course: this.course, cards: this.cards, now: this.now(), rnd: this.rnd, audio: this.audio && this.settings.sound && !this.run?.noListen };
+    return { course: this.course, cards: this.cards, now: this.now(), rnd: this.rnd, audio: this.audio && this.settings.sound && !this.run?.noListen, level: this.level() };
+  }
+
+  /** Recent first-answer accuracy over the last ~60 answers, or null with too few answers. */
+  recentAccuracy(): number | null {
+    let n = 0;
+    let ok = 0;
+    for (const d of [...this.days.values()].sort((a, b) => (a.date < b.date ? 1 : -1))) {
+      n += d.exercises;
+      ok += d.correct;
+      if (n >= 60) break;
+    }
+    return n >= 30 ? ok / n : null;
+  }
+
+  /**
+   * Challenge level for new lessons. Auto keeps the error rate near 15%: learning is fastest when
+   * about 85% of answers are right (Wilson et al. 2019), so very high accuracy means "make it harder".
+   */
+  level(): Level {
+    const c = this.settings.challenge;
+    if (c === 'hard') return 2;
+    if (c === 'normal') return 1;
+    const a = this.recentAccuracy();
+    if (a === null) return 1;
+    if (a >= 0.9) return 2;
+    if (a < 0.72) return 0;
+    return 1;
   }
 
   // ------------------------------------------------------------ profile
@@ -311,7 +348,12 @@ export class Model {
     if (!this.run) return;
     this.run.noListen = true;
     const run = this.run;
-    run.queue = run.queue.map((e, i) => (i >= run.pos && e.t === 'choice' && e.mode === 'listen' ? { ...e, mode: 'russian', prompt: `Which one is “${e.show.en}”?` } : e));
+    run.queue = run.queue.map((e, i) => {
+      if (i < run.pos) return e;
+      if (e.t === 'choice' && e.mode === 'listen') return { ...e, mode: 'russian', prompt: `Which one is “${e.show.en}”?` };
+      if (e.t === 'type' && e.listen) return { ...e, listen: undefined };
+      return e;
+    });
     void this.save({ run });
   }
 

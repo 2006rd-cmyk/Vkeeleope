@@ -201,7 +201,6 @@ h3 { font-size: 1.02rem; margin: 0.2em 0; }
 .intro .intro-en { font-size: 1.3rem; }
 .intro-say, .intro-note { color: var(--muted); }
 .intro-note { background: var(--bg2); border-radius: 12px; padding: 10px 12px; color: var(--text); }
-.big-letter { font-size: 4.6rem; font-weight: 700; line-height: 1.1; text-align: center; padding: 8px 0; }
 .intro-sound { font-size: 1.1rem; }
 .note-card h2 { margin: 0; }
 .note-body { font-size: 1.08rem; margin: 0; white-space: pre-line; }
@@ -336,12 +335,10 @@ h3 { font-size: 1.02rem; margin: 0.2em 0; }
 .note-line { padding: 8px 0; border-bottom: 1px solid var(--line); }
 .note-line .speak { width: 30px; height: 30px; border-radius: 8px; vertical-align: middle; }
 .note-line .speak svg { width: 16px; height: 16px; }
-.letter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
-.letter-cell { border: 2px solid var(--line); border-radius: 14px; padding: 10px; font-size: 0.9rem; }
-.letter-big { font-size: 2rem; font-weight: 700; }
-.letter-cell .speak { width: 30px; height: 30px; border-radius: 8px; }
-.letter-cell .speak svg { width: 16px; height: 16px; }
 .settings .btn + .btn { margin-top: 12px; }
+.seg { display: flex; gap: 6px; background: var(--line); padding: 4px; border-radius: 12px; }
+.seg button { flex: 1; border: 0; background: transparent; color: inherit; font: inherit; font-weight: 600; padding: 10px 0; border-radius: 9px; cursor: pointer; }
+.seg button.on { background: var(--card, var(--bg)); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
 .toggle { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); cursor: pointer; position: relative; }
 .toggle input { position: absolute; opacity: 0; pointer-events: none; }
 .switch { width: 50px; height: 30px; border-radius: 15px; background: var(--locked); position: relative; flex-shrink: 0; transition: background 0.15s; }

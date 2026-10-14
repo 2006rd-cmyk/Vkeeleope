@@ -138,10 +138,10 @@ await page.getByRole('button', { name: /^Continue/ }).click();
 await playLesson(page, { wrongFirst: 1 });
 const resultText = await page.locator('.result').innerText();
 assert.match(resultText, /Lesson done!/);
-log('lesson u0s1 finished with one mistake:', resultText.replace(/\s+/g, ' ').slice(0, 80));
+log('lesson u1s1 finished with one mistake:', resultText.replace(/\s+/g, ' ').slice(0, 80));
 await page.getByRole('button', { name: 'Back to the path' }).click();
-assert.equal(await page.locator('[data-step="u0s1"]').getAttribute('class'), 'node done');
-assert.equal(await page.locator('[data-step="u0s2"]').getAttribute('class'), 'node current');
+assert.equal(await page.locator('[data-step="u1s1"]').getAttribute('class'), 'node done');
+assert.equal(await page.locator('[data-step="u1s2"]').getAttribute('class'), 'node current');
 
 // ---------------------------------------------------------------- 2. leaving mid-lesson loses nothing
 await page.getByRole('button', { name: /^Continue/ }).click();
@@ -205,6 +205,15 @@ for (let s = 1; s <= 7; s++) {
 assert.equal(await page.locator('[data-step="u4s1"]').getAttribute('class'), 'node current');
 log('unit 3: all 7 steps done through the UI');
 
+// ---------------------------------------------------------------- 6b. challenge setting
+await page.getByRole('button', { name: 'Settings' }).click();
+await page.getByRole('radio', { name: 'Hard' }).click();
+assert.equal(await page.evaluate(() => window.__vire.model.level()), 2);
+await page.getByRole('radio', { name: 'Auto' }).click();
+assert.equal(await page.evaluate(() => window.__vire.model.settings.challenge), 'auto');
+await page.getByRole('button', { name: 'Path' }).click();
+log('challenge setting ok; auto level now', await page.evaluate(() => window.__vire.model.level()));
+
 // ---------------------------------------------------------------- 7. backup → restore on another "phone"
 await page.getByRole('button', { name: 'Settings' }).click();
 const [download] = await Promise.all([page.waitForEvent('download'), page.getByRole('button', { name: 'Save backup' }).click()]);
@@ -232,7 +241,7 @@ await ctx2.close();
 
 // ---------------------------------------------------------------- 8. the rest of the path (optional, slow)
 if (FULL) {
-  for (let n = 0; n < 80; n++) {
+  for (let n = 0; n < 160; n++) {
     const cont = page.getByRole('button', { name: /^Continue/ }).first();
     await page.getByRole('button', { name: 'Path' }).click();
     if (!(await cont.count())) break;

@@ -50,11 +50,12 @@ export function Lesson({ onExit, onDone, onFlag }: { onExit: () => void; onDone:
       res = { verdict: checkTiles(pending.tiles, ex.accepted), given: pending.tiles.join(' ') };
     } else if (ex.t === 'type' && 'text' in pending) {
       res = { ...checkTyped(pending.text, ex.accepted, { allowTypo: true, nearForms: model.course.nearForms }), given: pending.text };
+      if (res.verdict === 'wrong' && ex.why && !res.note) res.note = ex.why;
     } else return;
     model.answer({ verdict: res.verdict, secs, given: res.given, replays: replays.current });
     setChecked(res);
     if (res.verdict === 'wrong') vibrate(120);
-    const silent = ex.t === 'choice' && (ex.mode === 'question' || ex.mode === 'letter' || ex.mode === 'meaning');
+    const silent = ex.t === 'choice' && (ex.mode === 'question' || ex.mode === 'meaning');
     if (model.settings.sound && model.audio && ex.show.ru && !silent) speak(ex.show.ru, { slow: model.settings.slow });
   }, [checked, pending, ex]);
 
@@ -100,7 +101,7 @@ export function Lesson({ onExit, onDone, onFlag }: { onExit: () => void; onDone:
           />
         ) : (
           <footer class="lesson-foot">
-            {ex.t === 'choice' && ex.mode === 'listen' ? (
+            {(ex.t === 'choice' && ex.mode === 'listen') || (ex.t === 'type' && ex.listen) ? (
               <button
                 type="button"
                 class="link-btn"
@@ -226,23 +227,6 @@ function ExerciseView(p: ViewProps) {
 }
 
 function Intro({ ex }: { ex: Extract<Exercise, { t: 'intro' }> }) {
-  if (ex.letter) {
-    const l = ex.letter;
-    return (
-      <div class="ex intro">
-        <div class="kicker">New letter</div>
-        <div class="big-letter" lang="ru">{l.letter}</div>
-        <div class="intro-sound">
-          <b>{l.translit}</b> · {l.sound}
-        </div>
-        <div class="intro-example">
-          <Ru item={ex.item} big />
-          <SpeakBtn text={ex.item.ru} auto />
-        </div>
-        <div class="intro-en">{ex.item.en}</div>
-      </div>
-    );
-  }
   return (
     <div class="ex intro">
       <div class="kicker">New word</div>
@@ -277,17 +261,11 @@ function Choice({ ex, checked, setPending, onReplay }: ViewProps & { ex: Extract
           <SpeakBtn text={ex.promptRu.ru} auto onPlay={onReplay} />
         </div>
       ) : null}
-      {ex.mode === 'read' && ex.promptRu ? (
-        <div class="prompt-ru">
-          <Ru item={ex.promptRu} big translit={false} />
-        </div>
-      ) : null}
       {ex.mode === 'listen' && ex.promptRu ? (
         <div class="prompt-listen">
           <ListenBtn text={ex.promptRu.ru} onReplay={onReplay} />
         </div>
       ) : null}
-      {ex.mode === 'letter' ? <div class="big-letter" lang="ru">{ex.letter}</div> : null}
       {ex.mode === 'gap' ? (
         <div class="gap">
           <div class="gap-text" lang="ru">
@@ -479,7 +457,7 @@ function Bank({ ex, checked, setPending }: ViewProps & { ex: Extract<Exercise, {
   );
 }
 
-function TypeIt({ ex, checked, setPending, onEnter }: ViewProps & { ex: Extract<Exercise, { t: 'type' }> }) {
+function TypeIt({ ex, checked, setPending, onEnter, onReplay }: ViewProps & { ex: Extract<Exercise, { t: 'type' }> }) {
   const { model, refresh } = useApi();
   const [text, setText] = useState('');
   const phone = model.settings.keyboard === 'phone';
@@ -494,8 +472,29 @@ function TypeIt({ ex, checked, setPending, onEnter }: ViewProps & { ex: Extract<
   const onBack = useCallback(() => set(textRef.current.slice(0, -1)), [checked]);
   return (
     <div class="ex type">
-      <div class="prompt">Write this in Russian</div>
-      <div class="bank-en">{ex.en}</div>
+      {ex.listen ? (
+        <>
+          <div class="prompt">Write what you hear</div>
+          <div class="prompt-listen">
+            <ListenBtn text={ex.show.ru} onReplay={onReplay} />
+          </div>
+        </>
+      ) : ex.gap ? (
+        <>
+          <div class="prompt">Type the missing word</div>
+          <div class="gap">
+            <div class="gap-text" lang="ru">
+              {renderGap(ex.gap, text.trim() || null)}
+            </div>
+            <div class="gap-hint">{ex.en}</div>
+          </div>
+        </>
+      ) : (
+        <>
+          <div class="prompt">Write this in Russian</div>
+          <div class="bank-en">{ex.en}</div>
+        </>
+      )}
       {phone ? (
         <textarea
           class="type-input"

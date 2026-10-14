@@ -18,6 +18,7 @@ npm run e2e:full     # plays every step of the course through the UI (slow)
 ```
 
 - `src/lessons.ts` builds every exercise from the lesson JSON; `src/check.ts` checks answers (01-user-flow.md §6); `src/srs.ts` wraps ts-fsrs; `src/store.ts` is the IndexedDB storage and backup; `src/model.ts` holds the path and lesson rules; `src/ui/` is the interface (Preact).
-- `content/lessons/*.json` is copied from `vire/lessons/` (written by `vire/_build/build.py`). This version includes Units 0–10 (`LAST_UNIT` in `src/content.ts`, filter in `scripts/build.mjs`).
+- `content/lessons/*.json` is copied from `vire/lessons/` (written by `vire/_build/build.py`). This version includes Units 1–21 (`FIRST_UNIT`/`LAST_UNIT` in `src/content.ts`, filter in `scripts/build.mjs`). The alphabet unit (0) was dropped after the trial.
+- Difficulty: `Settings.challenge` (auto/normal/hard) → `Model.level()` → `BuildCtx.level`. Auto aims at about 85% first-try accuracy over the last ~60 answers. Research notes: `vire/research/making-it-harder.md`.
+- Publishing is manual: run the "Test and publish" workflow by hand (Actions tab). Pushes to main only run the tests.
 - `content/near-forms.json` comes from `scripts/real_forms.py` and the OpenRussian dictionary data (CC BY-SA 4.0). It lists real word forms one letter away from course words, so a typo that makes another real form is never forgiven.
-- Pushing to `main` runs the tests and publishes `dist/` to the `gh-pages` branch (`.github/workflows/pages.yml`).

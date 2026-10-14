@@ -119,7 +119,7 @@ export function Home({ onStart, onReview, onNotes, onJump }: { onStart: (key: st
         ) : cur ? (
           <button type="button" class="btn primary wide big-btn" onClick={() => onStart(cur.key)}>
             Continue
-            <small>{cur.unit === 0 ? `Alphabet · ${cur.title}` : `Unit ${cur.unit} · ${cur.title}`}</small>
+            <small>{`Unit ${cur.unit} · ${cur.title}`}</small>
           </button>
         ) : (
           <div class="done-all">You finished every unit in this version. Keep reviewing!</div>
@@ -139,7 +139,7 @@ export function Home({ onStart, onReview, onNotes, onJump }: { onStart: (key: st
             <div class="unit" key={u.number} style={{ '--unit': color, '--unit-dark': shade(color, 0.72), '--unit-soft': shade(color, 1, 0.28) }}>
               <div class="unit-banner">
                 <div>
-                  <div class="unit-kicker">{u.kind === 'checkpoint' ? 'Checkpoint' : u.number === 0 ? 'Unit 0' : `Unit ${u.number}`}</div>
+                  <div class="unit-kicker">{u.kind === 'checkpoint' ? 'Checkpoint' : `Unit ${u.number}`}</div>
                   <div class="unit-title">{u.title}</div>
                 </div>
                 {u.kind !== 'checkpoint' ? (
@@ -370,34 +370,8 @@ export function Notes({ unit, onBack }: { unit: number; onBack: () => void }) {
   const u = model.course.unit(unit);
   return (
     <div class="page notes">
-      <PageHead title={u.number === 0 ? 'The alphabet' : `Unit ${u.number} · ${u.title}`} onBack={onBack} />
+      <PageHead title={`Unit ${u.number} · ${u.title}`} onBack={onBack} />
       <p class="muted">{u.goal}</p>
-      {u.letters ? (
-        <>
-          <h2>Letters</h2>
-          <div class="letter-grid">
-            {u.letters.map((l) => (
-              <div class="letter-cell">
-                <div class="letter-big" lang="ru">{l.letter}</div>
-                <div>
-                  <b>{l.translit}</b> · {l.sound}
-                </div>
-                <div class="row">
-                  <Ru item={l.example} /> <SpeakBtn text={l.example.ru} />
-                </div>
-                <div class="muted">{l.example.en}</div>
-              </div>
-            ))}
-          </div>
-          <h2>Pronunciation rules</h2>
-          {(u.pronunciation_rules ?? []).map((r) => (
-            <div class="note-item">
-              <h3>{r.title}</h3>
-              <p>{r.explanation}</p>
-            </div>
-          ))}
-        </>
-      ) : null}
       {u.grammar?.length ? (
         <>
           <h2>Grammar</h2>
@@ -538,7 +512,7 @@ export function Progress({ onPractise }: { onPractise: (ids: string[]) => void }
               return (
                 <li>
                   <div class="row">
-                    {w ? <Ru item={w} /> : item?.drill ? <span lang="ru">{item.drill.prompt.replace('___', item.drill.answer)}</span> : item?.letter?.letter}
+                    {w ? <Ru item={w} /> : item?.drill ? <span lang="ru">{item.drill.prompt.replace('___', item.drill.answer)}</span> : null}
                     <span class="muted"> · wrong {c.wrong}×</span>
                   </div>
                   {w ? <div class="muted">{w.en}</div> : null}
@@ -704,6 +678,21 @@ export function SettingsPage() {
           Save
         </button>
       </div>
+      <h2>Challenge</h2>
+      <div class="seg" role="radiogroup" aria-label="Challenge">
+        {(['auto', 'normal', 'hard'] as const).map((c) => (
+          <button type="button" role="radio" aria-checked={s.challenge === c} class={s.challenge === c ? 'on' : ''} onClick={() => toggle('challenge', c)}>
+            {c === 'auto' ? 'Auto' : c === 'normal' ? 'Normal' : 'Hard'}
+          </button>
+        ))}
+      </div>
+      <p class="muted small">
+        {s.challenge === 'auto'
+          ? `Auto makes lessons harder when you get almost everything right, and a little easier when you miss a lot. Now: ${['easier', 'normal', 'hard'][model.level()]}.`
+          : s.challenge === 'hard'
+            ? 'Hard: mostly typing and dictation, more wrong-ending tiles.'
+            : 'Normal: a mix of typing and tapping.'}
+      </p>
       <h2>Showing Russian</h2>
       <Toggle label="Stress marks (´)" on={s.stress} onChange={(v) => toggle('stress', v)} />
       <Toggle label="Transliteration (Latin letters)" on={s.translit} onChange={(v) => toggle('translit', v)} />

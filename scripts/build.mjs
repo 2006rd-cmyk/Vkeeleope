@@ -16,7 +16,7 @@ const units = readdirSync(lessonsDir)
   .filter((f) => f.endsWith('.json'))
   .sort()
   .map((f) => JSON.parse(readFileSync(join(lessonsDir, f), 'utf8')))
-  .filter((u) => u.number <= 10);
+  .filter((u) => u.number >= 1 && u.number <= 21);
 const content = {
   units,
   synonyms: JSON.parse(readFileSync(join(root, 'content', 'synonyms.json'), 'utf8')),

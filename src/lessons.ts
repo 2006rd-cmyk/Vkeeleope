@@ -1,10 +1,10 @@
 // Builds the exercises of every path step, review round and test from the unit data
 // (04-exercise-types.md, 05-path-and-progress.md §1, 06-spaced-repetition.md §4–5).
-import { asRu, cardRu, letterId, type CardItem, type Course } from './content';
+import { asRu, cardRu, type CardItem, type Course } from './content';
 import type { CardRec } from './srs';
 import { isDue, retrievability } from './srs';
 import { normRu, plain, ruTokens, shuffle } from './text';
-import type { Letter, ReadingWord, RuItem, Sentence, Unit, Word } from './types';
+import type { RuItem, Sentence, Unit, Word } from './types';
 
 export interface Option {
   text: string;
@@ -12,10 +12,10 @@ export interface Option {
   ru?: RuItem;
 }
 
-export type ChoiceMode = 'meaning' | 'russian' | 'listen' | 'letter' | 'read' | 'gap' | 'question';
+export type ChoiceMode = 'meaning' | 'russian' | 'listen' | 'gap' | 'question';
 
 export type Exercise =
-  | { t: 'intro'; key: string; item: RuItem; letter?: Letter; note?: string; say?: string }
+  | { t: 'intro'; key: string; item: RuItem; note?: string; say?: string }
   | { t: 'note'; key: string; title: string; body: string }
   | { t: 'dialogue'; key: string; unit: number }
   | {
@@ -34,7 +34,20 @@ export type Exercise =
     }
   | { t: 'match'; key: string; pairs: { cardId?: string; left: string; leftRu?: RuItem; right: string }[] }
   | { t: 'bank'; key: string; cardId?: string; en: string; tiles: string[]; accepted: string[]; show: RuItem }
-  | { t: 'type'; key: string; cardId?: string; en: string; accepted: string[]; show: RuItem; words: number };
+  | {
+      t: 'type';
+      key: string;
+      cardId?: string;
+      en: string;
+      accepted: string[];
+      show: RuItem;
+      words: number;
+      /** Dictation: the prompt is the Russian audio, not the English. */
+      listen?: boolean;
+      /** Typed gap: the Russian sentence with "___" for the missing word. */
+      gap?: string;
+      why?: string;
+    };
 
 export type Graded = Extract<Exercise, { t: 'choice' | 'match' | 'bank' | 'type' }>;
 
@@ -60,7 +73,15 @@ export interface BuildCtx {
   rnd: () => number;
   /** The phone has a Russian voice, so listening exercises can be used. */
   audio: boolean;
+  /**
+   * Challenge level (0 = easier, 1 = normal, 2 = hard). Higher levels ask for more typing and
+   * dictation and fewer multiple-choice taps; Model picks it from recent accuracy (aim ≈ 85%).
+   */
+  level?: Level;
 }
+
+export type Level = 0 | 1 | 2;
+const lvl = (ctx: BuildCtx): Level => ctx.level ?? 1;
 
 // ---------------------------------------------------------------- path definition
 
@@ -68,7 +89,7 @@ export interface StepDef {
   key: string;
   unit: number;
   index: number;
-  kind: 'letters' | 'words' | 'grammar' | 'dialogue' | 'sentences' | 'review' | 'test' | 'checkpoint';
+  kind: 'words' | 'grammar' | 'dialogue' | 'sentences' | 'review' | 'test' | 'checkpoint';
   title: string;
   icon: string;
 }
@@ -86,16 +107,6 @@ const UNIT_STEPS: [StepDef['kind'], string, string][] = [
 export function stepsOf(u: Unit): StepDef[] {
   if (u.kind === 'checkpoint') {
     return [{ key: `u${u.number}s1`, unit: u.number, index: 1, kind: 'checkpoint', title: u.title, icon: '🏆' }];
-  }
-  if (u.number === 0) {
-    return (u.lessons ?? []).map((l, i) => ({
-      key: `u0s${i + 1}`,
-      unit: 0,
-      index: i + 1,
-      kind: i === (u.lessons ?? []).length - 1 ? 'test' : 'letters',
-      title: l.title,
-      icon: i === (u.lessons ?? []).length - 1 ? '⭐' : 'А',
-    }));
   }
   return UNIT_STEPS.map(([kind, title, icon], i) => ({ key: `u${u.number}s${i + 1}`, unit: u.number, index: i + 1, kind, title, icon }));
 }
@@ -244,103 +255,89 @@ export function bankSentence(ctx: BuildCtx, s: Sentence | (RuItem & { id?: strin
       const name = pool.find((t) => ctx.course.properNouns.has(t));
       if (name) extras.push(name);
     }
+    for (const t of nearFormTiles(ctx, answer, 2)) if (!extras.includes(t)) extras.push(t);
+    const want = lvl(ctx) === 0 ? 3 : lvl(ctx) === 1 ? 4 : 5;
     for (const t of pool) {
-      if (extras.length >= 3) break;
+      if (extras.length >= want) break;
       if (!extras.includes(t)) extras.push(t);
     }
     tiles = [...answer, ...extras];
+  }
+  if (wb && lvl(ctx) > 0) {
+    // Written tiles: add other forms of the answer's words, so the ending has to be chosen.
+    const answer = wb.answer;
+    for (const t of nearFormTiles(ctx, answer, lvl(ctx))) if (!tiles.some((x) => normRu(x) === normRu(t))) tiles.push(t);
   }
   const id = 'id' in s ? s.id : undefined;
   return { t: 'bank', key: k(`bank:${id ?? s.ru}`), cardId: id, en: s.en, tiles: shuffle(tiles, ctx.rnd), accepted, show: asRu(s) };
 }
 
-export function typeItem(s: RuItem & { id?: string; accept_ru?: string[] }, cardId?: string): Exercise {
+export function typeItem(s: RuItem & { id?: string; accept_ru?: string[] }, cardId?: string, listen = false): Exercise {
   const accepted = [s.ru, ...(s.accept_ru ?? [])];
-  return { t: 'type', key: k(`type:${cardId ?? s.ru}`), cardId, en: s.en, accepted, show: asRu(s), words: ruTokens(s.ru).length };
+  return { t: 'type', key: k(`${listen ? 'dictation' : 'type'}:${cardId ?? s.ru}`), cardId, en: s.en, accepted, show: asRu(s), words: ruTokens(s.ru).length, listen: listen || undefined };
 }
 
-// ---------------------------------------------------------------- unit 0 (alphabet)
-
-function lettersOfLesson(u: Unit, lessonIdx: number): Letter[] {
-  const l = (u.lessons ?? [])[lessonIdx];
-  const all = u.letters ?? [];
-  if (!l) return all;
-  if (l.letters) return all.filter((x) => l.letters!.includes(x.letter));
-  if (l.groups) return all.filter((x) => l.groups!.includes(x.group));
-  return all;
+/** Dictation when the phone can speak Russian, otherwise typing from the English. */
+function dictation(ctx: BuildCtx, s: RuItem & { id?: string; accept_ru?: string[] }, cardId?: string): Exercise {
+  return typeItem(s, cardId, ctx.audio);
 }
 
-function letterChoice(ctx: BuildCtx, all: Letter[], l: Letter): Exercise {
-  const id = letterId(all.indexOf(l));
-  const others: Letter[] = [];
-  for (const x of shuffle(all, ctx.rnd)) {
-    if (others.length === 3) break;
-    if (x.translit !== l.translit && !others.some((o) => o.translit === x.translit)) others.push(x);
-  }
-  const { options, answer } = placeAnswer(ctx, { text: l.translit }, others.map((x) => ({ text: x.translit })));
+/** A grammar drill with the missing word typed instead of picked. */
+export function typedGap(ctx: BuildCtx, unit: number, drillId: string): Exercise {
+  const d = ctx.course.item(drillId)!.drill!;
+  const full = d.prompt.replace('___', d.answer);
   return {
-    t: 'choice',
-    key: k(`letter:${id}`),
-    mode: 'letter',
-    cardId: id,
-    prompt: 'Which sound is this letter?',
-    letter: l.letter,
-    options,
-    answer,
-    show: { ru: l.example.ru, stress: l.example.stress, translit: l.example.translit, en: `${l.letter} = ${l.translit} · ${l.sound}` },
+    t: 'type',
+    key: k(`gaptype:${d.id}`),
+    cardId: d.id,
+    en: d.en,
+    accepted: [d.answer],
+    show: { ru: full, stress: full, translit: '', en: d.en },
+    words: 1,
+    gap: d.prompt,
+    why: ctx.course.grammarFor(unit, d),
   };
 }
 
-function readChoice(ctx: BuildCtx, w: ReadingWord, pool: ReadingWord[]): Exercise | null {
-  const fmt = (x: ReadingWord) => `${x.translit} · ${x.en}`;
-  const others = shuffle(pool.filter((x) => x.ru !== w.ru && x.translit !== w.translit && x.en !== w.en), ctx.rnd).slice(0, 3);
-  if (others.length < 2) return null;
-  const { options, answer } = placeAnswer(ctx, { text: fmt(w) }, others.map((x) => ({ text: fmt(x) })));
-  return { t: 'choice', key: k(`read:${w.ru}`), mode: 'read', prompt: 'Read this word', promptRu: asRu(w), options, answer, show: asRu(w) };
+const ADJ = /(ый|ий|ой|ая|яя|ое|ее|ые|ие)$/;
+const GENDER_ADD = ['а', 'о', 'и', 'ка'];
+
+/**
+ * Forms that differ only by gender or number (был/была, русский/русская, студент/студентка) can
+ * both be right when the English does not say who is speaking, so they are never used as traps.
+ */
+function genderPair(a: string, b: string): boolean {
+  const [s, l] = a.length <= b.length ? [a, b] : [b, a];
+  if (l.startsWith(s) && GENDER_ADD.includes(l.slice(s.length))) return true;
+  // был/была/было/были, ходил/ходила: past-tense endings
+  if (/л[аои]?$/.test(a) && /л[аои]?$/.test(b) && a.replace(/л[аои]?$/, '') === b.replace(/л[аои]?$/, '')) return true;
+  return ADJ.test(a) && ADJ.test(b) && a.replace(ADJ, '') === b.replace(ADJ, '');
 }
 
-function letterLesson(ctx: BuildCtx, u: Unit, idx: number): Exercise[] {
-  const all = u.letters ?? [];
-  const letters = lettersOfLesson(u, idx);
-  const lesson = (u.lessons ?? [])[idx];
-  const groups = (u.groups ?? []).filter((g) => lesson?.groups?.includes(g.group));
-  const known = all.filter((l) => (u.lessons ?? []).slice(0, idx + 1).some((_, i) => lettersOfLesson(u, i).includes(l)));
-  let reading: ReadingWord[] = groups.flatMap((g) => g.reading_words);
-  if (!reading.length) reading = letters.map((l) => l.example);
-  const readPool = [...ctx.course.readingWords()];
-  const out: Exercise[] = [];
-  for (let i = 0; i < letters.length; i += 4) {
-    const batch = letters.slice(i, i + 4);
-    for (const l of batch) {
-      if (!ctx.cards.has(letterId(all.indexOf(l)))) {
-        out.push({ t: 'intro', key: k(`intro:${letterId(all.indexOf(l))}`), item: asRu(l.example), letter: l });
-      }
+/**
+ * Other forms of the answer's words (same stem, different ending) that the course uses somewhere,
+ * e.g. живу → живёт. As extra tiles they make the learner choose the ending, not just the word.
+ */
+function nearFormTiles(ctx: BuildCtx, answer: string[], n: number): string[] {
+  if (n <= 0) return [];
+  const forms = ctx.course.forms;
+  const used = new Set(answer.map(normRu));
+  const out: string[] = [];
+  for (const a of shuffle(answer, ctx.rnd)) {
+    const x = normRu(a);
+    if (x.length < 3) continue;
+    const stem = x.slice(0, Math.max(3, x.length - 2));
+    const hits = shuffle(
+      [...forms.keys()].filter((f) => !used.has(f) && f.startsWith(stem) && Math.abs(f.length - x.length) <= 2 && !ctx.course.isSynonym(f, x) && !genderPair(f, x)),
+      ctx.rnd,
+    );
+    if (hits.length) {
+      out.push(forms.get(hits[0])!);
+      used.add(hits[0]);
     }
-    for (const l of shuffle(batch, ctx.rnd)) out.push(letterChoice(ctx, known.length >= 4 ? known : all, l));
+    if (out.length >= n) break;
   }
-  if (idx === 4) {
-    for (const r of u.pronunciation_rules ?? []) out.push({ t: 'note', key: k('rule'), title: r.title, body: r.explanation });
-  }
-  const pairs = shuffle(letters.filter((l, i, a) => a.findIndex((x) => x.translit === l.translit) === i), ctx.rnd).slice(0, 5);
-  if (pairs.length >= 3) out.push({ t: 'match', key: k('match'), pairs: pairs.map((l) => ({ cardId: letterId(all.indexOf(l)), left: l.letter, right: l.translit })) });
-  for (const w of shuffle(reading, ctx.rnd).slice(0, 6)) {
-    const e = readChoice(ctx, w, readPool);
-    if (e) out.push(e);
-  }
-  for (const l of sample(ctx, letters, 3)) out.push(letterChoice(ctx, known.length >= 4 ? known : all, l));
   return out;
-}
-
-function alphabetTest(ctx: BuildCtx, n: number): Exercise[] {
-  const u = ctx.course.unit(0);
-  const all = u.letters ?? [];
-  const pool = ctx.course.readingWords();
-  const letters = sample(ctx, all, Math.ceil(n / 2)).map((l) => letterChoice(ctx, all, l));
-  const reads = sample(ctx, pool, n)
-    .map((w) => readChoice(ctx, w, pool))
-    .filter((e): e is Exercise => !!e)
-    .slice(0, n - letters.length);
-  return shuffle([...letters, ...reads], ctx.rnd);
 }
 
 // ---------------------------------------------------------------- regular units
@@ -349,6 +346,7 @@ function wordsLesson(ctx: BuildCtx, u: Unit, words: Word[]): Exercise[] {
   const pools = [u.words ?? [], wordsUpTo(ctx.course, u.number)];
   const out: Exercise[] = [];
   let graded = 0;
+  // 1. Meet the words: each one shown, then recognised once.
   for (let i = 0; i < words.length; i += 4) {
     const batch = words.slice(i, i + 4);
     for (const w of batch) if (!ctx.cards.has(w.id)) out.push(introWord(w));
@@ -367,11 +365,19 @@ function wordsLesson(ctx: BuildCtx, u: Unit, words: Word[]): Exercise[] {
       }
     }
   }
-  const second = shuffle(words, ctx.rnd).slice(0, Math.max(4, 15 - graded));
-  second.forEach((w, i) => {
-    const e = choiceRussian(ctx, asRu(w), w.id, pools, i % 2 === 0);
-    if (e) out.push(e);
-  });
+  // 2. Produce them: recall the Russian from the English, or write what you hear.
+  // Recall is what makes words stick (testing effect), so typing comes before more tapping.
+  const level = lvl(ctx);
+  const room = Math.max(4, 25 - graded);
+  shuffle(words, ctx.rnd)
+    .slice(0, room)
+    .forEach((w, i) => {
+      let e: Exercise | null;
+      if (level === 0) e = choiceRussian(ctx, asRu(w), w.id, pools, i % 2 === 0);
+      else if (i % 3 === 2) e = level === 2 ? dictation(ctx, w, w.id) : choiceRussian(ctx, asRu(w), w.id, pools, true);
+      else e = typeItem(w, w.id);
+      if (e) out.push(e);
+    });
   if (words.length >= 3 && words.length < 8) {
     const m = matchWords(ctx, words);
     if (m) out.push(m);
@@ -398,7 +404,9 @@ function extrasFor(ctx: BuildCtx, unit: number): string[] {
     .map((w) => w.ru);
 }
 
-function sentenceExercises(ctx: BuildCtx, u: Unit, sentences: Sentence[], plan: ('bank' | 'type' | 'meaning')[]): Exercise[] {
+type SentencePlan = ('bank' | 'type' | 'meaning' | 'listen')[];
+
+function sentenceExercises(ctx: BuildCtx, u: Unit, sentences: Sentence[], plan: SentencePlan): Exercise[] {
   const out: Exercise[] = [];
   const pools = [u.sentences ?? [], sentencesUpTo(ctx.course, u.number)];
   sentences.forEach((s, i) => {
@@ -407,6 +415,7 @@ function sentenceExercises(ctx: BuildCtx, u: Unit, sentences: Sentence[], plan: 
     let e: Exercise | null = null;
     if (want === 'bank') e = bankSentence(ctx, s, extrasFor(ctx, u.number));
     if (want === 'meaning') e = choiceMeaning(ctx, asRu(s), s.id, pools);
+    if (want === 'listen') e = dictation(ctx, s, s.id);
     if (!e) e = typeItem(s, s.id);
     out.push(e);
   });
@@ -440,8 +449,10 @@ function grammarLesson(ctx: BuildCtx, u: Unit): Exercise[] {
   const drills = shuffle(u.grammar_drills ?? [], ctx.rnd);
   drills.forEach((d) => out.push(gapDrill(ctx, u.number, d.id)));
   const sents = sample(ctx, u.sentences ?? [], 4);
-  out.push(...sentenceExercises(ctx, u, sents, ['bank', 'bank', 'type', 'bank']));
-  sample(ctx, drills, 2).forEach((d) => out.push(gapDrill(ctx, u.number, d.id)));
+  const plan: SentencePlan = [['bank', 'bank', 'type', 'bank'], ['bank', 'type', 'bank', 'type'], ['type', 'bank', 'type', 'type']][lvl(ctx)] as SentencePlan;
+  out.push(...sentenceExercises(ctx, u, sents, plan));
+  // The same patterns again at the end, now typed: recall the form instead of recognising it.
+  sample(ctx, drills, lvl(ctx) === 2 ? 3 : 2).forEach((d) => out.push(lvl(ctx) === 0 ? gapDrill(ctx, u.number, d.id) : typedGap(ctx, u.number, d.id)));
   return out;
 }
 
@@ -449,14 +460,20 @@ export function unitTest(ctx: BuildCtx, u: Unit): Exercise[] {
   const words = u.words ?? [];
   const pools = [words, wordsUpTo(ctx.course, u.number)];
   const out: Exercise[] = [];
+  const level = lvl(ctx);
   sample(ctx, words, 5).forEach((w, i) => {
-    const e = i % 3 === 0 ? choiceMeaning(ctx, asRu(w), w.id, pools) : choiceRussian(ctx, asRu(w), w.id, pools, i % 3 === 2);
+    let e: Exercise | null;
+    if (level === 0) e = i % 3 === 0 ? choiceMeaning(ctx, asRu(w), w.id, pools) : choiceRussian(ctx, asRu(w), w.id, pools, i % 3 === 2);
+    else if (i === 1) e = dictation(ctx, w, w.id);
+    else if (i === 4 && level === 1) e = choiceRussian(ctx, asRu(w), w.id, pools, true);
+    else e = typeItem(w, w.id);
     if (e) out.push(e);
   });
   const m = matchWords(ctx, words);
   if (m) out.push(m);
-  sample(ctx, u.grammar_drills ?? [], 4).forEach((d) => out.push(gapDrill(ctx, u.number, d.id)));
-  out.push(...sentenceExercises(ctx, u, sample(ctx, u.sentences ?? [], 4), ['bank', 'type', 'bank', 'type']));
+  sample(ctx, u.grammar_drills ?? [], 4).forEach((d, i) => out.push(level > 0 && i % 2 === 1 ? typedGap(ctx, u.number, d.id) : gapDrill(ctx, u.number, d.id)));
+  const plan: SentencePlan = level === 0 ? ['bank', 'type', 'bank', 'type'] : level === 1 ? ['bank', 'type', 'listen', 'type'] : ['type', 'listen', 'type', 'bank'];
+  out.push(...sentenceExercises(ctx, u, sample(ctx, u.sentences ?? [], 4), plan));
   const q = u.dialogue?.questions[0];
   if (q) {
     const { options, answer } = placeAnswer(ctx, { text: q.answer }, q.options.filter((o) => o !== q.answer).map((o) => ({ text: o })));
@@ -467,7 +484,6 @@ export function unitTest(ctx: BuildCtx, u: Unit): Exercise[] {
 
 /** A few questions from one unit, for jump tests and checkpoints. */
 function unitSample(ctx: BuildCtx, u: Unit, n: number): Exercise[] {
-  if (u.number === 0) return alphabetTest(ctx, n);
   return unitTest(ctx, u).filter((e) => e.t !== 'match').slice(0, n);
 }
 
@@ -480,23 +496,28 @@ export function reviewExercise(ctx: BuildCtx, rec: CardRec): Exercise | null {
   const s = rec.stability;
   const unit = ctx.course.unit(item.unit);
   switch (item.kind) {
-    case 'letter':
-      return letterChoice(ctx, unit.letters ?? [], item.letter!);
     case 'drill':
-      return gapDrill(ctx, item.unit, item.id);
+      return s < 2 || lvl(ctx) === 0 ? gapDrill(ctx, item.unit, item.id) : typedGap(ctx, item.unit, item.id);
     case 'word': {
       const w = item.word!;
       const pools = [unit.words ?? [], wordsUpTo(ctx.course, LAST_SEEN(ctx))];
-      if (s < 2) return ctx.rnd() < 0.6 ? choiceMeaning(ctx, asRu(w), w.id, pools) : choiceRussian(ctx, asRu(w), w.id, pools, true);
-      if (s <= 10) return choiceRussian(ctx, asRu(w), w.id, pools, false);
-      return typeItem(w, w.id);
+      if (lvl(ctx) === 0) {
+        if (s < 2) return ctx.rnd() < 0.6 ? choiceMeaning(ctx, asRu(w), w.id, pools) : choiceRussian(ctx, asRu(w), w.id, pools, true);
+        if (s <= 10) return choiceRussian(ctx, asRu(w), w.id, pools, false);
+        return typeItem(w, w.id);
+      }
+      // Recall from early on; the steps up are: pick by ear → type from English → type what you hear.
+      if (s < 1) return choiceRussian(ctx, asRu(w), w.id, pools, true) ?? typeItem(w, w.id);
+      if (s <= 7) return typeItem(w, w.id);
+      return ctx.rnd() < 0.5 ? dictation(ctx, w, w.id) : typeItem(w, w.id);
     }
     case 'sentence': {
       const se = item.sentence!;
       const pools = [unit.sentences ?? [], sentencesUpTo(ctx.course, item.unit)];
-      if (s < 2) return choiceMeaning(ctx, asRu(se), se.id, pools) ?? typeItem(se, se.id);
-      if (s <= 10 && se.word_bank) return bankSentence(ctx, se, extrasFor(ctx, item.unit));
-      return typeItem(se, se.id);
+      const easy = lvl(ctx) === 0 ? 10 : 3;
+      if (s < 2 && lvl(ctx) === 0) return choiceMeaning(ctx, asRu(se), se.id, pools) ?? typeItem(se, se.id);
+      if (s <= easy && se.word_bank) return bankSentence(ctx, se, extrasFor(ctx, item.unit));
+      return lvl(ctx) > 0 && ctx.rnd() < 0.4 ? dictation(ctx, se, se.id) : typeItem(se, se.id);
     }
   }
 }
@@ -540,11 +561,9 @@ export function reviewRound(ctx: BuildCtx, n: number, maxUnit = Infinity): Exerc
 
 export function buildStep(ctx: BuildCtx, step: StepDef): LessonPlan {
   const u = ctx.course.unit(step.unit);
-  const title = step.unit === 0 ? step.title : `${step.title} · ${u.title}`;
+  const title = `${step.title} · ${u.title}`;
   const plan = (kind: PlanKind, exercises: Exercise[], passPercent?: number): LessonPlan => ({ key: step.key, kind, title, exercises, passPercent });
   switch (step.kind) {
-    case 'letters':
-      return plan('learn', letterLesson(ctx, u, step.index - 1));
     case 'words': {
       const words = u.words ?? [];
       const half = Math.ceil(words.length / 2);
@@ -559,7 +578,12 @@ export function buildStep(ctx: BuildCtx, step: StepDef): LessonPlan {
       return plan('learn', dialogueLesson(ctx, u));
     case 'sentences': {
       const s = shuffle(u.sentences ?? [], ctx.rnd);
-      return plan('learn', withMixedReviews(ctx, sentenceExercises(ctx, u, s, ['bank', 'bank', 'type', 'meaning', 'bank', 'type']), step.unit));
+      const plans: SentencePlan[] = [
+        ['bank', 'bank', 'type', 'meaning', 'bank', 'type'],
+        ['bank', 'type', 'listen', 'type', 'bank', 'type'],
+        ['type', 'listen', 'type', 'bank', 'type', 'listen'],
+      ];
+      return plan('learn', withMixedReviews(ctx, sentenceExercises(ctx, u, s, plans[lvl(ctx)]), step.unit));
     }
     case 'review': {
       let ex = reviewRound(ctx, 15, step.unit);
@@ -567,17 +591,16 @@ export function buildStep(ctx: BuildCtx, step: StepDef): LessonPlan {
         // Not enough history yet: practise this unit's words and sentences.
         const pools = [u.words ?? [], wordsUpTo(ctx.course, u.number)];
         const extra = sample(ctx, u.words ?? [], 8 - ex.length)
-          .map((w) => choiceRussian(ctx, asRu(w), w.id, pools, true))
+          .map((w, i) => (lvl(ctx) > 0 && i % 2 === 1 ? typeItem(w, w.id) : choiceRussian(ctx, asRu(w), w.id, pools, true)))
           .filter((e): e is Exercise => !!e);
         ex = ex.concat(extra);
       }
       return plan('review', ex);
     }
     case 'test':
-      if (step.unit === 0) return plan('test', alphabetTest(ctx, 15), 80);
       return plan('test', unitTest(ctx, u), 80);
     case 'checkpoint': {
-      const covers = (u.covers ?? []).filter((n) => n !== u.number);
+      const covers = (u.covers ?? []).filter((n) => n !== u.number && ctx.course.units.some((x) => x.number === n && x.kind !== 'checkpoint'));
       return { key: step.key, kind: 'test', title: u.title, exercises: checkpointQuestions(ctx, covers, u.questions ?? 20), passPercent: u.pass_percent ?? 80 };
     }
   }
@@ -586,7 +609,7 @@ export function buildStep(ctx: BuildCtx, step: StepDef): LessonPlan {
 function checkpointQuestions(ctx: BuildCtx, covers: number[], n: number): Exercise[] {
   const units = covers.map((c) => ctx.course.unit(c));
   const per = Math.max(1, Math.ceil(n / units.length));
-  const out = units.flatMap((u) => unitSample(ctx, u, u.number === 0 ? 2 : per));
+  const out = units.flatMap((u) => unitSample(ctx, u, per));
   return shuffle(out, ctx.rnd).slice(0, n);
 }
 
@@ -599,11 +622,17 @@ export function buildJumpTest(ctx: BuildCtx, from: number, to: number): LessonPl
   return { key: `jump:${to}`, kind: 'test', title: `Jump to ${target.kind === 'checkpoint' ? target.title : `Unit ${to}`}`, exercises: ex, passPercent: 80 };
 }
 
-/** If more than 30 cards are due, every new lesson mixes in 3 of them (06 §5). */
+/**
+ * New lessons mix in a few older items (spacing and interleaving): 3 when more than 30 cards are
+ * due (06 §5); on normal and hard levels always up to 3 from earlier units, due or weakest first.
+ */
 function withMixedReviews(ctx: BuildCtx, ex: Exercise[], unit: number): Exercise[] {
   const due = dueCards(ctx.cards, ctx.now, unit);
-  if (due.length <= 30) return ex;
-  const extra = due.slice(0, 3).map((c) => reviewExercise(ctx, c)).filter((e): e is Exercise => !!e);
+  let cards: CardRec[] = [];
+  if (due.length > 30) cards = due.slice(0, 3);
+  else if (lvl(ctx) > 0) cards = pickReviewCards(ctx, 3, unit - 1);
+  if (!cards.length) return ex;
+  const extra = cards.map((c) => reviewExercise(ctx, c)).filter((e): e is Exercise => !!e);
   const out = ex.slice();
   extra.forEach((e, i) => out.splice(Math.floor(((i + 1) * out.length) / (extra.length + 1)), 0, e));
   return out;
